@@ -26,6 +26,25 @@ library(dplyr)
 data <- read.csv("C:/Users/Mathew/Documents/GitHub/lizzy_lizards/lizard.csv")
 head(data)
 str(data)
+
+#Cleaning and inspecting data
+sum(is.na(data))   
+colSums(is.na(data))  
+
+#Correcting character data as numeric
+data$SD.Female.adult.weight..g. <- as.numeric(data$SD.Female.adult.weight..g.)
+data$
+
+#Summary statistics
+#summary(data$Average.Female.adult.weight..g.)
+#summary(data$Sample.Size.Female.adult.weight)
+#summary(data$Average.Female.adult.weight..g.)
+
+#Histograms
+hist(data$Average.Female.adult.weight..g.)
+hist(data$)
+
+#Boxplots
 ```
 
 ## Including Plots
