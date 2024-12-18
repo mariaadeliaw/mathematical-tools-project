@@ -1,0 +1,741 @@
+Species,Genus,Family,Population,Longitude,Latitude,Average Female adult weight (g),SD Female adult weight (g),Sample Size Female adult weight,Mean F SVL adults (mm),SD F SVL adults (mm),Sample size Mean F SVL adults,F SVL at maturity (mm),Offspring SVL (mm),Mean Clutch Size,Sample size Clutch Size.,Mode of reproduction,Clutches per year,Clutch Frequency,RCM,Foraging Mode,Distribution,Prefered Habitat Type,Source
+Agama Agama,Agama,Agamidae,"Suacocco, Liberia 1952-1953",-9.05,7.08,NA,NA,NA,85,NA,63,75,32,7.5,NA,Oviparous,2,2,NA,Sit and wait,Tropical,Saxicolous,(Harris 1964)
+Agama Agama,Agama,Agamidae,"Ibadan, NIgeria",3.92,7.4,NA,NA,NA,97,NA,NA,NA,NA,5.5,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Daniel 1960)
+Agama hispida,Agama,Agamidae,"Kalahari Desert, Africa, 1969-1970",21.25,-27.03,31.86,6.16,28,94.84,6.91,51,76,29,13.4,45,Oviparous,NA,1,0.305,Sit and wait,Temperate,Semi-arboreal,(Pianka 1986)
+Caimanops amphiboluroides,Caimanops,Agamidae,Australia,119.1,-28.5,NA,NA,NA,94,7.07,2,89,38,12,2,Oviparous,NA,1,NA,Sit and wait,Temperate,Semi-arboreal,(Pianka 2013d)
+Ctenophorus caudicinctus,Ctenophorus,Agamidae,Australia,119.62,-27.08,10.04,2.294,17,62.89,4.433,18,57,22,5.36,14,Oviparous,NA,1,0.166,Sit and wait,Temperate,Saxicolous,Present work
+Ctenophorus clayi,Ctenophorus,Agamidae,Australia,123.7,-28.18,3.58,0.798,75,48.04,2.84,75,44,23,2.714,28,Oviparous,NA,1,0.1924,Sit and wait,Temperate,Terrestrial,(Pianka 2013c)
+Ctenophorus fordi,Ctenophorus,Agamidae,"Nymagee, New South Wales",146.32,-32.04,NA,NA,NA,NA,NA,NA,48,24,2.26,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Cogger 1978)
+Ctenophorus fordi,Ctenophorus,Agamidae,Australia,123.92,-28.13,4.74,0.915,41,52.6,2.731,41,49,25,2.31,13,Oviparous,NA,1,0.1142,Sit and wait,Temperate,Terrestrial,(Pianka 2013c)
+Ctenophorus isolepis,Ctenophorus,Agamidae,Australia-All,123.54,-27.83,6.784,1.693,741,56.032,4.3518,756,47,22,3.4,40,Oviparous,NA,2,0.1433,Sit and wait,Temperate,Terrestrial,(Pianka 1971b)
+Ctenophorus isolepis,Ctenophorus,Agamidae,Australia-B,123.6,-28.24,6.532,1.41,120,55.363,3.6143,120,51,26,3.08,39,Oviparous,NA,2,0.1471,Sit and wait,Temperate,Terrestrial,(Pianka 1971b)
+Ctenophorus isolepis,Ctenophorus,Agamidae,Australia-E,123.9,-28.1,5.819,1.654,31,53.355,4.1677,31,52,32,3,13,Oviparous,NA,2,NA,Sit and wait,Temperate,Terrestrial,(Pianka 1971b)
+Ctenophorus isolepis,Ctenophorus,Agamidae,Australia-G,125.83,-28.5,6.853,0.9995,45,57.138,3.4714,58,53,25,3.35,40,Oviparous,NA,2,NA,Sit and wait,Temperate,Terrestrial,(Pianka 1971b)
+Ctenophorus isolepis,Ctenophorus,Agamidae,Australia-L,122.67,-28.5,6.685,1.665,338,55.524,4.193,336,47,24,2.77,22,Oviparous,NA,2,0.1239,Sit and wait,Temperate,Terrestrial,(Pianka 1971b)
+Ctenophorus isolepis,Ctenophorus,Agamidae,Australia-R,123.6,-28.2,6.923,1.674,151,56.671,4.2581,155,52,22,3.03,30,Oviparous,NA,2,0.1875,Sit and wait,Temperate,Terrestrial,(Pianka 1971b)
+Ctenophorus nuchalis,Ctenophorus,Agamidae,Western Australia,121.63,-27.67,NA,NA,NA,NA,NA,NA,67,NA,3.43,NA,Oviparous,3,2,NA,Sit and wait,Temperate,Terrestrial,(Bradshaw 1981)
+Ctenophorus nuchalis,Ctenophorus,Agamidae,Australia,123.09,-27.89,18.575,6.462,92,84.03,7.386,96,75,25,4.14,35,Oviparous,NA,1,0.1105,Sit and wait,Temperate,Terrestrial,(Pianka 1971a)
+Ctenophorus ornatus,Ctenophorus,Agamidae,Western Australia,121.63,-27.67,NA,NA,NA,NA,NA,NA,69,NA,3.75,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Bradshaw 1981)
+Ctenophorus reticulatus,Ctenophorus,Agamidae,Australia,124.25,-28.1,14.77,3.317,7,77,6.43,12,71,31,4,7,Oviparous,NA,1,0.192,Sit and wait,Temperate,Terrestrial,(Pianka 2014)
+Ctenophorus scutulatus,Ctenophorus,Agamidae,Australia,121.68,-28.3,35.178,2.703,9,99.9,3.208,10,96,29,6.83,6,Oviparous,NA,1,0.118,Sit and wait,Temperate,Terrestrial,(Pianka 1971c)
+Diporiphora winneckei,Diporiphora,Agamidae,Australia,122.55,-27.17,4.267,0.528,6,56.5,2.986,6,51,30,3,6,Oviparous,NA,1,0.215,Sit and wait,Temperate,Arboreal,(Pianka 2013b)
+Draco melanopogon,Draco,Agamidae,"Nanga Tekalit, Sarawak",113.64,1.62,NA,NA,NA,84,NA,NA,75,NA,1.92,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Inger and Greenberg 1966)
+Draco quinquefaciatus,Draco,Agamidae,"Nanga Tekalit, Sarawak",113.64,1.62,NA,NA,NA,97.4,NA,NA,85.9,NA,2.71,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Inger and Greenberg 1966)
+Japalura swinhonis,Japalura,Agamidae,"Tai-chung, Taiwan ",120.94,24.23,NA,NA,NA,76.1,NA,NA,53.5,20,4.27,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Arboreal,(Jun-yi and Kau-hung 1982)
+Lophognathus longirostris,Lophognathus,Agamidae,Australia,123.07,-27.7,22.63,2.79,14,99.7,3.92,14,94,40,4.44,9,Oviparous,NA,1,0.15,Sit and wait,Temperate,Arboreal,(Pianka 2013b)
+Moloch horridus,Moloch,Agamidae,Australia,122.97,-27.87,49.04,13.4,117,94.24,7.06,117,78,35,6.79,80,Oviparous,NA,1,0.1652,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1970)
+Pogona minor,Pogona,Agamidae,Australia,123.09,-27.89,54.11,19.05,83,116.55,11.89,85,91,35,8.125,24,Oviparous,NA,1,0.19989,Sit and wait,Temperate,Semi-arboreal,(Pianka 2005)
+Sitana ponticeriana,Sitana,Agamidae,"Tirupati, India",79.42,13.63,NA,NA,NA,52.7,NA,NA,36,16.9,11.2,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Terrestrial,(Rao and Rajabi 1972)
+Anguis fragilis,Anguis,Anguidae,United Kingdon,-1.55,53.8,NA,NA,NA,NA,NA,NA,120,29,9,NA,Viviparous,1,1,NA,Active,Temperate,Fossorial,(Smith 1969)
+Diploglossus lessonae,Diploglossus,Anguidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,141.4,NA,NA,NA,NA,3.33,9,Oviparous,1,1,NA,Active,Tropical,Fossorial,(Vitt 1985)
+Elgaria coerulea,Elgaria,Anguidae,"Wasco, Oregon",-119.34,35.59,NA,NA,NA,100,NA,NA,80,NA,6.2,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Fitch 1935)
+Elgaria coerulea,Elgaria,Anguidae,Medococino,-123.8,39.31,NA,NA,NA,87.7,NA,NA,75,NA,3.8,NA,Viviparous,1,1,0.25,Sit and wait,Temperate,Terrestrial,(Stewart 1985)
+Elgaria coerulea,Elgaria,Anguidae,"Whatcom, Washington",-121.97,48.88,NA,NA,NA,91.4,NA,NA,72,NA,4.6,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Vitt 1973)
+Elgaria multicarinata,Elgaria,Anguidae,"Wasco, Oregon",-119.34,35.59,NA,NA,NA,NA,NA,NA,113,NA,11.6,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Fitch 1935)
+Elgaria multicarinata,Elgaria,Anguidae,Puente Hills,-118.03,33.98,NA,NA,NA,108.8,NA,NA,92,NA,12,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Goldberg 1972)
+Mesaspis gadovii,Mesaspis,Anguidae,"Omiltemi, Mexico",-99.5,17.56,NA,NA,NA,83.86,NA,NA,70,28.65,7.25,16,Viviparous,1,1,NA,Active,Temperate,Terrestrial,(Ramirez-Pinilla et al. 2009)
+Anniella geronimensis,Anniella,Anniellidae,Baja California,-115.28,30.84,NA,NA,NA,117.63,NA,NA,111,36,1,2,Viviparous,1,1,NA,Active,Temperate,Fossorial,(Shaw 1953)
+Anniella pulchra,Anniella,Anniellidae,"El Segundo, California",-118.42,33.92,NA,NA,NA,121.5,NA,NA,121,51,1.3,10,Viviparous,1,1,NA,Active,Temperate,Fossorial,(Goldberg and Miller 1985)
+Anniella pulchra,Anniella,Anniellidae,"Point Pinos, California",-121.93,36.64,NA,NA,NA,166,NA,NA,126,50,1.75,4,Viviparous,1,1,NA,Active,Temperate,Fossorial,(Miller 1944)
+Nephrurus laevissimus,Nephrurus,Carphodactylidae,Australia,123.07,-27.7,12.9,4.59,295,79,8.62,295,62,35,1.98,104,Oviparous,NA,1,0.134,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Nephrurus levis,Nephrurus,Carphodactylidae,Australia,124.77,-28.43,18.94,4.63,23,86.85,6.95,26,76,45,2,8,Oviparous,NA,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Bradypodion pumilum,Bradypodion,Chamaeleonidae,"Stellenbosh, South Africa",18.87,-33.92,NA,NA,NA,78.8,NA,NA,51,22,11,NA,Viviparous,4,2,0.256,Sit and wait,Temperate,Arboreal,(Burrage 1973)
+Chamaeleo namaquensis,Chamaeleo,Chamaeleonidae,"Stellenbosh, South Africa",18.87,-33.92,NA,NA,NA,120.4,NA,NA,81,32.5,13.2,NA,Oviparous,3,2,0.272,Active,Temperate,Psammophilus,(Burrage 1973)
+Cordylus cataphratus,Cordylus,Cordylidae,"Graafwater, South Africa",18.6,-32.15,NA,NA,NA,106,NA,NA,93,NA,1,29,Viviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Flemming and Mouton 2002)
+Cordylus polyzonus,Cordylus,Cordylidae,"Saldanha bay, South Africa",18.19,-33.02,NA,NA,NA,106.4,NA,NA,89,47.41,2.28,36,Viviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Flemming and Vanwyk 1992)
+Cordylus polyzonus,Cordylus,Cordylidae,Orange Free State,26.8,-28.45,NA,NA,NA,101,NA,NA,87,41.86,2.85,52,Viviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Van Wyk 1989)
+Hemicordylus capensis,Hemicordylus,Cordylidae,Cape Fold Mountains,22,-33.4,NA,NA,NA,95.9,NA,NA,83.1,NA,2.5,NA,Viviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Van Wyk and Mouton 1998)
+Pseudocordylus melanotus,Pseudocordylus,Cordylidae,Eastern Orange Free State,28.93,-28.76,NA,NA,NA,107.3,NA,NA,84,35.93,3.45,33,Viviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Flemming 1993)
+Basiliscus basiliscus,Basiliscus,Corytophanidae,"Guanacaste, Costa Rica",-85.35,10.5,NA,NA,NA,168,NA,NA,135,42,9.49,NA,Oviparous,6,2,NA,Sit and wait,Tropical,Terrestrial,(Van Devender 1982)
+Corytophanes cristatus,Corytophanes,Corytophanidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,42.8,1.63,2,111,2.83,2,94,94,6,2,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Crotaphytus collaris,Crotaphytus,Crotaphytidae,"San Angelo, Texas",-100.44,31.46,NA,NA,NA,85.1,NA,NA,70,NA,7.47,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Ballinger and Hipp 1985)
+Crotaphytus collaris,Crotaphytus,Crotaphytidae,University of Kansas Natural History Reservation,-95.24,38.96,NA,NA,NA,96,NA,NA,92,42,7.55,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Saxicolous,(Fitch 1956)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"Mesa, Colorado",-108.14,39.17,NA,NA,NA,105.4,NA,NA,96,44.6,7.3,NA,Oviparous,NA,NA,NA,Sit and wait,Temperate,Terrestrial,(McCoy 1967)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA- All 22, 1962-1964",-116.26,36.95,33.16,15.47,22,101.8,8.92,22,93,52,3.6,22,Oviparous,NA,1,0.128,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-G, 1962-1964",-117.98,38.8,23.85,1.879,5,100,1.58,5,93,52,3.6,5,Oviparous,1,1,0.1632,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-L, 1962-1964",-118.55,40.2,22.03,2.116,6,96.167,2.04,6,93,52,2.6667,6,Oviparous,1,1,0.1247,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-N, 1962-1964",-115.83,42.2,36.41,8.354,7,98.143,4.298,7,93,52,3.4286,7,Oviparous,1,1,0.1107,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-P, 1962-1964",-116.23,36.3,40.1,NA,1,121,NA,1,93,52,5,1,Oviparous,1,1,0.147,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-S, 1962-1964",-114.85,35.3,62.1,NA,1,114,NA,1,93,52,7,1,Oviparous,1,1,0.124,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-T, 1962-1964",-118.3,36.6,82.2,NA,1,125,NA,1,93,52,6,1,Oviparous,1,1,0.111,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Gambelia wislizeni,Gambelia,Crotaphytidae,"USA-V, 1962-1964",-117.25,37.08,38.75,NA,1,115,NA,1,93,52,3,1,Oviparous,1,1,0.1275,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1976)
+Anolis acutus,Anolis,Dactyloidae,"St. Croix, U. S. Virgin Islands",-64.83,17.72,NA,NA,NA,42.2,NA,NA,36,20,1,NA,Oviparous,6,2,NA,Sit and wait,Tropical,Arboreal,(Ruibal et al. 1972)
+Anolis biporcatus,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,15.76,1.25,9,91.1,3.96,9,85,85,1,9,Oviparous,1,1,0.056,Sit and wait,Tropical,Arboreal,Present work
+Anolis capito,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,11.009,2.13,18,80.469,5.63,18,67,29,1,17,Oviparous,1,1,0.043,Sit and wait,Tropical,Arboreal,Present work
+Anolis carolinensis,Anolis,Dactyloidae,New Orleans,-90.07,29.95,NA,NA,NA,50,NA,NA,46.5,23.5,1.3,NA,Oviparous,6,2,NA,Sit and wait,Temperate,Arboreal,(Hamlett 1952)
+Anolis carpenteri,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,0.96,0.21,5,39.4,1.52,5,37,26,1,4,Oviparous,1,1,0.096,Sit and wait,Tropical,Arboreal,Present work
+Anolis cupreus,Anolis,Dactyloidae,Finca La Pacifica,-85.1269,10.4512,NA,NA,NA,NA,NA,NA,35.6,NA,1,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Fleming and Hooker 1975)
+Anolis fuscoauratus,Anolis,Dactyloidae,"Acre, 1996",-72.78,-8.26,1.715,0.197367287,26,45.5,2.213594362,26,42,16.9,1,24,Oviparous,1,1,0.076,Sit and wait,Tropical,Arboreal,Present work
+Anolis fuscoauratus,Anolis,Dactyloidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,1.388,0.18,16,43.76,1.86,16,36,30,1,33,Oviparous,1,1,0.096,Sit and wait,Tropical,Terrestrial,Present work
+Anolis fuscoauratus,Anolis,Dactyloidae,"Cemex, Para, 95",-54.83,-3.15,1.743,0.36,33,46,3.51,33,42,33,1,40,Oviparous,1,1,0.072,Sit and wait,Tropical,Terrestrial,Present work
+Anolis fuscoauratus,Anolis,Dactyloidae,PEGM 1998,-64.56,-10.32,1.883,0.19,30,46.713,1.66,30,42,20.5,1,30,Oviparous,1,1,0.073,Sit and wait,Tropical,Terrestrial,Present work
+Anolis fuscoauratus,Anolis,Dactyloidae,"Rio Ituxi, 1997",-65.72,-8.33,2.144,0.18,9,48.9,1.96,9,46,43,1,9,Oviparous,1,1,0.068,Sit and wait,Tropical,Terrestrial,Present work
+Anolis humilis,Anolis,Dactyloidae,"Finca La Lola, Costa Rica",-81.45,8.07,NA,NA,NA,40,NA,NA,35,17.4,1.13,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Terrestrial,(Andrews 1979)
+Anolis humilis,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,1.09,0.12,12,35.037,1.31,12,30,22,1,12,Oviparous,1,1,0.063,Sit and wait,Tropical,Terrestrial,Present work
+Anolis lemurinus,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,2.387,1.64,7,48.933,7.22,7,38,38,1,4,Oviparous,1,1,0.108,Sit and wait,Tropical,Arboreal,Present work
+Anolis limifrons,Anolis,Dactyloidae,"Finca La Lola, Costa Rica",-81.45,8.07,NA,NA,NA,40,NA,NA,35,16,1.1,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Arboreal,(Andrews 1979)
+Anolis limifrons,Anolis,Dactyloidae,Isthmus of Panama,-80,9,NA,NA,NA,44,NA,NA,38,18.5,1,NA,Oviparous,2,2,NA,Sit and wait,Tropical,Arboreal,(Sexton et al. 1971)
+Anolis limifrons,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,1.006,0.29,11,37.879,4.13,11,29,28,1,9,Oviparous,1,1,0.069,Sit and wait,Tropical,Terrestrial,Present work
+Anolis meridionalis,Anolis,Dactyloidae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,58,NA,1,NA,NA,1,1,Oviparous,NA,NA,NA,Active,Tropical,Arboreal,(Vitt 1991)
+Anolis meridionalis,Anolis,Dactyloidae,"Paracatu, 2000",-46.88,-17.22,3.198,0.52,31,53.61,2.55,31,50,45.78,2.07,31,Oviparous,2,2,0.142,Sit and wait,Tropical,Arboreal,Present work
+Anolis meridionalis,Anolis,Dactyloidae,"Vilhena, 1998-1999",-60.13,-12.74,2.367,0.32,7,49.33,0.79,7,48,39,1.75,4,Oviparous,2,2,NA,Sit and wait,Tropical,Terrestrial,Present work
+Anolis nitens,Anolis,Dactyloidae,"Sao Domingos, 2003-2004",-46.33,-13.39,6.294,0.73,36,64.03,1.99,36,60,32,3.09,35,Oviparous,2,2,0.149,Sit and wait,Tropical,Arboreal,Present work
+Anolis oculatus,Anolis,Dactyloidae,Dominica,-61.3,15.55,NA,NA,NA,61,NA,NA,48,23.8,1,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Arboreal,(Andrews 1979)
+Anolis oculatus,Anolis,Dactyloidae,Dominica,-61.37,15.41,NA,NA,NA,43,NA,NA,40,23,1,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Somma and Brooks 1976)
+Anolis ortonii,Anolis,Dactyloidae,"Rio Tinto, 2009-2010",-35.08,-6.8,2.025,0.59,5,43.712,4.61,5,36.39,26.65,3,3,Oviparous,2,2,NA,Sit and wait,Tropical,Arboreal,Present work
+Anolis oxylophus,Anolis,Dactyloidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,4.93,0.7,17,62.196,3.62,17,46,26,1,16,Oviparous,1,1,0.058,Sit and wait,Tropical,Aquatic,Present work
+Anolis planiceps,Anolis,Dactyloidae,Roraima 1993,-62.43,2,5.317,1.54,9,62.167,6.45,9,55,26,1.44,7,Oviparous,1,1,0.065,Sit and wait,Tropical,Terrestrial,Present work
+Anolis punctatus,Anolis,Dactyloidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,8.033,0.32,3,76.33,1.53,3,75,67,1,7,Oviparous,1,1,0.062,Sit and wait,Tropical,Arboreal,Present work
+Anolis punctatus,Anolis,Dactyloidae,"Cemex, Para, 95",-54.83,-3.15,7.9,0.89,6,73.667,3.56,6,67,26,1,6,Oviparous,1,1,0.05,Sit and wait,Tropical,Arboreal,Present work
+Anolis punctatus,Anolis,Dactyloidae,PEGM 1998,-64.56,-10.32,7.173,1.41,15,72.2,5.77,15,58,54,1,14,Oviparous,1,1,0.063,Sit and wait,Tropical,Arboreal,Present work
+Anolis punctatus,Anolis,Dactyloidae,"Rio Ituxi, 1997",-65.72,-8.33,7.33,0.93,9,71.44,2.7,9,68,62,1,8,Oviparous,1,1,0.059,Sit and wait,Tropical,Arboreal,Present work
+Anolis punctatus,Anolis,Dactyloidae,"Rio Tinto, 2009-2010",-35.08,-6.8,5.167,1.59,11,64.55,7.28,11,51.83,49.9,1.5,4,Oviparous,2,2,0.052,Sit and wait,Tropical,Arboreal,Present work
+Anolis tandai,Anolis,Dactyloidae,"Acre, 1996",-72.78,-8.26,5.533,0.351188458,3,63.667,1.527525232,3,62,28,1,3,Oviparous,1,1,0.073,Sit and wait,Tropical,Terrestrial,Present work
+Anolis tandai,Anolis,Dactyloidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,5.66,0.59,14,67.83,2.56,14,55,30,1,30,Oviparous,1,1,0.049,Sit and wait,Tropical,Terrestrial,Present work
+Anolis tandai,Anolis,Dactyloidae,"Rio Ituxi, 1997",-65.72,-8.33,5.3,0.57,2,61.5,2.12,2,60,27,1,2,Oviparous,1,1,0.072,Sit and wait,Tropical,Terrestrial,Present work
+Anolis trachyderma,Anolis,Dactyloidae,"Acre, 1996",-72.78,-8.26,3.03,0.381725406,7,53.86,2.340126167,7,50,26,1,10,Oviparous,1,1,0.063,Sit and wait,Tropical,Terrestrial,Present work
+Anolis trachyderma,Anolis,Dactyloidae,"Cemex, Para, 95",-54.83,-3.15,3.571,1.3,21,56.471,10.79,21,49,23,1,21,Oviparous,1,1,0.072,Sit and wait,Tropical,Terrestrial,Present work
+Anolis transversalis,Anolis,Dactyloidae,"Acre, 1996",-72.78,-8.26,6.867,1.70098011,3,74.67,5.033222957,3,70,50,1,3,Oviparous,1,1,0.052,Sit and wait,Tropical,Arboreal,Present work
+Anolis transversalis,Anolis,Dactyloidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,7.95,2.45,3,79.5,8.02,3,70,45,1,3,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Anolis transversalis,Anolis,Dactyloidae,PEGM 1998,-64.56,-10.32,7.975,0.97,4,79,1.41,4,77,48,1,4,Oviparous,1,1,0.067,Sit and wait,Tropical,Arboreal,Present work
+Anolis tropidolepis,Anolis,Dactyloidae,"Cordillera de Talamanca, Costa Rica",-83.51,9.4,NA,NA,NA,50.25,NA,NA,42,NA,1,NA,Oviparous,6,2,NA,Sit and wait,Tropical,Arboreal,(Fitch 1972)
+Diplodactylus conspicillatus,Diplodactylus,Diplodactylidae,Australia,123.26,-27.77,5.56,1.403,154,64.03,5.151,154,55,36,1.975,40,Oviparous,NA,1,0.161,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Diplodactylus pulcher,Diplodactylus,Diplodactylidae,Australia,119.1,-28.5,3.91,"0,742",11,59,3.075,11,56,35,1.83,12,Oviparous,NA,1,0.147,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Lucasium damaeum,Lucasium,Diplodactylidae,Australia,122.9,-27.51,3.478,1.082,40,54.68,4.274,41,48,33,2,18,Oviparous,NA,1,0.281,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Lucasium stenodactylum,Lucasium,Diplodactylidae,Australia,124.03,-28.4,3.195,0.765,42,54.57,3.892,42,47,26,2,10,Oviparous,NA,1,0.104,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Oedura monilis,Oedura,Diplodactylidae,"Baradine, New South Wales",149.07,-30.95,NA,NA,NA,80,NA,NA,NA,NA,2,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Arboreal,(Bustard 1971)
+Oedura reticulata,Oedura,Diplodactylidae,"Konnogorring, Australia",116.78,-31.05,NA,NA,NA,66.3,NA,NA,62.5,26,2.11,NA,Oviparous,1,1,NA,Sit and wait,Temperate,Arboreal,(How and Kitchner 1983)
+Oedura tryoni,Oedura,Diplodactylidae,"Baradine, New South Wales",149.07,-30.95,NA,NA,NA,80,NA,NA,73,35,2,NA,Oviparous,2,2,0.35,Sit and wait,Temperate,Arboreal,(Bustard 1971)
+Rhynchoedura ornata,Rhynchoedura,Diplodactylidae,Australia,123.09,-27.89,2.33,0.617,219,52.34,3.73,230,45,22,1.98,85,Oviparous,NA,1,0.2064,Sit and wait,Temperate,Terrestrial,(Pianka and Pianka 1976)
+Strophurus ciliaris,Strophurus,Diplodactylidae,Australia,123.02,-27.7,10.05,1.919,62,80.08,3.46,64,73,48,2,42,Oviparous,NA,1,0.1195,Sit and wait,Temperate,Arboreal,(Pianka and Pianka 1976)
+Strophurus elderi,Strophurus,Diplodactylidae,Australia,122.34,-27.96,2.43,0.458,33,47,2.089,33,44,23,1.846,13,Oviparous,NA,1,0.174,Sit and wait,Temperate,Semi-arboreal,(Pianka and Pianka 1976)
+Strophurus strophurus,Strophurus,Diplodactylidae,Australia,122.61,-27.9,7.838,1.799,32,72.69,4.73,32,63,29,2,22,Oviparous,NA,1,0.1388,Sit and wait,Temperate,Arboreal,(Pianka and Pianka 1976)
+Coleonyx variegata,Coleonyx,Eublepharidae,"USA, 1962-1964",-115.75,35.46,4.995,1.13,19,68.8,4.55,19,63,37,1.94,17,Oviparous,NA,1,0.1297,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1974)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa, 1969-1970",21.25,-27.03,19.7,5.19,22,90,4.86,22,79,17,2,22,Oviparous,NA,1,0.1974,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-A, 1969-1970",20.7,-27.34,23.47,0.556,3,92,1.632,3,79,17,2,3,Oviparous,NA,NA,0.1393,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-B, 1969-1970",20.45,-27,20,NA,1,90,NA,1,79,17,2,1,Oviparous,NA,NA,0.1,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-D, 1969-1970",22.1,-27.4,27.73,2.93,3,93.7,1.247,3,79,17,2,3,Oviparous,NA,NA,0.096,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-G, 1969-1970",22.26,-28.21,12.6,1.61,3,81.3,2.62,3,79,17,2,3,Oviparous,NA,NA,0.1543,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-L, 1969-1970",20.75,-26.35,16.06,1.48,5,88.8,1.47,5,79,17,2,6,Oviparous,NA,NA,0.1283,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-T, 1969-1970",22.26,-26.28,23.33,2.248,3,96.7,1.247,3,79,17,2,3,Oviparous,NA,NA,0.1023,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus angulifer,Chondrodactylus,Gekkonidae,"Africa-X, 1969-1970",21.4,-27.34,18.5,NA,1,89,NA,1,79,17,2,1,Oviparous,NA,NA,0.108,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Chondrodactylus bibroni,Chondrodactylus,Gekkonidae,"Africa, 1969-1970",21.09,-26.55,12.08,3.186,5,75,6.26,5,63,30,2,8,Oviparous,NA,1,0.106,Sit and wait,Temperate,Arboreal,(Pianka and Huey 1978)
+Colopus wahlbergi,Colopus,Gekkonidae,"Africa, 1969-1970",21.25,-27.03,4.07,0.97,27,58.59,1.992,37,56,25,2,2,Oviparous,NA,1,0.082,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Cyrtodactylus malayanus,Cyrtodactylus,Gekkonidae,"Nanga Tekalit, Sarawak",113.64,1.62,NA,NA,NA,107.7,NA,NA,97.9,NA,1.97,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Inger and Greenberg 1966)
+Cyrtodactylus pubisculus,Cyrtodactylus,Gekkonidae,"Kapit District, Sarawak",112.94,2.02,NA,NA,NA,73.3,NA,NA,68.9,NA,1.93,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Inger and Greenberg 1966)
+Gehyra mutilata,Gehyra,Gekkonidae,"Bandung, Java",107.61,-6.91,NA,NA,NA,52.5,NA,NA,50,NA,2,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Church 1962)
+Gehyra oceanica,Gehyra,Gekkonidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,70,29,1.96,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Arboreal,(Schwaner 1980)
+Gehyra purpurascens,Gehyra,Gekkonidae,Australia,123.09,-27.89,4.416,0.805,250,56.2,2.766,250,50,24,1.29,14,Oviparous,NA,1,0.071,Sit and wait,Temperate,Arboreal,(Pianka and Pianka 1976)
+Gehyra variegata,Gehyra,Gekkonidae,"Baradine, New South Wales",149.07,-30.95,NA,NA,NA,52.5,NA,NA,45,24,1,NA,Oviparous,2,2,0.25,Sit and wait,Temperate,Arboreal,(Bustard 1968)
+Gehyra variegata,Genyra,Gekkonidae,"Baradine, New South Wales",149.07,-30.95,NA,NA,NA,52.5,NA,NA,NA,NA,1,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Arboreal,(Bustard 1968)
+Gehyra variegata,Gehyra,Gekkonidae,Australia,123.09,-27.89,4.28,0.887,107,55.2,2.81,107,51,23,1,1,Oviparous,NA,1,0.082,Sit and wait,Temperate,Arboreal,(Pianka and Pianka 1976)
+Hemidactylus brasilianus,Hemidactylus,Gekkonidae,"Catimbau, 2013",-37.25,-8.59,4.35,0.91,9,52.05,3.46,9,49.05,32.69,2,3,Oviparous,1,1,0.074,Sit and wait,Tropical,Saxicolous,Present work
+Hemidactylus brasilianus,Hemidactylus,Gekkonidae,"Chapada Diamantina, 2013",-41.58,-12.51,3.83,0.66,9,49.98,1.98,9,47.58,21.44,1.778,9,Oviparous,1,1,0.128,Sit and wait,Tropical,Saxicolous,Present work
+Hemidactylus brasilianus,Hemidactylus,Gekkonidae,"Raso da Catarina, 2012",-38.67,-9.67,4.43,0.15,3,53.25,1.5,3,51.25,30.24,2,3,Oviparous,1,1,0.078,Sit and wait,Tropical,Saxicolous,Present work
+Hemidactylus frenatus,Hemidactylus,Gekkonidae,"Bandung, Java",107.61,-6.91,NA,NA,NA,51.4,NA,NA,44,NA,2,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Church 1962)
+Hemidactylus frenatus,Hemidactylus,Gekkonidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,40,20.5,2,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Arboreal,(Schwaner 1980)
+Hemidactylus mabouia,Hemidactylus,Gekkonidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,57.9,NA,NA,NA,NA,2,2,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,"(Vitt 1986, Vitt 1995)"
+Hemidactylus mabouia,Hemidactylus,Gekkonidae,"Cemex, Para, 95",-54.83,-3.15,5.267,0.72,7,65.5,1.9,7,64,50,1.714,7,Oviparous,1,1,0.069,Sit and wait,Tropical,Saxicolous,"(Vitt 1986, Vitt 1995)"
+Hemidactylus palaichthus,Hemidactylus,Gekkonidae,Roraima 1993,-62.43,2,6.55,1.87,6,63.5,5.13,6,55,37,2,6,Oviparous,1,1,0.085,Sit and wait,Tropical,Saxicolous,Present work
+Hemidactylus platyurus,Hemidactylus,Gekkonidae,"Bandung, Java",107.61,-6.91,NA,NA,NA,54.8,NA,NA,50,NA,2,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Church 1962)
+Heteronotia binoei,Heteronotia,Gekkonidae,"Baradine, New South Wales",149.07,-30.95,NA,NA,NA,45,NA,NA,39,18,2,NA,Oviparous,1,1,0.099,Sit and wait,Temperate,Arboreal,"(Bustard 1968, 1970)"
+Heteronotia binoei,Heteronotia,Gekkonidae,Australia,123.09,-27.89,2.84,0.632,37,48.467,3.766,30,43,28,2,8,Oviparous,NA,1,0.089,Sit and wait,Temperate,Terrestrial,(Pianka 2013a)
+Lepidodactylus lugubris,Lepidodactylus,Gekkonidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,35,17.1,2,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Terrestrial,(Schwaner 1980)
+Lygodactylus klugei,Lygodactylus,Gekkonidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,28.85,NA,NA,NA,NA,2,94,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,"(Vitt 1986, Vitt 1995)"
+Lygodactylus klugei,Lygodactylus,Gekkonidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,29.7,NA,NA,25.5,14,2,NA,Oviparous,2,2,0.169,Sit and wait,Tropical,Arboreal,"(Vitt 1986, Vitt 1995)"
+Lygodactylus klugei,Lygodactylus,Gekkonidae,"ESEC Serido, 2013",-37.4,-6.66,0.775,0.14,16,28.778,0.96,16,26.63,12.92,1.812,16,Oviparous,1,1,0.146,Sit and wait,Tropical,Arboreal,Present work
+Lygodactylus klugei,Lygodactylus,Gekkonidae,"Santa Quiteria, 2011",-40.15,-4.33,0.46,0.55,9,28.4,0.99,9,27,13.21,2,3,Oviparous,1,1,0.064,Sit and wait,Tropical,Arboreal,Present work
+Lygodactylus picturatus,Lygodactylus,Gekkonidae,Lokori,36.03,1.95,NA,NA,NA,NA,NA,NA,28,13,2,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Arboreal,(Greer 1967)
+Lygodactylus somalicus,Lygodactylus,Gekkonidae,Lokori,36.03,1.95,NA,NA,NA,NA,NA,NA,24.5,11.5,2,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Greer 1967)
+Nactus pelagicus,Nactus,Gekkonidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,55,NA,1.8,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Terrestrial,(Schwaner 1980)
+Pachydactylus capensis,Pachydactylus,Gekkonidae,"Africa, 1969-1970",21.25,-27.03,5.2,1,3,62.3,4.5,3,58,25,2,3,Oviparous,NA,1,0.111,Sit and wait,Temperate,Terrestrial,(Pianka and Huey 1978)
+Ptenopus garrulus,Ptenopus,Gekkonidae,"Africa, 1969-1970",21.25,-27.03,3.53,1.1,15,50.6,3.14,20,46,25,1,14,Oviparous,NA,1,0.088,Sit and wait,Temperate,Terrestrial,(Hibbitts et al. 2005)
+Acratosaura mentalis,Acratosaura,Gymnophthalmidae,"Catimbau, 2013",-37.25,-8.59,2.283,0.41,6,52.517,3.12,6,48.87,47,1.6,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Alopoglossus angulatus,Alopoglossus,Gymnophthalmidae,"Acre, 1996",-72.78,-8.26,4.571,0.699319397,7,59.6,1.902379462,7,56,24.5,2,7,Oviparous,1,1,0.091,Active,Tropical,Terrestrial,Present work
+Alopoglossus atriventris,Alopoglossus,Gymnophthalmidae,"Rio Ituxi, 1997",-65.72,-8.33,2.05,0.07,2,46,0,2,46,26.6,2,2,Oviparous,1,1,0.113,Active,Tropical,Terrestrial,Present work
+Anotosaura vanzolinia,Anotosaura,Gymnophthalmidae,"Catimbau, 2013",-37.25,-8.59,1.12,0.22,5,44.204,4.41,5,38.53,32.62,2,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Anotosaura vanzolinia,Anotosaura,Gymnophthalmidae,"Raso da Catarina, 2012",-38.67,-9.67,1.175,0.24,8,48.252,2.32,8,45.39,32.19,1.875,8,Oviparous,1,1,0.111,Active,Tropical,Terrestrial,Present work
+Arthrosaura reticulata,Arthrosaura,Gymnophthalmidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,2.03,0.99,2,45.58,9.33,2,27.5,57.5,NA,NA,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cercosaura argulus,Cercosaura,Gymnophthalmidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,0.75,NA,NA,36.5,NA,NA,36,25.6,NA,NA,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cercosaura eigenmanni,Cercosaura,Gymnophthalmidae,PEGM 1998,-64.56,-10.32,2.244,0.18,9,48.456,2.37,9,45.8,18.7,2,9,Oviparous,1,1,0.1,Active,Tropical,Terrestrial,Present work
+Cercosaura ocellata,Cercosaura,Gymnophthalmidae,"Acre, 1996",-72.78,-8.26,4.02,0.521536192,5,57.6,2.701851217,5,53,26,2,3,Oviparous,1,1,0.095,Active,Tropical,Terrestrial,Present work
+Cercosaura ocellata,Cercosaura,Gymnophthalmidae,"Chapada Diamantina, 2013",-41.58,-12.51,2.086,0.22,7,46.426,1.67,7,43.34,20.23,2.286,7,Oviparous,2,2,0.1,Active,Tropical,Terrestrial,Present work
+Colobosaura modesta,Colobosaura,Gymnophthalmidae,"Jalapao, 2002-2004",-47.07,-10.37,1.9,0.42,2,49,2.82,2,47,27,2,3,Oviparous,2,2,NA,Active,Tropical,Terrestrial,Present work
+Colobosaura modesta,Colobosaura,Gymnophthalmidae,"Paracatu, 2000",-46.88,-17.22,2.4,0.15,4,49.6,0.5,4,45,40,2,5,Oviparous,1,1,0.26,Active,Tropical,Terrestrial,Present work
+Dryadosaura nordestina,Dryadosaura,Gymnophthalmidae,Joao Pessoa,-34.86,-7.12,NA,NA,NA,43.373,NA,NA,32.16,41.62,2,6,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Dryadosaura nordestina,Dryadosaura,Gymnophthalmidae,"Mamanguape, 2009-2010",-35.12,-6.83,NA,NA,NA,31.361,10.21,11,20.15,20.15,2,10,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Dryadosaura nordestina,Dryadosaura,Gymnophthalmidae,"Rio Tinto, 2009-2010",-35.08,-6.8,1.025,0.33,8,43.694,7.01,8,29.87,18.54,3,7,Oviparous,1,1,0.56,Active,Tropical,Terrestrial,Present work
+Gymnophthalmus speciosus,Gymnophthalmus,Gymnophthalmidae,Panama,-79.53,8.99,NA,NA,NA,41.5,NA,NA,37,18,1.83,NA,Oviparous,2,2,NA,Active,Tropical,Fossorial,(Telford 1971)
+Gymnophthalmus speciosus,Gymnophthalmus,Gymnophthalmidae,"Nicaragua, 1991, Volc_n Mombacho",-85.99,11.84,1.062,0.32,8,41.846,2.78,8,39,39,2,8,Oviparous,1,1,0.201,Active,Tropical,Terrestrial,Present work
+Iphisa elegans,Iphisa,Gymnophthalmidae,"Acre, 1996",-72.78,-8.26,2.65,0.212132034,2,55,1.414213562,2,54,27,2,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Leposoma oswadoi,Leposoma,Gymnophthalmidae,PEGM 1998,-64.56,-10.32,0.875,0.22,5,33.425,3.77,5,32.8,23,1.75,4,Oviparous,1,1,0.135,Active,Tropical,Terrestrial,Present work
+Leposoma percarinatum,Leposoma,Gymnophthalmidae,"Cemex, Para, 95",-54.83,-3.15,0.728,0.19,18,33.11,3.3,18,24,16.3,1.789,19,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Leposoma percarinatum,Leposoma,Gymnophthalmidae,PEGM 1998,-64.56,-10.32,0.783,0.03,2,33.567,1.13,2,33,14.8,2,3,Oviparous,1,1,0.127,Active,Tropical,Terrestrial,Present work
+Leposoma percarinatum,Leposoma,Gymnophthalmidae,"Roraima 1991, Catrimani",-62.29,1.74,0.733,0.09,3,33.4,0.61,3,32.7,24.3,2,3,Oviparous,1,1,0.192,Active,Tropical,Terrestrial,Present work
+Leposoma rugiceps,Leposoma,Gymnophthalmidae,Panama,-79.53,8.99,NA,NA,NA,NA,NA,NA,37,18.1,2.17,NA,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Telford 1971)
+Micrablepharus atticolus,Micrablepharus,Gymnophthalmidae,Ilha do Bananal,-50.33,-11.34,NA,NA,NA,38.05,NA,NA,NA,NA,1.9,13,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vieira et al. 2000)
+Micrablepharus atticolus,Micrablepharus,Gymnophthalmidae,"Pimenta Bueno, 2001",-61.19,-11.67,1,0.19,46,37.82,1.29,46,35,30,2,46,Oviparous,2,2,0.217,Active,Tropical,Terrestrial,Present work
+Micrablepharus atticolus,Micrablepharus,Gymnophthalmidae,"Vilhena, 1998-1999",-60.13,-12.74,0.792,0.14,12,35.36,1.25,12,33,18,1.75,12,Oviparous,2,2,0.192,Active,Tropical,Terrestrial,Present work
+Micrablepharus maximiliani,Micrablepharus,Gymnophthalmidae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,37,0.6,6,NA,NA,2,6,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt 1991)
+Micrablepharus maximiliani,Micrablepharus,Gymnophthalmidae,Alvorada,-46.49,-14.48,0.975,0.1,5,39.25,0.5,5,39,31,2,4,Oviparous,1,1,0.176,Active,Tropical,Terrestrial,Present work
+Micrablepharus maximiliani,Micrablepharus,Gymnophthalmidae,"Catimbau, 2013",-37.25,-8.59,1.217,0.29,13,40.695,2.11,13,37.17,23.21,1.5,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Micrablepharus maximiliani,Micrablepharus,Gymnophthalmidae,"Mamanguape, 2009-2010",-35.12,-6.83,1.24,0.21,28,39.893,1.69,28,36,22,1.929,28,Oviparous,2,2,0.164,Active,Tropical,Terrestrial,Present work
+Micrablepharus maximiliani,Micrablepharus,Gymnophthalmidae,"Sao Domingos, 2003-2004",-46.33,-13.39,1.225,0.38,4,40,4.32,4,34,34,3,4,Oviparous,2,2,0.242,Active,Tropical,Terrestrial,Present work
+Micrablepharus maximiliani,Micrablepharus,Gymnophthalmidae,"Santa Quiteria, 2011",-40.15,-4.33,1.76,0.24,4,44.698,1.86,4,42,41,2.25,4,Oviparous,1,1,0.139,Active,Tropical,Terrestrial,Present work
+Potamites ecpleopus,Potamites,Gymnophthalmidae,"Tingo Maria, Peru",-76,-9.3,NA,NA,NA,56.6,NA,NA,50,21.5,2,NA,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Sherbrooke 1975)
+Potamites ecpleopus,Potamites,Gymnophthalmidae,"Porto Walter, 1996",-72.74,-8.27,NA,NA,NA,60.75,NA,NA,NA,NA,2,8,Oviparous,NA,2,NA,Active,Tropical,Aquatic,(Vitt et al. 1998)
+Potamites ecpleopus,Potamites,Gymnophthalmidae,"Acre, 1996",-72.78,-8.26,NA,NA,NA,59.857,NA,NA,53,26,2,7,Oviparous,1,1,NA,Active,Tropical,Aquatic,(Vitt and þvila-Pires 1998)
+Potamites ecpleopus,Potamites,Gymnophthalmidae,"Cemex, Para, 95",-54.83,-3.15,4,0.45,5,56,2.61,5,53,NA,2,3,Oviparous,1,1,NA,Active,Tropical,Aquatic,Present work
+Potamites juruazensis,Potamites,Gymnophthalmidae,Porto Walter,-72.74,-8.27,NA,NA,NA,33.27,NA,NA,NA,NA,2,11,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vitt et al. 1998)
+Potamites juruazensis,Potamites,Gymnophthalmidae,"Acre, 1996",-72.78,-8.26,NA,NA,NA,53.455,NA,NA,48,24,2,11,Oviparous,1,1,NA,Active,Tropical,Aquatic,(Vitt and þvila-Pires 1998)
+Psilophthalmus paeminosus,Psilophthalmus,Gymnophthalmidae,"Raso da Catarina, 2012",-38.67,-9.67,0.65,0.12,8,34.614,2.48,8,32.3,26.06,1.857,7,Oviparous,1,1,0.141,Active,Tropical,Fossorial,Present work
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,34.83,NA,NA,NA,NA,2,45,Oviparous,1,1,NA,Active,Tropical,Terrestrial,"(Vitt 1982b, Vitt 1995)"
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,35.9,NA,NA,31,NA,2,NA,Oviparous,2,2,0.161,Active,Tropical,Terrestrial,(Vitt and Ballinger 1982)
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,Aquidauana,-55.79,-20.47,NA,NA,NA,33.26,NA,NA,31.04,28.85,2,6,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,"Catimbau, 2013",-37.25,-8.59,NA,NA,NA,32.179,1.65,14,29.11,25.39,2,13,Oviparous,2,2,NA,Active,Tropical,Terrestrial,"(Vitt 1982b, Vitt 1995)"
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,"ESEC Serido, 2013",-37.4,-6.66,0.9,0.14,7,34.403,2.2,7,19.16,16.17,1.714,7,Oviparous,1,1,0.12,Active,Tropical,Terrestrial,(Vitt 1982b)
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,"Jalapao, 2002-2004",-46.42,-10.55,NA,NA,NA,33.195,NA,NA,31.31,28,2,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,"Monte Alegre de Sergipe, 2010-2011",-37.56,-10.03,NA,NA,NA,32.788,2.31,4,29.83,20.17,2.25,4,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,Sao Joao do Cariri,-36.53,-7.38,NA,NA,NA,33.523,NA,NA,30.2,21.59,1.75,4,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Vanzosaura rubricauda,Vanzosaura,Gymnophthalmidae,Serranopolis,-51.96,-18.31,NA,NA,NA,32.476,NA,NA,30.69,27.87,2,8,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Heloderma suspectum,Heloderma,Helodermatidae,"Pima, Arizona",-109.83,32.9,NA,NA,NA,270,NA,NA,239,165.3,5.7,12,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Goldberg and Lowe 1997)
+Enyalioides cofanorun,Enyalioides,Hoplocercidae,"Santa Cecilia, Ecuador",-79.94,-2.16,27.9,NA,NA,104,NA,NA,91,NA,3,4,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,(Cisneros-Heredia 2005)
+Ctenosaura similis,Ctenosaura,Iguanidae,"Puntarenas province, Costa Rica",-83.34,9.22,NA,NA,NA,276,NA,NA,200,57,43.4,NA,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Fitch and Henderson 1978)
+Cyclura carinata,Cyclura,Iguanidae,Turks and Caicos island,-71.97,21.93,NA,NA,NA,225,NA,NA,190,80,4.3,NA,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Iverson 1979)
+Dipsosaurus dorsalis,Dipsosaurus,Iguanidae,"San Bernardino County, California",-117.27,34.1,NA,NA,NA,120,NA,NA,110,NA,3.5,NA,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Mayhew 1971)
+Dipsosaurus dorsalis,Dipsosaurus,Iguanidae,"USA, 1962-1964",-114.97,35.21,66.01,11.07,90,119.5,6.97,90,105,61,4.8,79,Oviparous,NA,1,0.22336594,Sit and wait,Temperate,Terrestrial,(Pianka 1971a)
+Sauromalus ater,Sauromalus,Iguanidae,"San Bernardino County, Argus range",-117.29,34.11,NA,NA,NA,170,NA,NA,150,54,8.6,NA,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Berry 1974)
+Heliobolus lugubris,Heliobolus,Lacertidae,"Africa, 1969-1970",21.25,-27.03,5.92,0.74,20,60.3,1.98,20,56,23,3.86,20,Oviparous,NA,1,0.146,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Iberolacerta monticola,Iberolacerta,Lacertidae,"Sierra de Guadarrama, Segovia Province",-3.8,41,NA,NA,NA,NA,NA,NA,67.3,25.9,6.5,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Elvira and Vigal 1985)
+Ichnotropis squamulosa,Ichnotropis,Lacertidae,"Africa, 1969-1970",22.26,-27.25,NA,NA,NA,71,NA,NA,NA,29,4,2,Oviparous,NA,1,0.15,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Lacerta agilis,Lacerta,Lacertidae,United Kingdon,-1.55,53.8,NA,NA,NA,NA,NA,NA,55,25,9.5,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Smith 1969)
+Meroles anchietae,Merolis,Lacertidae,"Gobabeb, Nanibia",15.04,-23.56,NA,NA,NA,44,NA,NA,44,27,1.3,NA,Oviparous,3,2,0.138,Active,Temperate,Psammophilus,(Goldberg and Robinson 1979)
+Meroles cuneirostris,Meroles,Lacertidae,"Gobabeb, Nanibia",15.04,-23.56,NA,NA,NA,49,NA,NA,NA,27.5,2.9,NA,Oviparous,2,2,0.137,Active,Temperate,Terrestrial,(Goldberg and Robinson 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa, 1969-1970",21.13,-27.11,5.51,0.903,108,60.1,2.92,110,51,26,4.23,107,Oviparous,NA,1,0.1961,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-A, 1969-1970",20.7,-27.34,5.49,0.706,12,61,1.65,12,51,26,4.333,12,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-B, 1969-1970",20.45,-27,6.567,1.365,6,63.33,1.966,6,51,26,5.333,6,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-D, 1969-1970",22.1,-27.4,4.543,0.796,7,56.14,3.237,7,51,26,4.14,7,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-G, 1969-1970",22.26,-28.21,5.457,0.476,7,59.71,3.352,7,51,26,3.86,7,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-L, 1969-1970",20.75,-26.35,5.517,0.407,6,60.63,1.923,8,51,26,4,8,Oviparous,1,1,0.199,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-R, 1969-1970",22.1,-28.24,5.562,0.88,45,59.6,2.562,45,51,26,4.267,45,Oviparous,1,1,0.1898,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Meroles suborbitalis,Meroles,Lacertidae,"Africa-X, 1969-1970",21.4,-27.34,5.315,0.872,16,60.5,2.85,16,51,26,4.125,16,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Nucras tesselata,Nucras,Lacertidae,"Africa, 1969-1970",20.63,-26.9,NA,NA,NA,74.3,5.7,6,67,32,3.25,8,Oviparous,NA,1,0.158,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa, 1969-1970",21.25,-27.03,5.21,0.63,40,60,2.21,40,56,19,6.73,40,Oviparous,NA,1,0.1873,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa-A, 1969-1970",20.7,-27.34,5.66,0.37,4,61.5,2.52,4,56,19,8.25,6,Oviparous,1,1,0.252,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa-D, 1969-1970",22.1,-27.4,4.57,0.98,3,59.3,0.58,3,56,19,6.67,3,Oviparous,1,1,0.182,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa-G, 1969-1970",22.26,-28.21,5.13,0.45,7,58.9,1.21,7,56,19,6.71,7,Oviparous,1,1,0.1743,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa-L, 1969-1970",20.75,-26.35,5.063,0.448,6,59.67,3.011,6,56,19,5.5,6,Oviparous,1,1,0.1482,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa-M, 1969-1970",19.84,-26.33,6.45,NA,1,64,NA,1,56,19,8,3,Oviparous,1,1,0.1969,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis lineoocellata,Pedioplanis,Lacertidae,"Africa-T, 1969-1970",22.26,-26.28,5.46,0.55,6,59.5,1.38,6,56,19,6.83,6,Oviparous,1,1,0.1735,Sit and wait,Temperate,Terrestrial,(Pianka et al. 1979)
+Pedioplanis namaquensis,Pedioplanis,Lacertidae,"Africa, 1969-1970",21.4,-27.03,3.6,0.6,5,55.6,1.95,5,53,23,4,5,Oviparous,NA,1,0.1648,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Podarcis tauricus,Podarcis,Lacertidae,"Kefalonia, Greece",20.57,38.18,NA,NA,NA,65,NA,NA,52,NA,5.6,NA,Oviparous,2,2,0.194,Active,Temperate,Terrestrial,(Chondropoulos and Lykakis 1983)
+Takydromus tachydromoides,Takydromus,Lacertidae,"Mito, Ibaraki",140.47,36.37,NA,NA,NA,56,NA,NA,42,NA,4.2,NA,Oviparous,3,2,0.29,Active,Temperate,Saxicolous,(Takenaka 1980)
+Takydromus tachydromoides,Takydromus,Lacertidae,"Honshu, Japan",138,36,NA,NA,NA,45.7,NA,NA,41,22,3.63,NA,Oviparous,3,2,0.3,Active,Temperate,Saxicolous,(Telford 1969)
+Takydromus tachydromoides,Takydromus,Lacertidae,Kyoto,135.77,35.01,NA,NA,NA,53,NA,NA,40,NA,3.6,NA,Oviparous,3,2,NA,Active,Temperate,Saxicolous,(Tinkle et al. 1970)
+Zootoca vivipara,Zootoca,Lacertidae,Winsley,-2.29,51.35,NA,NA,NA,57.6,NA,NA,48,NA,7.74,NA,Viviparous,1,1,0.4,Sit and wait,Temperate,Terrestrial,"(Avery 1975a, b)"
+Leiocephalus barahonensis,Leiocephalus,Leiocephalidae,Dominican Republic,-70.16,18.74,NA,NA,NA,53.94,NA,NA,47.8,40,2.06,18,Oviparous,NA,1,NA,Sit and wait,Tropical,Saxicolous,(Gifford and Powell 2007)
+Leiocephalus carinatus,Leiocephalus,Leiocephalidae,Palm Beach,-80.04,26.71,NA,NA,NA,84.6,NA,NA,71.3,38.9,4.1,47,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Meshaka Jr. et al. 2006)
+Leiocephalus lunatus,Leiocephalus,Leiocephalidae,Dominican Republic,-70.16,18.74,NA,NA,NA,51.08,NA,NA,46.5,41,1.6,10,Oviparous,NA,1,NA,Sit and wait,Tropical,Saxicolous,(Gifford and Powell 2007)
+Leiocephalus personatus,Leiocephalus,Leiocephalidae,Dominican Republic,-70.16,18.74,NA,NA,NA,48.85,NA,NA,42.5,39,2,18,Oviparous,NA,1,NA,Sit and wait,Tropical,Saxicolous,(Gifford and Powell 2007)
+Leiocephalus psammodromus,Leiocephalus,Leiocephalidae,"Caicos Islands, Pine Cay",-72.09,21.89,NA,NA,NA,74.9,NA,NA,65,31,1.72,42,Oviparous,2,2,NA,Sit and wait,Tropical,Saxicolous,"(Smith 1992, Smith and Iverson 1993)"
+Leiocephalus schreibersii,Leiocephalus,Leiocephalidae,Dominican Republic,-70.16,18.74,NA,NA,NA,60.61,NA,NA,51.4,45,2.47,17,Oviparous,NA,1,NA,Sit and wait,Tropical,Saxicolous,(Gifford and Powell 2007)
+Leiocephalus semilineatus,Leiocephalus,Leiocephalidae,Dominican Republic,-70.16,18.74,NA,NA,NA,42.69,NA,NA,38,36.36,1.78,21,Oviparous,NA,1,NA,Sit and wait,Tropical,Saxicolous,(Gifford and Powell 2007)
+Leiocephalus stictigaster,Leiocephalus,Leiocephalidae,"Peninsula de Guanahacabibes, Cuba",-84.4,21.9,NA,NA,NA,54.7,NA,NA,48.4,24.1,1.33,3,Oviparous,NA,NA,NA,Sit and wait,Tropical,Terrestrial,(Martinez Reyes et al. 1990)
+Enyalius bibronii,Enyalius,Leiosauridae,"Catimbau, 2013",-37.25,-8.59,33.83,6.14,9,108.187,4.37,9,103.82,65.32,6.833,6,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Enyalius bibronii,Enyalius,Leiosauridae,"Raso da Catarina, 2012",-38.67,-9.67,35.214,6.62,14,102.742,6.4,14,85.84,44.76,7.643,14,Oviparous,1,1,0.152,Sit and wait,Tropical,Arboreal,Present work
+Enyalius brasiliensis,Enyalius,Leiosauridae,Ilha Grande,-44.23,-23.15,NA,NA,NA,81.25,NA,NA,NA,NA,7.5,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Van Sluys et al. 2004)
+Enyalius leechii,Enyalius,Leiosauridae,"Altamira, 1987",-52.21,-3.2,45.2,2,6,104.4,1.7,6,NA,NA,12.3,6,Oviparous,1,1,NA,Active,Tropical,Arboreal,(Vitt et al. 1996)
+Enyalius leechii,Enyalius,Leiosauridae,"Cemex, Para, 95",-54.83,-3.15,45.2,3.96,4,105.5,6.66,4,100,56,13,4,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Liolaemus bitaeniatus,Liolaemus,Liolaemidae,"Salta, Argentina",-65.41,-24.78,NA,NA,NA,NA,NA,NA,46.1,NA,6.48,26,Oviparous,NA,NA,NA,Sit and wait,Temperate,Terrestrial,(Ramirez-Pinilla 1995)
+Liolaemus chacoensis,Liolaemus,Liolaemidae,"Salta, Argentina",-65.41,-24.78,NA,NA,NA,44.5,NA,NA,38,32,6.07,29,Oviparous,2,2,NA,Sit and wait,Temperate,Saxicolous,(Cruz and RamÆrez Pinilla 1996)
+Liolaemus crepuscularis,Liolaemus,Liolaemidae,Puesto Flores,-66.38,-27.68,NA,NA,NA,53.6,NA,NA,NA,NA,4.5,11,Oviparous,NA,NA,NA,Sit and wait,Temperate,Arboreal,(Semhan et al. 2013)
+Liolaemus darwinii,Liolaemus,Liolaemidae,Amaicha del vale,-65.92,-26.59,NA,NA,NA,57.53,NA,NA,49,NA,5.2,5,Oviparous,1,1,NA,Sit and wait,Temperate,Arboreal,(Ramirez-Pinilla 1992)
+Liolaemus darwinii,Liolaemus,Liolaemidae,Tucuman,-65.22,-26.81,NA,NA,NA,52.2,NA,NA,45,NA,5,12,Oviparous,1,1,NA,Sit and wait,Temperate,Arboreal,(Ramirez-Pinilla 1992)
+Liolaemus gracilis,Liolaemus,Liolaemidae,Buenos Aires,-58.38,-34.6,NA,NA,NA,48.9,NA,NA,43.8,NA,4.75,4,Oviparous,NA,NA,NA,Sit and wait,Temperate,Terrestrial,(Vega and Bellagamba 2005)
+Liolaemus huacahuasicus,Liolaemus,Liolaemidae,Tucuman,-65.22,-26.81,NA,NA,NA,58.13,NA,NA,48,30.1,5.35,17,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Ramirez-Pinilla 1991b)
+Liolaemus koslowskyi,Liolaemus,Liolaemidae,"Catamarca, Argentina",-65.78,-28.47,NA,NA,NA,55.31,NA,NA,45,40,4.2,16,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Aun and Martori 1998)
+Liolaemus koslowskyi,Liolaemus,Liolaemidae,"Anillaco, Argentina",-66.95,-28.8,NA,NA,NA,55.48,NA,NA,47,30,5.57,NA,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Martori and Aun 2010)
+Liolaemus lutzae,Liolaemus,Liolaemidae,Barra de Marica,-42.93,-22.95,6.07,NA,NA,60,NA,NA,51.5,28.2,2.48,52,Oviparous,3,2,NA,Sit and wait,Tropical,Terrestrial,"(Rocha 1990, Rocha 1992)"
+Liolaemus lutzae,Liolaemus,Liolaemidae,Barra de Marica,-42.77,-22.95,NA,NA,NA,56.8,NA,NA,51.5,28,2.27,84,Oviparous,3,2,NA,Sit and wait,Tropical,Terrestrial,"(Ara£jo 1991, Rocha 1992)"
+Liolaemus multiformis,Liolaemus,Liolaemidae,"Moquegua,Peru",-70.93,-17.19,NA,NA,NA,80.6,NA,NA,69,28,5.8,NA,Viviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,(Pearson 1954)
+Liolaemus multimaculatus,Liolaemus,Liolaemidae,Buenos Aires,-58.38,-34.6,NA,NA,NA,54.6,NA,NA,48.2,26.7,4.2,10,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Vega 1997)
+Liolaemus pictus,Liolaemus,Liolaemidae,Melipal beach by the lake Nahuel Huapi,-71.35,-41.13,NA,NA,NA,56.56,NA,NA,51.7,24.8,4.5,22,Viviparous,0.5,0.5,NA,Sit and wait,Temperate,Arboreal,(GutiÄrrez et al. 2013)
+Liolaemus pictus,Liolaemus,Liolaemidae,"San Carlos de Bariloche, Province of Rio Negro",-71.3,-41.27,NA,NA,NA,55.05,NA,NA,50.4,23.5,4.5,22,Viviparous,0.5,0.5,NA,Sit and wait,Temperate,Arboreal,(GutiÄrrez et al. 2013)
+Liolaemus pictus,Liolaemus,Liolaemidae,Nahuel Huapi Lake,-71.31,-41.11,NA,NA,NA,62,NA,NA,49,41,4.08,12,Viviparous,0.5,0.5,NA,Sit and wait,Temperate,Arboreal,(Ibarguengoytia and Cussac 1996)
+Liolaemus scapularis,Liolaemus,Liolaemidae,"Salta, Argentina",-65.41,-24.78,NA,NA,NA,57,NA,NA,45.3,NA,4.3,16,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Ramirez-Pinilla 1994)
+Liolaemus wiegmannii,Liolaemus,Liolaemidae,"Cordoba, Argentina",-64.18,-31.4,NA,NA,NA,48.4,NA,NA,42.7,NA,5.4,59,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Martori and Aun 1997)
+Liolaemus wiegmannii,Liolaemus,Liolaemidae,"Sierras de Medina, Tucuman",-65.11,-26.46,NA,NA,NA,47.4,NA,NA,40.2,NA,4.59,NA,Oviparous,NA,NA,NA,Sit and wait,Temperate,Terrestrial,(Ramirez-Pinilla 1991a)
+Phymaturus palluma,Phymaturus,Liolaemidae,"San Juan, Argentina",-68.52,-31.53,NA,NA,NA,95.3,NA,NA,82.42,51.3,1.5,4,Viviparous,0.75,0.75,NA,Sit and wait,Temperate,Saxicolous,(Cartes et al. 2010)
+Phymaturus patagonicus,Phymaturus,Liolaemidae,"Neuquen, Argentina",-68.06,-38.95,NA,NA,NA,80,NA,NA,85,44,2,13,Viviparous,0.5,0.5,NA,Sit and wait,Temperate,Saxicolous,(IbargƒengoytÆa 2004)
+Oplurus cuvieri cuvieri,Oplurus,Opluridae,Madagascar,46.87,-18.77,79.6,NA,NA,138,NA,NA,120,42,3.5,NA,Oviparous,1,1,0.204,Sit and wait,Tropical,Arboreal,"(Randriamahazo 2000, Randriamahazo and Mori 2001)"
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA, 1962-1964",-116.03,35.88,12.3,2.61,54,75.48,4.678,54,65,35,3.94,128,Oviparous,NA,1,0.129,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-C, 1962-1964",-111.93,33.13,10.9,3.68,30,73,9.92,30,65,35,4.6,10,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-G, 1962-1964",-117.98,38.8,11.6,NA,1,72,NA,1,65,35,6,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-L, 1962-1964",-118.55,40.2,12.2,2.5,7,74.3,4.56,7,65,35,5,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-M, 1962-1964",-118.15,35.1,11.5,4.734,15,73,11.66,15,65,35,2.6667,3,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-P, 1962-1964",-116.23,36.3,10.63,3.188,14,74.2,8.43,14,65,35,3.2,5,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-T, 1962-1964",-118.3,36.6,10,3.294,23,73.1,5.89,23,65,35,4,9,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-V, 1962-1964",-117.25,37.08,10.52,3.18,34,73.8,5.95,34,65,35,3.5,4,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Callisaurus draconoides,Callisaurus,Phrynosomatidae,"USA-W, 1962-1964",-113.55,34.7,12.03,1.11,7,76.7,1.58,7,65,35,3,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1972)
+Calotes nemoricola,Calotes,Phrynosomatidae,"Tirupati, India",79.42,13.63,NA,NA,NA,98.3,NA,NA,64,25.2,13.3,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Arboreal,(Rao and Rajabi 1972)
+Calotes versicolor,Calotes,Phrynosomatidae,"Rajputana, Bombay",74.43,23.56,NA,NA,NA,NA,NA,NA,100,NA,15,NA,Oviparous,NA,2,NA,Sit and wait,Tropical,Terrestrial,(Asana 1931)
+Cophosaurus texanus,Cophosaurus,Phrynosomatidae,"San Angelo, Texas",-100.44,31.46,NA,NA,NA,60,NA,NA,50,22,6.1,NA,Oviparous,3,2,0.218,Sit and wait,Temperate,Saxicolous,(Ballinger et al. 1972)
+Holbrookia maculata,Holbrookia,Phrynosomatidae,"Arthur, Nebraska",-101.69,41.57,NA,NA,NA,49.8,NA,NA,42.5,NA,3.5,NA,Oviparous,2,2,0.184,Sit and wait,Temperate,Terrestrial,(Droge et al. 1982)
+Holbrookia maculata,Holbrookia,Phrynosomatidae,Southern Texas,-102.07,31.99,NA,NA,NA,54,NA,NA,45,NA,6.1,NA,Oviparous,NA,2,NA,Sit and wait,Temperate,Terrestrial,(Tinkle et al. 1970)
+Holbrookia propinqua,Holbrookia,Phrynosomatidae,"USA, 1962-1964",-97.17917,26.22917,4.53,0.255,8,52.25,2.525,6,49,NA,2.75,8,Oviparous,NA,1,0.1445,Sit and wait,Temperate,Terrestrial,Present work
+Phrynosoma cornutum,Phrynosoma,Phrynosomatidae,"San Angelo, Texas",-100.44,31.46,NA,NA,NA,87.7,NA,NA,70,NA,29,NA,Oviparous,1,1,0.31,Sit and wait,Temperate,Terrestrial,(Ballinger 1974)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA, 1962-1964",-116.26,36.95,22.7,5.72,17,81.7,2.23,17,70,31,6.6,17,Oviparous,NA,1,0.202,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-C, 1962-1964",-111.93,33.13,20.1,6.25,7,79.3,6.96,7,70,31,8.25,4,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-G, 1962-1964",-117.98,38.8,19.35,2.117,6,78.83,3.023,6,70,31,5,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-L, 1962-1964",-118.55,40.2,12.4,2.96,23,67.9,6.75,23,70,31,4,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-M, 1962-1964",-118.15,35.1,14.945,5.495,20,68.7,8.57,20,70,31,8,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-N, 1962-1964",-115.83,42.2,22.6,NA,1,80,NA,1,70,31,6,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-P, 1962-1964",-116.23,36.3,25,NA,1,87,NA,1,70,31,6,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-S, 1962-1964",-114.85,35.3,21.5,4.22,4,68,19.14,4,70,31,6.6667,3,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-T, 1962-1964",-118.3,36.6,19.2,11.265,4,67.5,39.1,4,70,31,6.3333,3,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-V, 1962-1964",-117.25,37.08,20.9,7.165,5,82.2,8.01,5,70,31,6,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Phrynosoma platyrhinos,Phrynosoma,Phrynosomatidae,"USA-W, 1962-1964",-113.55,34.7,14.4,NA,1,71,NA,1,70,31,2,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Pianka and Parker 1975)
+Sceloporus clarki,Sceloporus,Phrynosomatidae,"Sunflower, Maricopa ",-111.47,33.86,NA,NA,NA,100.5,NA,NA,90,NA,19.1,NA,Oviparous,1,2,NA,Sit and wait,Temperate,Arboreal,(Tinkle and Dunhan 1986)
+Sceloporus cyanogenys,Sceloporus,Phrynosomatidae,"Webb County, texas",-99.01,27.82,NA,NA,NA,106,NA,NA,88,29.6,13,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Hunsaker 1959)
+Sceloporus formosus,Sceloporus,Phrynosomatidae,"Omiltemi, Mexico",-99.5,17.56,NA,NA,NA,65.43,NA,NA,51.5,28.6,6.04,27,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Ramirez-Pinilla et al. 2009)
+Sceloporus graciosus,Sceloporus,Phrynosomatidae,Zion National Park,-112.99,37.2,NA,NA,NA,51.67,NA,NA,48.6,25.1,3.8,NA,Oviparous,2,2,0.16,Sit and wait,Temperate,Saxicolous,(Tinkle 1973)
+Sceloporus grammicus,Sceloporus,Phrynosomatidae,"Parque nacional de zoquiapan, Mexico",-98.7,19.69,NA,NA,NA,48.5,NA,NA,42,NA,5.2,NA,Viviparous,1,1,NA,Sit and wait,Tropical,Arboreal,(Guillette and Casasandreu 1980)
+Sceloporus jarrovi,Sceloporus,Phrynosomatidae,"Portal, Conchise",-109.14,31.91,NA,NA,NA,72.4,NA,NA,54,28.5,7.07,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Ballinger 1973)
+Sceloporus jarrovi,Sceloporus,Phrynosomatidae,"Portal, Conchise",-109.14,31.91,NA,NA,NA,77,NA,NA,65,28.5,8.4,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Ballinger 1973)
+Sceloporus jarrovi,Sceloporus,Phrynosomatidae,"Pinaleno Mountains, Arizona",-109.84,32.64,NA,NA,NA,72,NA,NA,54,30.7,5.6,NA,Viviparous,1,1,0.15,Sit and wait,Temperate,Saxicolous,(Ruby and Dunham 1984)
+Sceloporus jarrovi,Sceloporus,Phrynosomatidae,Pinaleno Mountains,-109.84,32.64,NA,NA,NA,75.23,NA,NA,55,NA,6.75,NA,Viviparous,1,1,0.15,Sit and wait,Temperate,Saxicolous,(Tinkle and Hadley 1973)
+Sceloporus jarrovi,Sceloporus,Phrynosomatidae,"USA, 1962-1964",-109.58,31,15.53,NA,NA,77.9,NA,NA,69,NA,6.75,NA,Viviparous,NA,1,0.1502,Sit and wait,Temperate,Saxicolous,(Tinkle 1973)
+Sceloporus jarrovi,Sceloporus,Phrynosomatidae,"USA, 1962-1964",-109.58,31,15.53,NA,NA,77.9,NA,NA,69,NA,6.75,NA,Viviparous,NA,1,0.1502,Sit and wait,Temperate,Saxicolous,(Tinkle 1973)
+Sceloporus magister,Sceloporus,Phrynosomatidae,Zion National Park,-112.99,37.2,NA,NA,NA,89,NA,NA,80,32,6.2,NA,Oviparous,2,2,0.19,Sit and wait,Temperate,Arboreal,"(Vitt and Ohmart 1974, Tinkle 1976)"
+Sceloporus magister,Sceloporus,Phrynosomatidae,"USA, 1962-1964",-114.54,34.32,47.5,NA,NA,98.8,NA,NA,55,37,8.4,14,Oviparous,NA,1,0.207,Sit and wait,Temperate,Arboreal,"(Vitt and Ohmart 1974, Tinkle 1976)"
+Sceloporus malachiticus,Sceloporus,Phrynosomatidae,"San Jose, Cartago",-83.92,9.86,NA,NA,NA,79.6,NA,NA,65,NA,6,NA,Viviparous,1,1,NA,Sit and wait,Tropical,Arboreal,(Marion and Sexton 1971)
+Sceloporus merriami,Sceloporus,Phrynosomatidae,Big Bend National Park,-103.24,29.13,NA,NA,NA,50.22,NA,NA,43,22,4.51,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Saxicolous,"(Dunham 1981, 1982)"
+Sceloporus omiltemanus,Sceloporus,Phrynosomatidae,"Omiltemi, Mexico",-99.5,17.56,NA,NA,NA,83.08,NA,NA,61,28.6,6.26,13,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Ramirez-Pinilla et al. 2009)
+Sceloporus poinsetti,Sceloporus,Phrynosomatidae,"Mertson, Mirion",-100.82,31.26,NA,NA,NA,104,NA,NA,86,32,10.4,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Ballinger 1973)
+Sceloporus scalaris,Sceloporus,Phrynosomatidae,Chiricahua Mountains,-109.38,31.93,NA,NA,NA,51.3,NA,NA,47,NA,8.38,NA,Oviparous,1,1,0.39,Sit and wait,Temperate,Terrestrial,(Newlin 1976)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Nebraska, Sandhills",-96.72,40.87,NA,NA,NA,54.5,NA,NA,45,NA,5.55,NA,Oviparous,2,2,0.33,Sit and wait,Temperate,Psammophilus,(Ballinger et al. 1981)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Belvue, Kansas",-96.18,39.22,NA,NA,NA,57,NA,NA,47,NA,7,NA,Oviparous,2,2,0.28,Sit and wait,Temperate,Terrestrial,(Ferguson et al. 1980)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Aiken, South Carolina",-81.72,33.56,NA,NA,NA,63,NA,NA,55,23,7.4,NA,Oviparous,3,2,0.23,Sit and wait,Temperate,Terrestrial,(Tinkle and Ballinger 1972)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Hocking, Ohio",-82.48,39.49,NA,NA,NA,75,NA,NA,66,25,11.8,NA,Oviparous,2,2,0.25,Sit and wait,Temperate,Arboreal,(Tinkle and Ballinger 1972)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Schleicher, Texas",-100.53,30.92,NA,NA,NA,57,NA,NA,47,22,9.5,NA,Oviparous,3,2,0.27,Sit and wait,Temperate,Arboreal,(Tinkle and Ballinger 1972)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Washington, Utah",-113.51,37.13,NA,NA,NA,70,NA,NA,58,28,7.9,NA,Oviparous,2,2,0.23,Sit and wait,Temperate,Saxicolous,(Tinkle and Ballinger 1972)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Sunflower, Maricopa ",-111.47,33.86,NA,NA,NA,64.7,NA,NA,60,27,8.3,NA,Oviparous,3,2,0.22,Sit and wait,Temperate,Terrestrial,(Tinkle and Dunhan 1986)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Lordsburg, New Mexico",-108.71,32.35,NA,NA,NA,68.4,NA,NA,54,25,9.9,NA,Oviparous,4,2,0.211,Sit and wait,Temperate,Terrestrial,(Vinegar 1975b)
+Sceloporus undulatus,Sceloporus,Phrynosomatidae,"Pinos Altos, New Mexico",-108.22,32.86,NA,NA,NA,63.3,NA,NA,53,NA,7.2,NA,Oviparous,2.5,2,0.211,Sit and wait,Temperate,Saxicolous,(Vinegar 1975b)
+Sceloporus variabilis,Sceloporus,Phrynosomatidae,"Nicaragua, 1991, Momotombo, Chococente - dry forest",-86.1375,11.47917,5.5,1,3,55.2,1.15,3,45,40,6,2,Oviparous,1,1,0.237,Sit and wait,Tropical,Saxicolous,Present work
+Sceloporus virgatus,Sceloporus,Phrynosomatidae,Chiricahua Mountains,-109.38,31.93,NA,NA,NA,48.2,NA,NA,47,21.5,9.5,NA,Oviparous,1,1,0.291,Sit and wait,Temperate,Saxicolous,(Vinegar 1975a)
+Uma inornata,Uma,Phrynosomatidae,"Palm Springs, Riverside",-116.55,33.83,NA,NA,NA,81,NA,NA,NA,NA,2.5,NA,Oviparous,3,2,NA,Sit and wait,Temperate,Psammophilus,(Mayhew 1965)
+Uma notata,Uma,Phrynosomatidae,"Clamis imperial county, California",-115.07,32.95,NA,NA,NA,76,NA,NA,64,NA,2.1,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Psammophilus,(Mayhew 1966a)
+Uma notata,Uma,Phrynosomatidae,"Clamis imperial county, California",-115.07,32.95,NA,NA,NA,83,NA,NA,70,NA,2.6,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Psammophilus,(Mayhew 1966a)
+Uma notata,Uma,Phrynosomatidae,"San Bernardino County, California",-117.27,34.1,NA,NA,NA,81,NA,NA,70,NA,2.5,NA,Oviparous,3,2,NA,Sit and wait,Temperate,Psammophilus,(Mayhew 1966b)
+Uma scoparia,Uma,Phrynosomatidae,"San Bernardino County, California",-117.27,34.1,NA,NA,NA,83,NA,NA,NA,NA,2.6,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Terrestrial,(Mayhew 1966b)
+Uma scoparia,Uma,Phrynosomatidae,"USA, 1962-1964",-118.3,36.6,21.6,2.398,9,90.3,4.5,9,82,39,3.11,9,Oviparous,NA,1,0.1143,Sit and wait,Temperate,Terrestrial,(Pianka 1986)
+Urosaurus graciosus,Urosaurus,Phrynosomatidae,"Yuma, Arizona",-114.63,32.69,NA,NA,NA,52.17,NA,NA,47,NA,5.3,NA,Oviparous,1.5,2,0.313,Sit and wait,Temperate,Arboreal,(Vitt et al. 1978)
+Urosaurus graciosus,Urosaurus,Phrynosomatidae,"Sunflower, Maricopa ",-112.05,33.06,NA,NA,NA,51.8,NA,NA,44,NA,4.24,NA,Oviparous,2,2,NA,Sit and wait,Temperate,Arboreal,(Vitt et al. 1978)
+Urosaurus graciosus,Urosaurus,Phrynosomatidae,"USA, 1962-1964",-114.59,34.81,3.45,NA,NA,52,NA,NA,44,33,3.6,5,Oviparous,NA,1,0.182178,Sit and wait,Temperate,Arboreal,(Vitt and Ohmart 1975)
+Urosaurus ornatus,Urosaurus,Phrynosomatidae,"Animas, Hildalgo County, New Mexico",-108.81,31.95,NA,NA,NA,48.1,NA,NA,39,24.5,9,NA,Oviparous,1.5,2,0.4,Sit and wait,Temperate,Saxicolous,(Ballinger 1976)
+Urosaurus ornatus,Urosaurus,Phrynosomatidae,Manicopa,-112.05,33.06,NA,NA,NA,50.6,NA,NA,45,NA,7.1,NA,Oviparous,2,2,0.36,Sit and wait,Temperate,Arboreal,"(Dunham 1982, Tinkle and Dunham 1983)"
+Urosaurus ornatus,Urosaurus,Phrynosomatidae,"American Museum of Natural History, Portal, Arizona",-109.14,31.91,NA,NA,NA,49.3,NA,NA,40,21,9,NA,Oviparous,1.3,2,0.5,Sit and wait,Temperate,Arboreal,(Dunham 1982)
+Urosaurus ornatus,Urosaurus,Phrynosomatidae,Big Bend National Park,-103.24,29.13,NA,NA,NA,48.4,NA,NA,41,21,4.7,NA,Oviparous,2,2,0.31,Sit and wait,Temperate,Saxicolous,(Dunham 1982)
+Urosaurus ornatus,Urosaurus,Phrynosomatidae,Travis,-97,31.14,NA,NA,NA,47.8,NA,NA,39,21,5.36,NA,Oviparous,3.5,2,0.23,Sit and wait,Temperate,Arboreal,(Martin 1977)
+Urosaurus ornatus,Urosaurus,Phrynosomatidae,"Tempe, Arizona",-111.94,33.43,NA,NA,NA,NA,NA,NA,45,NA,7.4,NA,Oviparous,2,2,0.21,Sit and wait,Temperate,Arboreal,(Sels and Vitt 1984)
+Uta stansburiana,Uta,Phrynosomatidae,"Jefferson, Oregon",-123.01,44.72,NA,NA,NA,45.4,NA,NA,41,22,3.33,NA,Oviparous,1,2,0.231,Sit and wait,Temperate,Saxicolous,(Nussbaum and Diller 1976)
+Uta stansburiana,Uta,Phrynosomatidae,"Kermit, Texas",-103.09,31.86,NA,NA,NA,48.9,NA,NA,42,22,3.9,NA,Oviparous,3,2,0.2,Sit and wait,Temperate,Psammophilus,(Tinkle 1967)
+Uta stansburiana,Uta,Phrynosomatidae,"USA, 1962-1964",-116.26,36.95,3.9,0.77,54,49.04,3.06,54,41,21,3.56,119,Oviparous,NA,2,0.1586,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-C, 1962-1964",-111.93,33.13,3.03,1.54,230,44.52,8.998,230,41,21,4.1231,65,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-G, 1962-1964",-117.98,38.8,2.3,0.77,23,44.6,7.36,23,41,21,2.25,4,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-L, 1962-1964",-118.55,40.2,2.326,0.868,54,43.46,7.79,54,41,21,2.2222,9,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-M, 1962-1964",-118.15,35.1,3.27,0.908,76,48.26,6.538,76,41,21,3.2857,14,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-N, 1962-1964",-115.83,42.2,3.9,0.348,9,44.55,1.64,9,41,21,2.4,5,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-S, 1962-1964",-114.85,35.3,2.4,1.285,38,42.4,10.62,28,41,21,2,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-T, 1962-1964",-118.3,36.6,2.0875,1.528,8,37.25,8.7,8,41,21,5,1,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-V, 1962-1964",-117.25,37.08,2.364,0.949,11,41.7,7.7,11,41,21,2.5,2,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Uta stansburiana,Uta,Phrynosomatidae,"USA-W, 1962-1964",-113.55,34.7,3.334,1.268,29,46.48,7.224,29,41,21,4.5,8,Oviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Parker and Pianka 1975)
+Gymnodactylus amarali,Gymnodactylus,Phyllodactylidae,"Minacu, 1991",-48.3,-13.83,NA,NA,NA,47,3.14,32,45,20.04,1.71,32,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Gymnodactylus amarali,Gymnodactylus,Phyllodactylidae,"Parana, 2002-2003",-47.88,-12.62,3.2,0.67,7,47.33,2.61,7,45,40,1.67,5,Oviparous,1,1,0.124,Sit and wait,Tropical,Terrestrial,Present work
+Gymnodactylus amarali,Gymnodactylus,Phyllodactylidae,"Sao Domingos, 2003-2004",-46.33,-13.39,3.233,1.02,3,48.5,4.95,3,45,43,1.75,4,Oviparous,1,1,0.078,Sit and wait,Tropical,Terrestrial,Present work
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,Cerrado,-48.3,-13.83,NA,NA,NA,40.5,NA,NA,38.57,21.5,1.65,32,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Colli et al. 2003)
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,41.8,NA,NA,NA,NA,2,47,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Colli et al. 2003)
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,42.8,NA,NA,38,20,1,NA,Oviparous,NA,2,0.084,Sit and wait,Tropical,Saxicolous,"(Vitt 1986, Vitt 1995)"
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"Catimbau, 2013",-37.25,-8.59,2.343,0.26,7,43.831,1.42,7,41.87,20.86,1,7,Oviparous,1,1,0.061,Sit and wait,Tropical,Terrestrial,"(Vitt 1986, Vitt 1995)"
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"ESEC Serido, 2013",-37.4,-6.66,2.12,2.12,17,41.435,9.32,18,37.79,32.46,1.05,20,Oviparous,1,1,0.084,Sit and wait,Tropical,Terrestrial,Present work
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"Mamanguape, 2009-2010",-35.12,-6.83,1.983,0.43,11,42,2.25,11,40,23,1,6,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"Monte Alegre de Sergipe, 2010-2011",-37.56,-10.03,NA,NA,NA,36.477,3.43,6,34.42,29.85,1.33,3,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,"Paulo Afonso, 2010-2011",-38.06,-9.48,NA,NA,NA,37.56,1.86,4,35.85,34.29,2,3,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Gymnodactylus geckoides,Gymnodactylus,Phyllodactylidae,Petrolina,-40.51,-9.39,NA,NA,NA,39.85,1.8,2,38.57,36.8,1,2,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Phyllodactylus tuberculosus,Phyllodactylus,Phyllodactylidae,"Nicaragua, 1991, Momotombo, Chococente - dry forest",-86.1375,11.47917,2.8,NA,1,52.5,NA,1,50,50,2,1,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Phyllopezus periosus,Phyllopezus,Phyllodactylidae,"ESEC Serido, 2013",-37.4,-6.66,36,1.73,3,109.75,1.22,3,108.89,86.35,2,2,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Phyllopezus pollicaris,Phyllopezus,Phyllodactylidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,75.25,NA,NA,NA,NA,2,12,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,"(Vitt 1986, Vitt 1995)"
+Phyllopezus pollicaris,Phyllopezus,Phyllodactylidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,75.5,NA,NA,65,29,2,NA,Oviparous,NA,2,0.114,Sit and wait,Tropical,Arboreal,"(Vitt 1986, Vitt 1995)"
+Phyllopezus pollicaris,Phyllopezus,Phyllodactylidae,"ESEC Serido, 2013",-37.4,-6.66,8.605,1.35,10,69.306,4.26,10,60.95,44.26,1.9,10,Oviparous,1,1,0.099,Sit and wait,Tropical,Saxicolous,Present work
+Phyllopezus pollicaris,Phyllopezus,Phyllodactylidae,"Sao Domingos, 2003-2004",-46.33,-13.39,NA,NA,NA,76.95,NA,NA,NA,53,2,3,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Thecadactylus rapicauda,Thecadactylus,Phyllodactylidae,Curua-Una,-54.7,-2.44,NA,NA,NA,105.9,NA,NA,NA,NA,1,7,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Vitt and Zani 1997)
+Thecadactylus rapicauda,Thecadactylus,Phyllodactylidae,Cuyabeno,-78.52,-0.29,NA,NA,NA,112.3,NA,NA,NA,NA,1,7,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Vitt and Zani 1997)
+Thecadactylus solimoensi,Thecadactylus,Phyllodactylidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,27.067,1.6,3,110.667,4.04,3,107,43,1,3,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Thecadactylus solimoensi,Thecadactylus,Phyllodactylidae,"Cemex, Para, 95",-54.83,-3.15,27.35,2.89,8,109.75,4.71,8,100,41,1,8,Oviparous,1,1,0.059,Sit and wait,Tropical,Arboreal,Present work
+Thecadactylus solimoensi,Thecadactylus,Phyllodactylidae,PEGM 1998,-64.56,-10.32,29.567,8.07,6,108.833,9.06,6,94,81,1,6,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Polychrus acutirostris,Polychrus,Polychrotidae,Brasilia,-47.93,-15.78,NA,NA,NA,NA,NA,NA,NA,41,13,1,Oviparous,NA,NA,NA,Active,Tropical,Arboreal,(Luedemann et al. 1997)
+Polychrus acutirostris,Polychrus,Polychrotidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,114.05,NA,NA,NA,NA,16.8,46,Oviparous,1,1,NA,Active,Tropical,Arboreal,"(Vitt and Lacher 1981, Vitt 1995)"
+Polychrus acutirostris,Polychrus,Polychrotidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,125,NA,NA,96,NA,11.6,NA,Oviparous,1,1,0.401,Sit and wait,Tropical,Arboreal,"(Vitt and Lacher 1981, Vitt 1995)"
+Polychrus acutirostris,Polychrus,Polychrotidae,"Catimbau, 2013",-37.25,-8.59,15.75,6.01,2,113.07,10.04,2,105.97,NA,4.5,2,Oviparous,1,1,0.148,Sit and wait,Tropical,Arboreal,(Vitt and Lacher 1981)
+Delma butleri,Delma,Pygopodidae,Australia,122.24,-28.36,4.72,0.776,9,82.55,7.323,10,77,40,2,2,Oviparous,NA,1,0.146,Active,Temperate,Terrestrial,(Pianka 2010)
+Lialis burtoni,Lialis,Pygopodidae,Australia,123,-28,18.44,3.208,5,203.4,6.771,5,195,82,2,2,Oviparous,NA,1,0.137,Active,Temperate,Terrestrial,(Pianka 2010)
+Pygopus nigriceps,Pygopus,Pygopodidae,Australia,122.77,-27.8,17.45,2.816,10,183.2,6.49,10,171,81,2,2,Oviparous,NA,1,0.176,Sit and wait,Temperate,Terrestrial,(Pianka 2010)
+Brachymeles boulengeri,Brachymeles,Scincidae,Salter Springs,138.63,-34.18,NA,NA,NA,51.6,NA,NA,45,NA,3.68,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Smyth and Smith 1974)
+Cryptoblepharus boutonii,Cryptoblepharus,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,40,NA,1.93,NA,Oviparous,1,1,NA,Active,Tropical,Saxicolous,(Schwaner 1980)
+Cryptoblepharus buchananii,Cryptoblepharus,Scincidae,Australia,120.89,-28.5,1.3,NA,NA,42,NA,NA,36,22,2,12,Oviparous,NA,1,0.219,Active,Temperate,Arboreal,(Pianka and Harp 2011)
+Ctenotus ariadnae,Ctenotus,Scincidae,Australia,123.29,-28.31,5.14,1.26,15,64.33,2.18,15,62,29,3.5,4,Oviparous,NA,1,NA,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus atlas,Ctenotus,Scincidae,Australia,119.1,-28.5,7.833,0.471,3,71,2.45,3,68,47,1.5,2,Oviparous,NA,1,NA,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus brooksi,Ctenotus,Scincidae,Australia,123.75,-28.15,1.89,0.425,59,47.22,2.422,59,44,21,1.86,14,Oviparous,NA,1,0.134,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus calurus,Ctenotus,Scincidae,Australia,123.45,-27.79,1.82,0.296,196,46.95,1.935,197,44,25,1.84,9,Oviparous,NA,1,0.121,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus dux,Ctenotus,Scincidae,Australia,122.9,-27.51,6.08,1.08,92,66.46,2.367,92,63,29,2.75,12,Oviparous,NA,1,0.192,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus grandis,Ctenotus,Scincidae,Australia,123.19,-28.08,21.13,6.465,49,99.45,7.07,49,79,33,4,1,Oviparous,NA,1,0.228,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus hanloni,Ctenotus,Scincidae,Australia,123.29,-28.31,6.364,1.302,36,71.36,2.668,36,68,39,3.2,5,Oviparous,NA,1,0.258,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus helenae,Ctenotus,Scincidae,Australia,123.45,-27.79,15.05,2.68,58,89.5,3.3,60,85,36,3.67,21,Oviparous,NA,1,NA,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus leae,Ctenotus,Scincidae,Australia,123.7,-28.18,4.41,0.666,7,61,2.18,7,58,38,2.8,5,Oviparous,NA,1,0.108,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus leonhardii,Ctenotus,Scincidae,Australia,121.45,-27.62,9.14,1.68,28,76.86,4.1,29,70,37,5.6,5,Oviparous,NA,1,NA,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus nasutus,Ctenotus,Scincidae,Australia,123.7,-28.18,1.362,0.234,78,44.18,1.45,78,42,22,1.81,26,Oviparous,NA,1,0.186,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus pantherinus,Ctenotus,Scincidae,Australia,122.97,-27.87,14.783,3.439,64,89.66,5.1,71,83,32,5.46,26,Oviparous,NA,1,0.185,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus piankai,Ctenotus,Scincidae,Australia,124.23,-28.31,2.21,0.445,130,51.214,2.338,131,48,26,2.5,10,Oviparous,NA,1,0.167,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus quattuordecimlineatus,Ctenotus,Scincidae,Australia,124.23,-28.31,5.764,1.225,304,66.286,2.633,313,62,30,3.58,12,Oviparous,NA,1,0.203,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus schomburgkii,Ctenotus,Scincidae,Australia,122.99,-28.05,2.091,0.397,54,48.091,3.169,55,43,27,2.3,10,Oviparous,NA,1,NA,Active,Temperate,Terrestrial,(Pianka 1969)
+Ctenotus taeniolatus,Ctenotus,Scincidae,New South Wales,146.92,-31.25,NA,NA,NA,66.4,NA,NA,52.3,33,3.7,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Taylor 1985)
+Cyclodomorphus melanops,Cyclodomorphus,Scincidae,Australia,124.71,-28.35,14,NA,1,109,NA,1,109,53.5,3,1,Viviparous,NA,1,0.186,Active,Temperate,Terrestrial,(Pianka 2011a)
+Egernia inornata,Egernia,Scincidae,Australia,123.59,-28.3,11.53,2.74,59,77.43,4.77,61,69,36,2.06,35,Viviparous,NA,1,0.12316,Active,Temperate,Terrestrial,(Pianka and Giles 1982)
+Egernia striata,Egernia,Scincidae,Australia,123.45,-27.79,22.488,6.073,115,96.49,8.034,126,80,43,2.63,43,Viviparous,NA,1,0.2375,Active,Temperate,Terrestrial,(Pianka and Giles 1982)
+Egernia whitii,Egernia,Scincidae,"Table Cape, Tasmania",145.71,-40.96,NA,NA,NA,80.7,NA,NA,78,35,3.5,NA,Viviparous,NA,NA,NA,Active,Temperate,Terrestrial,(Hickman 1960)
+Emoia adspersa,Emoia,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,70,NA,1.9,NA,Oviparous,3,2,NA,Active,Tropical,Terrestrial,"(Dunham 1981, 1982)"
+Emoia atrocostata,Emoia,Scincidae,"Negros, Philippines",122.91,9.82,NA,NA,NA,89.9,NA,NA,80,35,2,NA,Oviparous,NA,NA,NA,Active,Tropical,Terrestrial,(Alcala and Brown 1967)
+Emoia cyanura,Emoia,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,40,22,1.96,NA,Oviparous,NA,NA,0.17,Active,Tropical,Terrestrial,(Schwaner 1980)
+Emoia lawesi,Emoia,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,85,32,1.8,NA,Oviparous,NA,NA,0.121,Active,Tropical,Terrestrial,(Schwaner 1980)
+Emoia nigra,Emoia,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,86,39.1,2.32,NA,Oviparous,NA,NA,0.115,Active,Tropical,Terrestrial,(Schwaner 1980)
+Emoia samoensis,Emoia,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,84,31,5.3,NA,Oviparous,NA,NA,0.127,Active,Tropical,Arboreal,(Schwaner 1980)
+Eremiascincus richardsoni,Eremiascincus,Scincidae,Australia,123.92,-28.15,16.4,0.6,2,97.5,5.5,2,92,51,5,5,Oviparous,NA,1,0.114,Active,Temperate,Terrestrial,(Pianka 2011a)
+Lampropholis delicata,Lampropholis,Scincidae,Hawaii,-155.58,19.9,NA,NA,NA,NA,NA,NA,NA,NA,4.7,NA,Oviparous,NA,1,NA,Sit and wait,Tropical,Terrestrial,(Baker 1980)
+Lerista bipes,Lerista,Scincidae,Australia,123.92,-28.31,0.96,0.264,35,55,4.283,35,48,23,2,3,Oviparous,NA,1,0.147,Active,Temperate,Fossorial,(Pianka 1986)
+Lerista bouganvillei,Lerista,Scincidae,Salter Springs,138.63,-34.18,NA,NA,NA,59.4,NA,NA,52.5,NA,2.83,NA,Oviparous,1,1,NA,Active,Temperate,Fossorial,(Smyth and Smith 1974)
+Lipinia noctua,Lipinia,Scincidae,American Samoa,-170.7,-14.31,NA,NA,NA,NA,NA,NA,39,15.5,1.75,NA,Viviparous,NA,1,NA,Active,Tropical,Arboreal,(Schwaner 1980)
+Mabuya agilis,Mabuya,Scincidae,Barra de Marica,-42.77,-22.95,NA,NA,NA,66.8,NA,NA,NA,NA,3.5,18,Viviparous,1,1,NA,Active,Tropical,Terrestrial,"(Rocha and Vrcibradic 1996, 1999)"
+Mabuya agmosticha,Mabuya,Scincidae,"Catimbau, 2013",-37.25,-8.59,4.833,0.72,3,62.903,4.03,3,58.5,33.28,4.333,3,Viviparous,1,1,NA,Active,Tropical,Bromelicolous,Present work
+Mabuya buettneri,Mabuya,Scincidae,"Lamto, Ivory Coast",-5.02,6.22,NA,NA,NA,NA,NA,NA,84,NA,8.4,NA,Oviparous,1.5,2,NA,Active,Tropical,Arboreal,(Barbault 1976)
+Mabuya caissara,Mabuya,Scincidae,Bertioga,-46.14,-23.86,NA,NA,NA,NA,NA,NA,NA,NA,4.8,12,Viviparous,1,1,NA,Active,Tropical,Arboreal,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya caissara,Mabuya,Scincidae,Caraguatatuba,-45.41,-23.62,NA,NA,NA,NA,NA,NA,NA,NA,5.6,14,Viviparous,1,1,NA,Active,Tropical,Arboreal,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya caissara,Mabuya,Scincidae,Sao Sebastiao,-45.41,-23.76,NA,NA,NA,NA,NA,NA,NA,NA,4,9,Viviparous,1,1,NA,Active,Tropical,Arboreal,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya caissara,Mabuya,Scincidae,Ubatuba,-45.09,-23.43,NA,NA,NA,71.58,NA,NA,NA,NA,5,17,Viviparous,1,1,NA,Active,Tropical,Arboreal,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya dorsivittata,Mabuya,Scincidae,Itatiaia,-44.56,-22.5,NA,NA,NA,54.6,NA,NA,NA,NA,3.2,5,Viviparous,NA,NA,NA,Active,Tropical,Saxicolous,(Vrcibradic et al. 2004)
+Mabuya frenata,Mabuya,Scincidae,Brasilia,-47.93,-15.78,NA,NA,NA,60.22,NA,NA,NA,28,3.5,15,Viviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt 1991)
+Mabuya frenata,Mabuya,Scincidae,Minacu,-48.3,-13.83,NA,NA,NA,66.42,NA,NA,NA,NA,3.8,31,Viviparous,NA,2,NA,Active,Tropical,Terrestrial,(Pinto 1999b)
+Mabuya frenata,Mabuya,Scincidae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,65.4,2.5,12,NA,NA,4,12,Viviparous,1,1,NA,Active,Tropical,Arboreal,(Pinto 1999b)
+Mabuya frenata,Mabuya,Scincidae,Valinhos,-47,-22.97,NA,NA,NA,71.95,NA,NA,NA,NA,4.9,113,Viviparous,1,1,NA,Active,Tropical,Saxicolous,(Vrcibradic and Rocha 1998b)
+Mabuya frenata,Mabuya,Scincidae,"Sao Domingos, 2003-2004",-46.33,-13.39,5.375,0.41,4,66.75,0.96,4,66,33,3.54,13,Viviparous,1,1,NA,Active,Tropical,Terrestrial,(Vrcibradic and Rocha 1998a)
+Mabuya guaporicola,Mabuya,Scincidae,Cerrado,-50.33,-11.34,NA,NA,NA,59,NA,NA,43,37,4.25,4,Viviparous,1,1,NA,Active,Tropical,Psammophilus,(Mesquita et al. 2000)
+Mabuya guaporicola,Mabuya,Scincidae,"Ilha do Bananal, 1999",-50.33,-11.34,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya heathi,Mabuya,Scincidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,67.05,NA,NA,NA,NA,5,131,Viviparous,1,1,0.326,Active,Tropical,Terrestrial,(Vitt and Blackburn 1983)
+Mabuya heathi,Mabuya,Scincidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,70.3,NA,NA,45,32.4,5,NA,Viviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt and Blackburn 1983)
+Mabuya heathi,Mabuya,Scincidae,"Catimbau, 2013",-37.25,-8.59,4.1,1.2,5,64.25,8.59,5,51.84,27.08,5.25,4,Viviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt and Blackburn 1983)
+Mabuya heathi,Mabuya,Scincidae,"Jalapao, 2002-2004",-47.07,-10.37,5.233,1.35,10,64.22,6.27,10,54,46,3,10,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya heathi,Mabuya,Scincidae,"Mamanguape, 2009-2010",-35.12,-6.83,4.867,2.11,4,60.67,8.43,4,50,42,3,3,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya heathi,Mabuya,Scincidae,"Monte Alegre de Sergipe, 2010-2011",-37.56,-10.03,NA,NA,NA,58.177,9.4,4,44.66,43.36,2.75,4,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya heathi,Mabuya,Scincidae,"Raso da Catarina, 2012",-38.67,-9.67,6.23,1.05,3,66.847,3.38,3,64.03,36.32,3.667,3,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya mabouya,Mabuya,Scincidae,Dominica,-61.37,15.41,NA,NA,NA,NA,NA,NA,65,29,3.3,NA,Viviparous,NA,NA,NA,Active,Tropical,Terrestrial,(Somma and Brooks 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,Barra de Marica,-42.77,-22.95,NA,NA,NA,66.8,NA,NA,NA,NA,2.66,38,Viviparous,NA,2,NA,Active,Tropical,Bromelicolous,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,Alcatrazes,-45.69583,-24.09583,NA,NA,NA,NA,NA,NA,NA,NA,2.33,3,Viviparous,NA,NA,NA,Active,Tropical,Bromelicolous,(Rocha and Vrcibradic 1999)
+Mabuya macrorhyncha,Mabuya,Scincidae,Buzios,-41.88,-22.75,NA,NA,NA,NA,NA,NA,NA,NA,3.3,35,Viviparous,NA,NA,NA,Active,Tropical,Bromelicolous,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,Enseada,-46.23,-23.98,NA,NA,NA,NA,NA,NA,NA,NA,2.4,11,Viviparous,NA,NA,NA,Active,Tropical,Bromelicolous,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,Peruibe,-47.00417,-24.32083,NA,NA,NA,NA,NA,NA,NA,NA,3.2,12,Viviparous,NA,NA,NA,Active,Tropical,Bromelicolous,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,Queimada Grande,47.02083,-24.32083,NA,NA,NA,NA,NA,NA,NA,NA,2.2,51,Viviparous,NA,NA,NA,Active,Tropical,Bromelicolous,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,Vitoria,-40.3,-20.32,NA,NA,NA,NA,NA,NA,NA,NA,3.4,5,Viviparous,NA,NA,NA,Active,Tropical,Bromelicolous,(Vanzolini and Rebouìas-Spieker 1976)
+Mabuya macrorhyncha,Mabuya,Scincidae,"Raso da Catarina, 2012",-38.67,-9.67,3.64,1,5,58.708,4.97,5,52.09,40.14,2,5,Viviparous,1,1,NA,Active,Tropical,Bromelicolous,Present work
+Mabuya macrorhyncha,Mabuya,Scincidae,"Rio Tinto, 2009-2010",-35.08,-6.8,5.5,4.1,3,75.833,4.2,3,71,60,4.667,3,Viviparous,1,1,NA,Active,Tropical,Bromelicolous,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,Brasilia,-47.93,-15.78,NA,NA,NA,82.66,NA,NA,NA,33.4,5.3,9,Viviparous,1,1,NA,Active,Tropical,Terrestrial,(Pinto 1999b)
+Mabuya nigropunctata,Mabuya,Scincidae,Minacu,-48.3,-13.83,NA,NA,NA,88.71,NA,NA,NA,NA,4.3,97,Viviparous,1,1,NA,Active,Tropical,Terrestrial,(Pinto 1999b)
+Mabuya nigropunctata,Mabuya,Scincidae,"Acre, 1996",-72.78,-8.26,26.225,9.06913263,4,105.25,15.96610994,4,83,71,6.333,3,Viviparous,1,1,NA,Active,Tropical,Arboreal,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,23.188,2.34,9,99.94,5.19,9,90,50,5.44,9,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,"Cemex, Para, 95",-54.83,-3.15,18.961,5.75,23,92.043,12.17,23,57,57,3.957,23,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,PEGM 1998,-64.56,-10.32,17.78,5.92,5,89.8,8.9,5,80,58,4.5,4,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,"Rio Ituxi, 1997",-65.72,-8.33,18.875,4.61,4,95.5,8.23,4,85,69,4.667,3,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,"Roraima 1991, Catrimani",-62.29,1.74,15.3,7.73,11,85.91,13.97,11,68,68,4.222,9,Viviparous,2,2,NA,Active,Tropical,Arboreal,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,Roraima 1993,-62.43,2,15.85,7.17,10,89.33,13.44,10,69,46,4.857,7,Viviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,"Jalapao, 2002-2004",-47.07,-10.37,13.45,7.03,4,82,19.68,4,53,53,4,4,Viviparous,1,1,NA,Active,Tropical,Arboreal,Present work
+Mabuya nigropunctata,Mabuya,Scincidae,"Monte Alegre, 2002",-54.08,-2,12.2,6.78,2,83.5,23.33,2,67,67,3.33,3,Viviparous,1,1,NA,Active,Tropical,Arboreal,Present work
+Mabuya unimarginata,Mabuya,Scincidae,"Nicaragua, 1991, Momotombo, Chococente - dry forest",-86.1375,11.47917,6.317,5.97,4,59.67,16.39,4,41,28,6.33,3,Viviparous,1,1,NA,Active,Tropical,Arboreal,Present work
+Menetia greyii,Menetia,Scincidae,Salter Springs,138.63,-34.18,NA,NA,NA,34.6,NA,NA,28.5,17,2,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Smyth and Smith 1974)
+Menetia greyii,Menetia,Scincidae,Australia,123.09,-27.89,0.385,0.114,125,31.38,1.466,125,29,NA,1.54,41,Oviparous,NA,1,0.159,Active,Temperate,Terrestrial,(Pianka 2011b)
+Oligosoma cherrieri,Oligosoma,Scincidae,Costa Rica,-83.75,9.75,NA,NA,NA,53.8,NA,NA,NA,NA,2,NA,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Greene 1969)
+Oligosoma zelandicum,Oligosoma,Scincidae,"Victoria university, New Zealand",174.77,-41.29,NA,NA,NA,NA,NA,NA,54,NA,5.1,NA,Viviparous,1,1,NA,Active,Temperate,Terrestrial,(Barwick 1959)
+Panaspis nimbaensis,Panaspis,Scincidae,"Lamto, Ivory Coast",-5.02,6.22,NA,NA,NA,NA,NA,NA,45,NA,2.5,NA,Oviparous,5,2,NA,Active,Tropical,Terrestrial,(Barbault 1976)
+Plestiodon copei,Plestiodon,Scincidae,"Parque nacional de zoquiapan, Mexico",-98.7,19.69,NA,NA,NA,67.8,NA,NA,NA,NA,3.53,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Guillette 1983)
+Plestiodon egregius,Plestiodon,Scincidae,Levy county,-82.82,29.32,NA,NA,NA,NA,NA,NA,40,20.6,4.8,NA,Oviparous,1,1,NA,Active,Temperate,Fossorial,(Mount 1983)
+Plestiodon fasciatus,Plestiodon,Scincidae,University of Kansas Natural History Reservation,-95.24,38.96,NA,NA,NA,72.5,NA,NA,65,NA,9.16,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Vitt and Cooper 1986)
+Plestiodon fasciatus,Plestiodon,Scincidae,"Aiken, South Carolina",-81.72,33.56,NA,NA,NA,63.3,NA,NA,52,24,5.9,NA,Oviparous,1,1,0.36,Active,Temperate,Terrestrial,(Fitch 1954)
+Plestiodon laticeps,Plestiodon,Scincidae,"Aiken, South Carolina",-81.72,33.56,NA,NA,NA,103.8,NA,NA,85,31.4,13.7,NA,Oviparous,1,1,0.341,Active,Temperate,Terrestrial,(Vitt and Cooper 1985)
+Plestiodon latiscutatus,Plestiodon,Scincidae,Miyake-jima,139.53,34.08,NA,NA,NA,78.9,NA,NA,72,NA,7.6,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Hasegawa 1984)
+Plestiodon obsoletus,Plestiodon,Scincidae,University of Kansas Natural History Reservation,-95.24,38.96,NA,NA,NA,NA,NA,NA,107,NA,11.4,NA,Oviparous,1,1,NA,Active,Temperate,Fossorial,(Fitch 1955)
+Plestiodon septentrionalis,Plestiodon,Scincidae,Ninnesota,-94.69,46.73,NA,NA,NA,65,NA,NA,NA,25.5,8.79,NA,Oviparous,1,1,NA,Active,Temperate,Fossorial,(Breckenridge 1943)
+Plestiodon skiltonianus,Plestiodon,Scincidae,San Bernardino,-117.29,34.11,NA,NA,NA,64,NA,NA,58,NA,4.4,NA,Oviparous,1,1,NA,Active,Temperate,Fossorial,(Tinkle et al. 1970)
+Scincella cherriei,Scincella,Scincidae,Costa Rica,-83.75,9.75,NA,NA,NA,53.8,NA,NA,44,NA,2,NA,Oviparous,2,2,NA,Active,Tropical,Terrestrial,(Greene 1969)
+Scincella cherriei,Scincella,Scincidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,3.25,0.21,2,55.25,0.7,2,50,26,3,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Scincella lateralis,Scincella,Scincidae,"University of Florida, Gainesville",-82.35,29.65,NA,NA,NA,41.5,NA,NA,35,19,2.5,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Fitch and Greene 1965)
+Scincella lateralis,Scincella,Scincidae,"University of Florida, Gainesville",-82.35,29.65,NA,NA,NA,41.5,NA,NA,NA,NA,2.5,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Brooks 1967)
+Scincella lateralis,Scincella,Scincidae,"Lafayette county, Arkansas",-93.62,33.25,NA,NA,NA,47,NA,NA,38,NA,3.8,NA,Oviparous,4,2,NA,Active,Temperate,Terrestrial,(Brooks 1967)
+Sphenomorphus tanneri,Sphenomorphus,Scincidae,"Bougainville, Matsiogu",155.19,-6.05,NA,NA,NA,45.1,NA,NA,41,NA,2,NA,Oviparous,NA,NA,NA,Active,Tropical,Fossorial,(Greer and Parker 1967)
+Trachylepis maculilabris,Trachylepis,Scincidae,"Lamto, Ivory Coast",-5.02,6.22,NA,NA,NA,NA,NA,NA,58,NA,5.5,NA,Oviparous,5.5,2,NA,Active,Tropical,Terrestrial,(Barbault 1976)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa, 1969-1970",21.25,-27.03,18.6,4.02,12,93.4,7.39,12,83,32,6.33,12,Oviparous,NA,1,0.1598,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa-A, 1969-1970",20.7,-27.34,17.87,0.78,3,87.3,3.21,3,83,32,6,3,Oviparous,1,1,0.197,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa-B, 1969-1970",20.45,-27,17.8,1.77,2,94,4.24,2,83,32,6.5,2,Oviparous,1,1,0.1632,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa-G, 1969-1970",22.26,-28.21,16.1,1.52,2,94,1.41,2,83,32,5.5,2,Oviparous,1,1,0.1485,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa-K, 1969-1970",20.6,-25.78,24.5,1.53,3,104,1.53,3,83,32,8.33,3,Oviparous,1,1,0.1343,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa-L, 1969-1970",20.75,-26.35,12.15,NA,1,83,NA,1,83,32,5,1,Oviparous,1,1,0.1235,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis occidentalis,Trachylepis,Scincidae,"Africa-X, 1969-1970",21.4,-27.34,16.35,NA,1,89,NA,1,83,32,4,1,Oviparous,1,1,0.1774,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis quinquetaeniata,Trachylepis,Scincidae,"Livingstone, Zambia",25.86,-17.86,NA,NA,NA,96.6,NA,NA,87,NA,4.8,NA,Oviparous,NA,2,NA,Active,Tropical,Saxicolous,(Simbotwe 1980)
+Trachylepis spilogaster,Trachylepis,Scincidae,"Africa, 1969-1970",21.65,-26.49,10,2.57,39,72.4,5.2,39,60,26,4.21,39,Viviparous,NA,1,0.2084,Active,Temperate,Arboreal,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Rukwa Valley, Southwest Tanganyika",32,-8,NA,NA,NA,70,NA,NA,62,NA,7,NA,Viviparous,NA,NA,NA,Active,Tropical,Terrestrial,(Robertson et al. 1965)
+Trachylepis striata,Trachylepis,Scincidae,"Livingstone, Zambia",25.86,-17.86,NA,NA,NA,78.1,NA,NA,61,NA,4.2,NA,Viviparous,2,2,NA,Active,Tropical,Terrestrial,(Simbotwe 1980)
+Trachylepis striata,Trachylepis,Scincidae,"Africa, 1969-1970",21.25,-27.03,18.8,4.53,48,88.8,6.98,48,73,30,5.63,48,Viviparous,NA,1,0.2387,Active,Temperate,Arboreal,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Africa-B, 1969-1970",20.45,-27,18.4,3.66,10,86.4,6.64,10,73,30,5.9,10,Oviparous,1,1,0.2628,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Africa-G, 1969-1970",22.26,-28.21,19.9,NA,NA,88,NA,NA,73,30,7,2,Oviparous,1,1,0.278,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Africa-K, 1969-1970",20.6,-25.78,18.87,3.49,11,92.2,5.51,11,73,30,5.45,11,Oviparous,1,1,0.2164,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Africa-L, 1969-1970",20.75,-26.35,18.31,4.7,17,86.9,7.14,17,73,30,5.12,17,Oviparous,1,1,0.2248,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Africa-M, 1969-1970",19.84,-26.33,22.56,5.36,5,94,7.71,5,73,30,7,5,Oviparous,1,1,0.2692,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis striata,Trachylepis,Scincidae,"Africa-X, 1969-1970",21.4,-27.34,14.1,1.73,2,83,0,2,73,30,4,2,Oviparous,1,1,0.203,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Trachylepis variegata,Trachylepis,Scincidae,"Africa, 1969-1970",20.63,-26.9,1.7,0.456,6,42.2,2.93,6,39,19,1.83,6,Viviparous,NA,1,0.1102,Active,Temperate,Terrestrial,(Pianka et al. 1979)
+Typhlosaurus gariepensis,Typhlosaurus,Scincidae,"Africa, 1969-1970",20.62,-26.69,1.157,0.396,14,119.9,4.89,15,118,72.5,2,9,Viviparous,NA,1,0.19,Active,Temperate,Fossorial,(Huey et al. 1974)
+Typhlosaurus lineatus,Typhlosaurus,Scincidae,"Africa, 1969-1970",21.25,-27.03,3.1,0.64,23,141.7,10.96,23,126,20,1.57,23,Viviparous,NA,1,0.1909,Active,Temperate,Fossorial,(Huey et al. 1974)
+Shinisaurus crocodilurus,Shinisaurus,Shinisauridae,"Quang Ninh, Vietnam",107.29,21.01,NA,NA,NA,154.4,NA,NA,147,34.8,6.3,3,Viviparous,2,2,NA,Active,Tropical,Aquatic,(Ziegler et al. 2008)
+Chatogekko amazonicus,Chatogekko,Sphaerodactylidae,PEGM 1998,-64.56,-10.32,0.263,0.07,7,22.786,0.49,7,22.4,12.5,1,7,Oviparous,1,1,0.096,Sit and wait,Tropical,Terrestrial,Present work
+Chatogekko amazonicus,Chatogekko,Sphaerodactylidae,"Rio Ituxi, 1997",-65.72,-8.33,0.308,0.02,9,23.411,0.57,9,22.7,13.3,1,9,Oviparous,1,1,0.115,Sit and wait,Tropical,Terrestrial,Present work
+Chatogekko amazonicus,Chatogekko,Sphaerodactylidae,"Roraima 1991, Catrimani",-62.29,1.74,0.313,0.03,3,24.5,0.44,3,24.2,20.2,1,3,Oviparous,1,1,0.082,Sit and wait,Tropical,Terrestrial,Present work
+Coleodactylus meridionalis,Coleodactylus,Sphaerodactylidae,"Mamanguape, 2009-2010",-35.12,-6.83,0.15,0,5,30.5,7.56,5,23,12,1,2,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Coleodactylus meridionalis,Coleodactylus,Sphaerodactylidae,"Rio Tinto, 2009-2010",-35.08,-6.8,0.192,0.04,11,21.397,1.49,11,19,18.51,1,6,Oviparous,1,1,NA,Sit and wait,Tropical,Terrestrial,Present work
+Coleodactylus septentrionalis,Coleodactylus,Sphaerodactylidae,Roraima 1993,-62.43,2,0.58,0.08,16,30.064,1.01,16,28.2,13.1,1,14,Oviparous,1,1,0.106,Sit and wait,Tropical,Terrestrial,Present work
+Gonatodes hasemani,Gonatodes,Sphaerodactylidae,Guajara-Mirim,-65.33,-10.79,NA,NA,NA,40.1,NA,NA,NA,NA,1,11,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,Present work
+Gonatodes hasemani,Gonatodes,Sphaerodactylidae,"Acre, 1996",-72.78,-8.26,2.1,0.3,3,43.33,2.081665999,3,41,23,1,2,Oviparous,1,1,0.15,Sit and wait,Tropical,Arboreal,(Vitt et al. 2000)
+Gonatodes hasemani,Gonatodes,Sphaerodactylidae,PEGM 1998,-64.56,-10.32,1.661,0.31,18,39.817,2.38,18,35,20.4,1,18,Oviparous,1,1,0.09,Sit and wait,Tropical,Semi-arboreal,Present work
+Gonatodes hasemani,Gonatodes,Sphaerodactylidae,"Rio Ituxi, 1997",-65.72,-8.33,1.957,0.54,9,42,2.94,9,38,22,1,4,Oviparous,1,1,0.063,Sit and wait,Tropical,Semi-arboreal,Present work
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,Sao Luis,-44.31,-2.53,NA,NA,NA,NA,NA,NA,NA,NA,1,14,Oviparous,2,2,NA,Sit and wait,Tropical,Arboreal,(Miranda and Andrade 2003)
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,Guajara-Mirim,-65.33,-10.79,NA,NA,NA,36.4,NA,NA,NA,NA,1,7,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Vitt et al. 2000)
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,"Acre, 1996",-72.78,-8.26,1.05,0.178670302,14,36.5,1.911503637,14,33,18.7,1,11,Oviparous,1,1,0.115,Sit and wait,Tropical,Arboreal,Present work
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,1.224,0.13,5,38.086,0.54,5,35,28,1,5,Oviparous,1,1,0.081,Sit and wait,Tropical,Arboreal,(Vitt et al. 2000)
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,"Cemex, Para, 95",-54.83,-3.15,0.963,0.19,19,36.421,1.74,19,32,18,1,23,Oviparous,1,1,0.086,Sit and wait,Tropical,Arboreal,Present work
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,PEGM 1998,-64.56,-10.32,0.967,0.2,12,35.658,1.65,12,33.4,17.2,1.68,11,Oviparous,1,1,0.07,Sit and wait,Tropical,Arboreal,Present work
+Gonatodes humeralis,Gonatodes,Sphaerodactylidae,Roraima 1993,-62.43,2,1,0.12,8,35.2,1.07,8,33,31,1,7,Oviparous,1,1,0.105,Sit and wait,Tropical,Arboreal,Present work
+Lepidoblepharis xanthostigma,Lepidoblepharis,Sphaerodactylidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,0.811,0.15,3,34.22,2,3,31,19,1,2,Oviparous,1,1,0.046,Sit and wait,Tropical,Terrestrial,Present work
+Pseudogonatodes guianensis,Pseudogonatodes,Sphaerodactylidae,"Acre, 1996",-72.78,-8.26,0.338,0.109935046,8,26.575,1.227948347,8,24.6,14.4,1,8,Oviparous,1,1,0.117,Sit and wait,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,Brasilia,-47.93,-15.78,NA,NA,NA,133.69,NA,NA,106,43,6.4,83,Oviparous,3,2,0.141,Active,Tropical,Terrestrial,(Vitt and Colli 1994)
+Ameiva ameiva,Ameiva,Teiidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,135.1,NA,NA,NA,NA,5.65,NA,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vitt 1982a)
+Ameiva ameiva,Ameiva,Teiidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,128.8,NA,NA,102,NA,5.7,106,Oviparous,NA,2,0.159,Active,Tropical,Terrestrial,(Vitt and Colli 1994)
+Ameiva ameiva,Ameiva,Teiidae,"Altamira, 1987",-52.21,-3.2,55.9,4.8,21,125.3,3,21,NA,NA,4.4,12,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vitt and Colli 1994)
+Ameiva ameiva,Ameiva,Teiidae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,122.8,3.8,13,NA,NA,4.3,10,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vitt and Colli 1994)
+Ameiva ameiva,Ameiva,Teiidae,Boa Vista,-60.67,2.82,NA,NA,NA,126.5,NA,NA,NA,NA,3.9,28,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,"(Colli 1989, Colli 1991)"
+Ameiva ameiva,Ameiva,Teiidae,Jaru,-62.47,-10.43,NA,NA,NA,114,NA,NA,NA,NA,3.2,110,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,93.92,18.38,6,148.82,12.39,6,123,51,5,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Cemex, Para, 95",-54.83,-3.15,60.16,25.94,5,127,16.73,5,108,48,3.8,5,Oviparous,1,1,0.096,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,PEGM 1998,-64.56,-10.32,66.021,20.16,14,130.357,14.19,14,92,47,4.385,13,Oviparous,1,1,0.097,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Rio Ituxi, 1997",-65.72,-8.33,75.308,16.12,14,140.167,11.49,14,116,50,4.33,12,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Roraima 1991, Boa Vista",-60.67,2.83,52.686,17.59,28,124.18,13.19,28,100,73,3.667,24,Oviparous,2,2,0.116,Active,Tropical,Terrestrial,(Vitt 1982a)
+Ameiva ameiva,Ameiva,Teiidae,Roraima 1993,-62.43,2,86.4,17.75,5,147.6,11.19,5,129,74,5.2,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt 1982a)
+Ameiva ameiva,Ameiva,Teiidae,Alter do Chao,-54.95,-2.52,64.5,7.09,6,135,7.7,6,134,45,8,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Boa Vista, 1992",-60.67,2.82,51.3,15.5,5,130.2,11.28,5,120,47,4.2,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Cachimbo, 2001",-54.9,-8.95,23,8.05,8,95.8,10.81,8,81,41,2.6,5,Oviparous,1,1,0.123,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Carajas, 1992",-50,-6.12,62.2,22.07,6,130,14.14,6,117,46,4.8,5,Oviparous,1,1,0.088,Active,Tropical,Terrestrial,(Vitt and Colli 1994)
+Ameiva ameiva,Ameiva,Teiidae,"Chapada Diamantina, 2013",-41.58,-12.51,50.25,4.33,3,127.66,3.85,3,124.32,43.4,4.5,4,Oviparous,1,1,0.108,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Guajara-Mirim, 2001",-65.33,-10.79,44.86,18.06,55,116.36,18.01,55,86,40,2.91,21,Oviparous,1,1,0.13,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Humaita, 1991 - 2003",-63.03,-7.51,49,8.02,18,119,6.1,18,110,46,4.2,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Jalapao, 2002-2004",-47.07,-10.37,45.425,11.15,5,114,9.69,5,102,51,3.75,4,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Mamanguape, 2009-2010",-35.12,-6.83,22.95,24.11,2,124,4.24,2,121,43,4.5,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Minacu, 1991",-48.3,-13.83,59.833,20.88,6,122.33,17.15,6,107,59,3.67,3,Oviparous,1,1,0.126,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Monte Alegre, 2002",-54.08,-2,49.5,3.28,3,121,5.67,3,116,45,3.33,3,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Paracatu, 2000",-46.88,-17.22,51.842,22.03,17,109,15.97,17,109,66,5.93,13,Oviparous,2,2,0.185,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Pimenta Bueno, 2001",-61.19,-11.67,30.667,10,24,105.43,10.85,24,90,38,3.19,21,Oviparous,2,2,0.132,Active,Tropical,Terrestrial,Present work
+Ameiva ameiva,Ameiva,Teiidae,"Vilhena, 1998-1999",-60.13,-12.74,21.75,2.48,2,98,5.66,2,94,39,2.5,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Ameiva festiva,Ameiva,Teiidae,"Pandora, Costa Rica",-82.97,9.74,NA,NA,NA,87.3,NA,NA,77,NA,2.2,NA,Oviparous,3,2,NA,Active,Tropical,Terrestrial,Present work
+Ameiva festiva,Ameiva,Teiidae,"Nicaragua, 1991, Rio San Juan - tropical forest",-85.6625,11.04583,35.397,5.88,16,106,6.37,16,85,46,3.455,11,Oviparous,2,2,NA,Active,Tropical,Terrestrial,Present work
+Ameiva fuscata,Ameiva,Teiidae,Dominica,-61.37,15.41,NA,NA,NA,111,NA,NA,105,NA,4,NA,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Somma and Brooks 1976)
+Ameiva parecis,Ameiva,Teiidae,"Vilhena, 1998-1999",-60.13,-12.74,11.827,1.99,17,79.27,5.03,17,72,36,1.64,11,Oviparous,1,1,0.107,Active,Tropical,Terrestrial,Present work
+Ameiva quadrilineata,Ameiva,Teiidae,"Pandora, Costa Rica",-82.97,9.74,NA,NA,NA,74,NA,NA,48,NA,2.07,NA,Oviparous,3,2,NA,Active,Tropical,Terrestrial,(Smith 1968)
+Aspidoscelis communis,Aspidoscelis,Teiidae,"Greer, Oklahoma",-99.46,34.93,NA,NA,NA,96.5,NA,NA,NA,NA,6.6,NA,Oviparous,NA,NA,NA,Active,Temperate,Terrestrial,(Walker 1982)
+Aspidoscelis exsanguis,Aspidoscelis,Teiidae,South Central New Mexico,-107.31,32.87,NA,NA,NA,75,NA,NA,60,NA,2.72,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Medica 1967)
+Aspidoscelis exsanguis,Aspidoscelis,Teiidae,USA,-104,30,12.65,NA,NA,74.99,NA,NA,63,NA,2.868,92,Oviparous,NA,1,0.1325,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis exsanguis,Aspidoscelis,Teiidae,USA,-104,30,12.65,NA,NA,74.99,NA,NA,63,NA,2.868,92,Oviparous,NA,1,0.1325,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis hyperythrus,Aspidoscelis,Teiidae,"Kearny Mesa, San Diego",-117.14,32.83,NA,NA,NA,59.7,NA,NA,53,27,2.3,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Bostic 1966)
+Aspidoscelis inornatus,Aspidoscelis,Teiidae,South Central New Mexico,-107.31,32.87,NA,NA,NA,58,NA,NA,48.2,NA,2.15,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Medica 1967)
+Aspidoscelis neomexicana,Aspidoscelis,Teiidae,South Central New Mexico,-107.31,32.87,NA,NA,NA,65,NA,NA,46.7,NA,1.59,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Medica 1967)
+Aspidoscelis sexlineata,Aspidoscelis,Teiidae,University of Kansas Natural History Reservation,-95.24,38.96,NA,NA,NA,72.8,NA,NA,55,32,2.1,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Fitch 1958)
+Aspidoscelis sonorae,Aspidoscelis,Teiidae,"Portal, Arizona",-109.14,31.91,NA,NA,NA,77.9,NA,NA,61,NA,3.7,NA,Oviparous,2,2,0.16,Active,Temperate,Terrestrial,(Routman and Hulse 1984)
+Aspidoscelis tesselatus,Aspidoscelis,Teiidae,"Brewster, Texas",-103.36,29.66,NA,NA,NA,83,NA,NA,NA,NA,3.23,NA,Oviparous,2,2,0.126,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis tesselatus,Cnemidophorus,Teiidae,"Pecos, Texas",-103.49,31.42,NA,NA,NA,83,NA,NA,NA,NA,3.23,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis tesselatus,Aspidoscelis,Teiidae,USA,-104,30,17.95,NA,NA,82.7,NA,NA,66,NA,3.24,55,Oviparous,NA,1,0.1261,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis tesselatus,Aspidoscelis,Teiidae,USA,-104,30,17.95,NA,NA,82.7,NA,NA,66,NA,3.24,55,Oviparous,NA,1,0.1261,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,Southwestern Idaho,-113.8,42.53,NA,NA,NA,81.2,NA,NA,69,NA,2.65,NA,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Tinkle and Ballinger 1972)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,San Gabriel Mountains,-117.65,34.29,NA,NA,NA,98.5,NA,NA,83,37,4.1,NA,Oviparous,2,2,0.15,Active,Temperate,Terrestrial,(Parker 1972)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,South Central New Mexico,-107.31,32.87,NA,NA,NA,72,NA,NA,61,NA,2,NA,Oviparous,2,2,NA,Active,Temperate,Terrestrial,(Goldberg 1976)
+Aspidoscelis tigris,Cnemidophorus,Teiidae,"Guadalupe, California",-120.57,34.97,NA,NA,NA,76.7,NA,NA,NA,NA,2.05,NA,Oviparous,3,2,NA,Active,Temperate,Terrestrial,(Medica 1967)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,USA,-104,30,12.2,NA,NA,71.87,NA,NA,60,NA,1.915,48,Oviparous,NA,1,0.1051,Active,Temperate,Terrestrial,(Burkholder and Walker 1973)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,USA,-104,30,12.2,NA,NA,71.87,NA,NA,60,NA,1.915,48,Oviparous,NA,1,0.1051,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,Arizona,-111.09,34.05,NA,NA,NA,76.7,NA,NA,64.5,39,2.05,NA,Oviparous,3,2,0.109,Active,Temperate,Terrestrial,(Schall 1978)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA, 1962-1964",-116.26,36.95,15.2,4.74,837,85.6,7.6,837,71,40,2.54,174,Oviparous,NA,1,0.105,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-C, 1962-1964",-111.93,33.13,12.9,4.328,195,81.9,10,195,71,40,2.75,28,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-M, 1962-1964",-118.15,35.12,14.24,4.415,225,84.436,8.714,225,71,40,2.2093,43,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-N, 1962-1964",-115.83,42.2,21.4,6.926,39,83.8,8.228,39,71,40,3.037,27,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-P, 1962-1964",-116.25,36.3,15.5,4.89,37,87.7,10.43,37,71,40,2.4286,7,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-S, 1962-1964",-114.8,35.3,14.4,4.38,69,84.94,10.33,69,71,40,2.2632,19,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-T, 1962-1964",-118.3,36.6,19.1,5.25,82,92.4,10.05,82,71,40,2.5455,11,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-V, 1962-1964",-117.25,37.08,20.7,5.45,37,93.5,7.41,37,71,40,2.8182,11,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis tigris,Aspidoscelis,Teiidae,"USA-W, 1962-1964",-113.55,34.7,13.3,2.69,68,83.84,5.77,68,71,40,2.3889,18,Oviparous,1,1,NA,Active,Temperate,Terrestrial,(Pianka 1970)
+Aspidoscelis uniparens,Aspidoscelis,Teiidae,"Portal, Arizona",-109.14,31.91,NA,NA,NA,65.5,NA,NA,58,36,2.77,NA,Oviparous,2,2,0.144,Active,Temperate,Terrestrial,(Hulse 1981)
+Cnemidophorus cryptus,Cnemidophorus,Teiidae,"Altamira, 1987",-52.21,-3.2,7,0.3,21,64.9,0.8,21,NA,NA,1.9,15,Oviparous,NA,NA,NA,Active,Tropical,Terrestrial,(Vitt et al. 1997)
+Cnemidophorus cryptus,Cnemidophorus,Teiidae,Amapa,-50.91,1.51,4.995,0.88,44,58.07,3.71,44,50,31,1.48,21,Oviparous,2,2,0.193,Active,Tropical,Terrestrial,Present work
+Cnemidophorus cryptus,Cnemidophorus,Teiidae,"Monte Alegre, 2002",-54.08,-2,5.208,1.25,33,61.63,6.6,33,42,32,1.09,22,Oviparous,2,2,0.128,Active,Tropical,Terrestrial,Present work
+Cnemidophorus deppii,Cnemidophorus,Teiidae,"Nicaragua, 1991, Momotombo, Chococente - dry forest",-86.1375,11.47917,9.652,1.26,23,70.95,3.63,23,55,48,1.813,16,Oviparous,2,2,0.128,Active,Tropical,Terrestrial,Present work
+Cnemidophorus gramivagus,Cnemidophorus,Teiidae,"Humaita, 1991 - 2003",-63.03,-7.51,8.467,2.14,21,64,5.27,21,56,32,1.67,3,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus jalapensis,Cnemidophorus,Teiidae,"Jalapao, 2002-2004",-47.07,-10.37,3.267,0.37,9,52,1.33,9,51,35,1,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus lemniscatus,Cnemidophorus,Teiidae,Santander,-3.81,43.46,2.52,NA,NA,58.2,NA,NA,51,25,2.17,46,Oviparous,2,2,NA,Active,Tropical,Terrestrial,(Mojica et al. 2003)
+Cnemidophorus lemniscatus,Cnemidophorus,Teiidae,"Roraima 1991, Boa Vista",-60.67,2.83,4.463,1.04,19,55.68,4.83,19,46,29,2,17,Oviparous,2,2,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus lemniscatus,Cnemidophorus,Teiidae,Alter do Chao,-54.95,-2.52,3.844,3.71,16,52,1.17,16,49,35,1.13,8,Oviparous,1,1,0.118,Active,Tropical,Terrestrial,Present work
+Cnemidophorus lemniscatus,Cnemidophorus,Teiidae,"Boa Vista, 1992",-60.67,2.82,4.725,1.19,8,56.88,3.36,8,53,41,1.88,8,Oviparous,1,1,0.154,Active,Tropical,Terrestrial,Present work
+Cnemidophorus martyris,Cnemidophorus,Teiidae,San Pedro Martir Island,-112.3292,28.37917,NA,NA,NA,68,NA,NA,NA,NA,1.29,NA,Oviparous,NA,2,NA,Active,Temperate,Terrestrial,(Walker 1980)
+Cnemidophorus mumbuca,Cnemidophorus,Teiidae,"Dianopolis, 2003",-46.82,-11.63,3.475,0.58,7,53.5,2.31,7,50,34,1,3,Oviparous,1,1,0.157,Active,Tropical,Terrestrial,Present work
+Cnemidophorus mumbuca,Cnemidophorus,Teiidae,"Jalapao, 2002-2004",-47.07,-10.37,3.669,0.3,31,53.65,1.45,31,50,30,1,43,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus nativo,Cnemidophorus,Teiidae,Prado,-39.23,-17.34,NA,NA,NA,56.1,NA,NA,48.8,30,2.2,37,Oviparous,2,2,NA,Active,Tropical,Terrestrial,(Menezes et al. 2004)
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,72.52,NA,NA,NA,NA,2.67,41,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vitt 1991)
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,69.4,NA,NA,55,NA,2.69,NA,Oviparous,3,2,0.207,Active,Tropical,Terrestrial,(Vitt 1983)
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,57.4,0.2,12,NA,NA,2.3,12,Oviparous,1,1,NA,Active,Tropical,Terrestrial,"(Vitt 1986, Vitt 1995)"
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Alto Paraiso,-47.51,-14.3,NA,NA,NA,62,0,1,54,35,2,1,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Barra de Cunhau, 2009-2010",-35.04583,-6.3125,NA,NA,NA,59,5.46,19,52,30,6.583,36,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Barra do Garcas,-52.26,-15.89,NA,NA,NA,58.63,4.55,4,51,29,1.75,4,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Brasilia,-47.93,-15.78,NA,NA,NA,66.12,16.15,5,50,37,2.5,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Cabaceiras, 2009-2010",-36.29,-7.47,NA,NA,NA,63.56,5.19,34,54,31,2.029,34,Oviparous,2,2,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Catimbau, 2013",-37.25,-8.59,8.367,1.33,29,73.635,9.58,29,63.41,32.36,2.857,28,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Chapada Diamantina, 2013",-41.58,-12.51,6.425,0.41,4,62.87,2.93,4,59.69,30.55,2,4,Oviparous,1,1,0.135,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Chapada dos Guimaraes,-55.74,-15.45,NA,NA,NA,64.85,1.83,6,60,45,1.83,6,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Coribe,-44.45,-13.83,NA,NA,NA,65.31,5.41,5,57,40,2,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Correntina,-44.63,-13.34,NA,NA,NA,57.67,5.29,3,52,43,2.33,3,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Cristalina,-47.61,-16.77,7.25,0.35,2,62.8,2.87,4,55,36,3.33,3,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt 1983)
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"ESEC Serido, 2013",-37.4,-6.66,9.107,4.32,16,70.932,21.96,16,60.14,32.52,2.733,15,Oviparous,1,1,0.14,Active,Tropical,Terrestrial,(Vitt 1983)
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Irece,-41.86,-11.3,NA,NA,NA,72.96,1.41,2,60,32,1.5,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Mamanguape, 2009-2010",-35.12,-6.83,5.28,1.3,30,59.03,5,30,44,28,1.9,25,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Minacu, 1991",-48.3,-13.83,NA,NA,NA,58.52,4.36,16,40,31,2.25,16,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Minacu, 1991",-42.34,-11.44,NA,NA,NA,66.38,4.76,6,59,33,1.6,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Parana, 2002-2003",-47.88,-12.62,3.68,0.83,7,51.3,3.37,7,45,33,1.8,5,Oviparous,1,1,0.168,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Petrolina,-40.51,-9.39,NA,NA,NA,72.43,4.1,13,63,41,1.75,4,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,Pirenopolis,-48.96,-15.85,6.41,0.76,10,64.39,2.56,21,57,35.35,2.2,15,Oviparous,1,1,0.145,Active,Tropical,Terrestrial,Present work
+Cnemidophorus ocellifer,Cnemidophorus,Teiidae,"Santa Quiteria, 2011",-40.15,-4.33,9.525,4.33,8,72.82,12.7,8,59,32.2,3.4,5,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Cnemidophorus sp.,Cnemidophorus,Teiidae,"Raso da Catarina, 2012",-38.67,-9.67,9.129,1.73,26,72.16,2.52,26,65.79,31.68,1.667,3,Oviparous,1,1,0.111,Active,Tropical,Terrestrial,Present work
+Crocodilurus amazonicus,Crocodilurus,Teiidae,"Humaita, 1991 - 2003",-63.03,-7.51,250,33.15,12,211.67,7.48,12,205,80,5.67,3,Oviparous,1,1,0.132,Active,Tropical,Aquatic,Present work
+Kentropyx altamazonica,Kentropyx,Teiidae,Departamento Amazonas,-78.11,-5.12,NA,NA,NA,84.18,NA,NA,78,31,5.33,12,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx altamazonica,Kentropyx,Teiidae,PEGM 1998,-64.56,-10.32,28.154,4.69,15,87.308,6.65,15,72,54,7,1,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Kentropyx altamazonica,Kentropyx,Teiidae,"Rio Ituxi, 1997",-65.72,-8.33,19.967,6.5,15,89.267,8.01,15,75,44,5.4,15,Oviparous,2,2,0.184,Active,Tropical,Terrestrial,Present work
+Kentropyx borckiana,Kentropyx,Teiidae,Demerara,-61.26,10.63,NA,NA,NA,84,NA,NA,84,75,3,2,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx calcarata,Kentropyx,Teiidae,Amapa,-55.99,-4.27,NA,NA,NA,93.67,NA,NA,87,37,3.11,9,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx calcarata,Kentropyx,Teiidae,Guajara-Mirim,-65.33,-10.79,NA,NA,NA,93.26,NA,NA,73,36,4.04,27,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx calcarata,Kentropyx,Teiidae,"Cemex, Para, 95",-54.83,-3.15,31.867,7.55,12,98.25,6.58,12,88,68,6.667,12,Oviparous,1,1,0.204,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx calcarata,Kentropyx,Teiidae,PEGM 1998,-64.56,-10.32,30.3,7.82,13,98.692,9.78,13,80,37,6.7,10,Oviparous,1,1,0.157,Active,Tropical,Terrestrial,Present work
+Kentropyx calcarata,Kentropyx,Teiidae,"Humaita, 1991 - 2003",-63.03,-7.51,15.25,0.35,2,83.5,1.73,4,82,44,5,1,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Kentropyx calcarata,Kentropyx,Teiidae,"Mamanguape, 2009-2010",-35.12,-6.83,21.75,1.06,3,91,2.65,3,89,34,4.667,3,Oviparous,1,1,NA,Active,Tropical,Terrestrial,Present work
+Kentropyx calcarata,Kentropyx,Teiidae,"Rio Tinto, 2009-2010",-35.08,-6.8,21.679,10.12,45,82.997,17.48,46,42,33.99,5.208,24,Oviparous,2,2,0.098,Active,Tropical,Terrestrial,Present work
+Kentropyx paulensis,Kentropyx,Teiidae,Itirapina,-47.82,-22.25,10.63,NA,NA,70.22,NA,NA,63.8,NA,4.2,NA,Oviparous,1,1,0.265,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx paulensis,Kentropyx,Teiidae,Alcinopolis,-53.7,-18.32,NA,NA,NA,77,4.285,17,72,67,3.5,6,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Anjos et al. 2002)
+Kentropyx pelviceps,Kentropyx,Teiidae,Cuyabeno,-78.52,-0.29,NA,NA,NA,105,NA,NA,NA,NA,6.5,11,Oviparous,NA,2,NA,Active,Tropical,Terrestrial,(Vitt et al. 1995)
+Kentropyx pelviceps,Kentropyx,Teiidae,Departamento Amazonas,-78.11,-5.12,NA,NA,NA,107.33,NA,NA,101,53,2.55,11,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx pelviceps,Kentropyx,Teiidae,"Acre, 1996",-72.78,-8.26,26.678,8.596187786,9,102.22,10.8371788,9,85,40,6,6,Oviparous,1,1,0.162,Active,Tropical,Terrestrial,(Vitt et al. 1995)
+Kentropyx pelviceps,Kentropyx,Teiidae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,25.825,7.49,20,96.167,13.94,20,44,44,5.286,7,Oviparous,1,1,NA,Active,Tropical,Arboreal,(Werneck et al. 2009)
+Kentropyx pelviceps,Kentropyx,Teiidae,"Rio Ituxi, 1997",-65.72,-8.33,30.714,7.3,7,98.714,7.89,7,82,40,5.2,5,Oviparous,1,1,0.172,Active,Tropical,Terrestrial,Present work
+Kentropyx striata,Kentropyx,Teiidae,Boa Vista,-60.67,2.82,NA,NA,NA,86,NA,NA,NA,NA,5.3,21,Oviparous,NA,2,NA,Active,Tropical,Arboreal,(Werneck et al. 2009)
+Kentropyx striata,Kentropyx,Teiidae,Alto Alegre,-61.49,2.9,NA,NA,NA,85.7,NA,NA,82,49,2.27,11,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Vitt and Carvalho 1992)
+Kentropyx striata,Kentropyx,Teiidae,Boa Vista,-60.67,2.82,15.27,NA,NA,86.43,NA,NA,80,51,2.67,9,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Kentropyx striata,Kentropyx,Teiidae,"Roraima 1991, Boa Vista",-60.67,2.83,14.181,4.54,36,78.135,9.42,52,51,31,5,19,Oviparous,2,2,0.093,Active,Tropical,Terrestrial,Present work
+Kentropyx striata,Kentropyx,Teiidae,"Boa Vista, 1992",-60.67,2.82,17.083,4.47,6,86.5,5.54,6,80,78,5.29,7,Oviparous,2,2,0.207,Active,Tropical,Terrestrial,Present work
+Kentropyx vanzoi,Kentropyx,Teiidae,Vilhena,-60.13,-12.74,NA,NA,NA,46.91,NA,NA,NA,NA,3,2,Oviparous,NA,NA,NA,Active,Tropical,Arboreal,(Vitt and Caldwell 1993)
+Kentropyx vanzoi,Kentropyx,Teiidae,Vilhena,-60.13,-12.74,4.109,NA,NA,53,NA,NA,43,36,1.31,39,Oviparous,1,1,NA,Active,Tropical,Terrestrial,(Werneck et al. 2009)
+Eurolophosaurus nanuzae,Eurolophosaurus,Tropiduridae,Serra do Cipo,-43.62,-19.35,NA,NA,NA,52.2,NA,NA,44.7,32,2.06,51,Oviparous,2,2,NA,Sit and wait,Tropical,Saxicolous,(Galdino et al. 2003)
+Microlophus albemarlensis,Microlophus,Tropiduridae,Charles Darwin research Station,-90.2875,-0.7375,NA,NA,NA,63,NA,NA,54,NA,2.27,NA,Oviparous,NA,NA,NA,Sit and wait,Tropical,Terrestrial,(Stebbins et al. 1967)
+Plica plica,Plica,Tropiduridae,"Cemex, Para, 95",-54.83,-3.15,72.7,21.79,4,134,11.94,4,122,50,2.667,3,Oviparous,1,1,0.096,Sit and wait,Tropical,Arboreal,Present work
+Plica plica,Plica,Tropiduridae,PEGM 1998,-64.56,-10.32,91.057,6.39,7,147.714,14.23,7,139,51,4.167,6,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Plica umbra,Plica,Tropiduridae,"Acre, 1996",-72.78,-8.26,19.45,3.323401872,2,88,7.071067812,2,83,60,2,2,Oviparous,1,1,0.133,Sit and wait,Tropical,Arboreal,Present work
+Plica umbra,Plica,Tropiduridae,"Brazil, Amazonas, 1998-1999",-59.9,-3.52,15.957,3.05,4,84.571,7.33,4,75,41,2,6,Oviparous,2,2,0.136,Sit and wait,Tropical,Arboreal,Present work
+Plica umbra,Plica,Tropiduridae,"Cemex, Para, 95",-54.83,-3.15,18.38,1.98,5,88.6,3.56,5,84,46,1.833,6,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Plica umbra,Plica,Tropiduridae,"Rio Ituxi, 1997",-65.72,-8.33,19.45,1.91,4,88.75,0.95,4,88,88,2,4,Oviparous,1,1,0.145,Sit and wait,Tropical,Arboreal,Present work
+Stenocercus roseiventris,Stenocercus,Tropiduridae,"Acre, 1996",-72.78,-8.26,25.2,1.9,3,91,4.358898944,3,86,70,2,3,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Tropidurus cocorobensis,Tropidurus,Tropiduridae,"Catimbau, 2013",-37.25,-8.59,7.674,1.41,38,65.574,4.11,38,56.46,29.18,3.289,38,Oviparous,2,2,0.203,Sit and wait,Tropical,Terrestrial,Present work
+Tropidurus cocorobensis,Tropidurus,Tropiduridae,"Raso da Catarina, 2012",-38.67,-9.67,6.412,1.24,26,59.667,3.47,26,54,24.1,2.81,21,Oviparous,2,2,0.155,Sit and wait,Tropical,Terrestrial,Present work
+Tropidurus etheridgei,Tropidurus,Tropiduridae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,67.5,0.5,45,NA,NA,4.9,45,Oviparous,NA,2,NA,Sit and wait,Tropical,Psammophilus,(Vitt 1991)
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,90.85,NA,NA,NA,NA,6,95,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,"(Vitt and Goldberg 1983, Vitt 1995)"
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,88.5,NA,NA,70,27.8,6,NA,Oviparous,3,2,0.258,Sit and wait,Tropical,Terrestrial,"(Vitt and Goldberg 1983, Vitt 1995)"
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Roraima 1991, Boa Vista",-60.67,2.83,14.535,6.02,43,74.814,4.24,43,60,30,3.914,35,Oviparous,1,1,0.157,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,Roraima 1993,-62.43,2,19.267,1.34,4,84.33,2.22,4,83,34,5.33,3,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Barra de Cunhau, 2009-2010",-35.04583,-6.3125,NA,NA,NA,80.23,8.67,39,40,30,6.58,36,Oviparous,2,2,NA,Sit and wait,Tropical,Terrestrial,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Boa Vista, 1992",-60.67,2.82,24.7,2.95,5,85.8,2.77,5,81,32,7.2,5,Oviparous,2,2,0.211,Sit and wait,Tropical,Arboreal,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Cabaceiras, 2009-2010",-36.29,-7.47,NA,NA,NA,82.25,8.14,16,71,41,7.563,16,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,"(Vitt and Goldberg 1983, Vitt 1995)"
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Catimbau, 2013",-37.25,-8.59,15.038,7.72,4,80.233,12.86,4,65.99,31.04,1.667,3,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Vitt and Goldberg 1983)
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Chapada Diamantina, 2013",-41.58,-12.51,19.167,6.31,12,81.257,7.21,12,73.4,35.37,5.6,15,Oviparous,1,1,0.218,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"ESEC Serido, 2013",-37.4,-6.66,21.225,5.91,10,85.903,8.61,10,70,30.87,6.25,4,Oviparous,1,1,0.186,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Guajara-Mirim, 2001",-65.33,-10.79,11.154,2.11,42,67.92,5.02,42,53.5,33.5,2.73,37,Oviparous,1,1,0.165,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Joao Pessoa, 2009-2010",-34.86,-7.12,NA,NA,NA,78.3,5.76,50,64,28,5.9,50,Oviparous,2,2,NA,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Monte Alegre, 2002",-54.08,-2,16.5,4.25,18,80.75,6.69,18,70,33,4.27,15,Oviparous,2,2,0.159,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Paulo Afonso, 2010-2011",-38.06,-9.48,NA,NA,NA,73.017,5.72,3,66.42,36.1,5,3,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Raso da Catarina, 2012",-38.67,-9.67,18.375,3.83,6,82.263,6.48,6,74.89,27.28,4,3,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Rio Tinto, 2009-2010",-35.08,-6.8,9.8,6.76,11,59.35,15.95,11,46.5,27.13,5.75,4,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus hispidus,Tropidurus,Tropiduridae,"Santa Quiteria, 2011",-40.15,-4.33,13.85,5.43,9,76.891,9.99,9,59,25.21,5.75,4,Oviparous,1,1,0.192,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus insulanus,Tropidurus,Tropiduridae,"Cachimbo, 2001",-54.9,-8.95,11.82,2.23,24,70.82,4.99,24,64,52,3.68,22,Oviparous,1,1,0.218,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus itambere,Tropidurus,Tropiduridae,Pirenopolis,-48.96,-15.85,7.64,NA,NA,58.31,NA,NA,52,NA,3.57,35,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Van Sluys 1993)
+Tropidurus itambere,Tropidurus,Tropiduridae,Campinas,-47.06,-22.91,NA,NA,NA,71.6,NA,NA,NA,NA,3.5,40,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Van Sluys 1993)
+Tropidurus itambere,Tropidurus,Tropiduridae,"Minacu, 1991",-48.3,-13.83,NA,NA,NA,NA,NA,NA,NA,NA,3,11,Oviparous,1,1,0.178,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus itambere,Tropidurus,Tropiduridae,"Paracatu, 2000",-46.88,-17.22,10.181,2.67,54,66.67,4.75,56,58,54,3.98,54,Oviparous,2,2,0.204,Sit and wait,Tropical,Terrestrial,(Faria 2001)
+Tropidurus montanus,Tropidurus,Tropiduridae,Serra do Cipo,-43.62,-19.35,NA,NA,NA,73.95,NA,NA,NA,NA,3.48,52,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Van Sluys et al. 2002)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,Pirenopolis,-48.96,-15.85,10.7,NA,NA,67.81,NA,NA,59,NA,3.65,26,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Vitt 1993)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,"Altamira, 1987",-52.21,-3.2,15.3,0.66,21,80.4,1.07,27,NA,NA,4.2,24,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Vitt 1993)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,Ariquemes,-63.04,-9.91,NA,NA,NA,89.65,NA,NA,NA,NA,3.5,18,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Vitt 1993)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,Santa Barbara,-63.9,-8.77,NA,NA,NA,80,NA,NA,NA,NA,3.4,17,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,(Vitt 1993)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,Santa Cruz da Serra,-60.21,-12.79,NA,NA,NA,85.25,NA,NA,NA,NA,3.8,45,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,(Vitt 1993)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,"Carajas, 1992",-50,-6.12,17.667,7.28,4,76.33,7.27,4,70,48,5.33,3,Oviparous,1,1,0.219,Sit and wait,Tropical,Saxicolous,(Faria 2001)
+Tropidurus oreadicus,Tropidurus,Tropiduridae,"Dianopolis, 2003",-46.82,-11.63,8.847,1.69,18,65.41,4.21,18,57,57,4.12,17,Oviparous,1,1,0.2,Sit and wait,Tropical,Terrestrial,Present work
+Tropidurus oreadicus,Tropidurus,Tropiduridae,"Parana, 2002-2003",-47.88,-12.62,10.35,1.62,2,71,1.41,2,70,37,4.5,2,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus semitaeniatus,Tropidurus,Tropiduridae,"Exu, 1977",-39.71,-7.51,NA,NA,NA,76.7,NA,NA,NA,NA,2,102,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,"(Vitt and Goldberg 1983, Vitt 1995)"
+Tropidurus semitaeniatus,Tropidurus,Tropiduridae,"Exu, 1977",-40.17,-7.42,NA,NA,NA,70.5,NA,NA,58,19,2,NA,Oviparous,3.5,2,0.15,Sit and wait,Tropical,Terrestrial,"(Vitt and Goldberg 1983, Vitt 1995)"
+Tropidurus semitaeniatus,Tropidurus,Tropiduridae,"Catimbau, 2013",-37.25,-8.59,6.893,1.12,22,69.689,3.93,22,63.94,35.87,1.625,8,Oviparous,1,1,NA,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus semitaeniatus,Tropidurus,Tropiduridae,"Chapada Diamantina, 2013",-41.58,-12.51,4.9,1.75,7,62.509,3.09,7,58.3,30.44,1.875,8,Oviparous,1,1,0.259,Sit and wait,Tropical,Saxicolous,"(Vitt and Goldberg 1983, Vitt 1995)"
+Tropidurus semitaeniatus,Tropidurus,Tropiduridae,"ESEC Serido, 2013",-37.4,-6.66,7.115,0.95,17,65.566,2.92,17,60,60,2,15,Oviparous,1,1,0.219,Sit and wait,Tropical,Saxicolous,(Vitt and Goldberg 1983)
+Tropidurus semitaeniatus,Tropidurus,Tropiduridae,"Santa Quiteria, 2011",-40.15,-4.33,9.525,1.52,6,72.2,4.13,6,68,30.36,2.4,5,Oviparous,2,2,0.104,Sit and wait,Tropical,Saxicolous,Present work
+Tropidurus spinulosus,Tropidurus,Tropiduridae,"Alto Araguaia, 1989",-53.22,-17.31,NA,NA,NA,86.2,0.3,21,NA,NA,4,21,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Vitt 1991)
+Tropidurus torquatus,Tropidurus,Tropiduridae,Brasilia,-47.93,-15.78,NA,NA,NA,94.72,NA,NA,NA,NA,6.1,56,Oviparous,NA,2,NA,Sit and wait,Tropical,Saxicolous,"(Pinto 1999a, Wiederhecker et al. 2002)"
+Tropidurus torquatus,Tropidurus,Tropiduridae,"Uba, 1992",-42.94,-21.12,21.218,NA,NA,85.09,NA,NA,77,NA,4.91,11,Oviparous,NA,NA,0.25,Sit and wait,Tropical,Saxicolous,Present work
+Uracentron flaviceps,Uracentron,Tropiduridae,Cuyabeno,-78.52,-0.29,NA,NA,NA,98.69,NA,NA,NA,NA,2,5,Oviparous,NA,2,NA,Sit and wait,Tropical,Arboreal,(Vitt and Zani 1996)
+Uranoscodon superciliosus,Uranoscodon,Tropiduridae,"Cemex, Para, 95",-54.83,-3.15,76.1,13.15,7,133.2,4.65,7,129,52,8.6,5,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Uranoscodon superciliosus,Uranoscodon,Tropiduridae,PEGM 1998,-64.56,-10.32,83.167,23.73,9,137.111,12.95,9,115,53,9.8,5,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Uranoscodon superciliosus,Uranoscodon,Tropiduridae,"Rio Ituxi, 1997",-65.72,-8.33,59.6,35.79,2,122.5,21.92,2,107,69,8,1,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Uranoscodon superciliosus,Uranoscodon,Tropiduridae,Roraima 1993,-62.43,2,99.15,9.47,3,140.5,5.51,3,135,65,11.5,2,Oviparous,1,1,NA,Sit and wait,Tropical,Arboreal,Present work
+Varanus eremius,Varanus,Varanidae,Australia,123.09,-27.89,36.94,9.17,40,139.4,11.6,41,110,59,3.82,22,Oviparous,NA,1,0.14,Active,Temperate,Terrestrial,(Pianka 1994)
+Varanus gouldii,Varanus,Varanidae,Australia,123.09,-27.89,395.1,134.92,30,312.1,25.12,30,274,101,9.81,16,Oviparous,NA,1,0.14,Active,Temperate,Terrestrial,(Pianka 1994)
+Varanus tristis,Varanus,Varanidae,Australia,122.79,-27.85,201.61,41.1,32,252.6,16.07,32,222,72,9.95,19,Oviparous,NA,1,0.162,Active,Temperate,Arboreal,(Pianka 1994)
+Xantusia riversiana,Xantusia,Xantusiidae,"San Clemente Island, California",-118.5,32.9,NA,NA,NA,88.4,NA,NA,75,NA,3.76,NA,Viviparous,1,1,0.268,Sit and wait,Temperate,Terrestrial,(Goldberg and Bezy 1974)
+Xantusia vigilis,Xantusia,Xantusiidae,"Antelope Valley, Mojave Desert",-118.25,34.75,NA,NA,NA,39,NA,NA,NA,NA,1.78,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,"(Miller 1951, 1954)"
+Xantusia vigilis,Xantusia,Xantusiidae,"Antelope Valley, Mojave Desert",-118.25,34.75,NA,NA,NA,41,NA,NA,NA,NA,1.79,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,"(Miller 1951, 1954)"
+Xantusia vigilis,Xantusia,Xantusiidae,"Antelope Valley, Mojave Desert",-118.25,34.75,NA,NA,NA,41,NA,NA,NA,NA,1.79,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,"(Miller 1951, 1954)"
+Xantusia vigilis,Xantusia,Xantusiidae,"Antelope Valley, Mojave Desert",-118.25,34.75,NA,NA,NA,39,NA,NA,38,23,1.78,NA,Viviparous,1,1,NA,Sit and wait,Temperate,Terrestrial,(Zweifel and Lowe 1966)
+Xantusia vigilis,Xantusia,Xantusiidae,"USA, 1962-1964",-118.15,35.12,2.06,0.264,22,46.18,2.17,22,43,23,1.87,148,Viviparous,NA,1,0.112,Active,Temperate,Terrestrial,(Pianka 1986)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Veracruz, Mexico",-96.13,19.17,NA,NA,NA,113,NA,NA,100,58,5.1,95,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Veracruz, Mexico",-96.13,19.17,NA,NA,NA,108.7,NA,NA,87,42,5.7,10,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Concepcion Palo, Oaxaca",-96.72,17.06,NA,NA,NA,108.6,NA,NA,100,44,2.4,18,Viviparous,1,1,0.25,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Cuautlapan, Veracruz",-96.13,19.17,NA,NA,NA,113,NA,NA,100,43,5.1,108,Viviparous,1,1,0.35,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Ocozocuautla, Chiapas",-93.13,16.76,NA,NA,NA,110.9,NA,NA,99,40,4.5,30,Viviparous,1,1,0.23,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Puente de Fierro, Oaxaca",-96.72,17.06,NA,NA,NA,114.9,NA,NA,108,45,4.6,11,Viviparous,1,1,0.28,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"San Gabriel Mixtepec, Oaxaca",-96.72,17.06,NA,NA,NA,107,NA,NA,98,42,2.7,24,Viviparous,1,1,0.24,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"San Lucas Camotlan, Oaxaca",-96.72,17.06,NA,NA,NA,113,NA,NA,110,41,5,3,Viviparous,1,1,0.35,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Sierra de Juarez, Oaxaca",-96.72,17.06,NA,NA,NA,110.2,NA,NA,107,39,5.7,6,Viviparous,1,1,0.2,Sit and wait,Temperate,Saxicolous,"(Ballinger et al. 2000, Smith et al. 2000)"
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Tilaco, Querataro",-99.19,21.17,NA,NA,NA,106.9,NA,NA,92,48,2.1,65,Viviparous,1,1,0.27,Sit and wait,Temperate,Saxicolous,(Goldberg 2009)
+Xenosaurus grandis,Xenosaurus,Xenosauridae,"Zoquitlan, Puebla",-98.21,19.04,NA,NA,NA,112.3,NA,NA,109,46,4.3,6,Viviparous,1,1,0.24,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus newmanorum,Xenosaurus,Xenosauridae,"San Luis Potosi, Mexico",-100.99,22.16,NA,NA,NA,117.6,NA,NA,107,NA,2.6,27,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Ballinger et al. 2000)
+Xenosaurus newmanorum,Xenosaurus,Xenosauridae,"Xilitla, San Luis PotosÉ",-100.99,22.16,NA,NA,NA,117.6,NA,NA,107,49,2.6,24,Viviparous,1,1,0.25,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus phalaroanthereon,Xenosaurus,Xenosauridae,"Oaxaca, Mexico",-96.72,17.06,26.2,NA,NA,110.7,NA,NA,117,65,NA,NA,Viviparous,NA,NA,NA,Sit and wait,Temperate,Saxicolous,(Lemos-Espinal and Smith 2005)
+Xenosaurus phalaroanthereon,Xenosaurus,Xenosauridae,"San Juan Acaltepec, Oaxaca",-96.72,17.06,NA,NA,NA,119.2,NA,NA,109,49,2.3,13,Viviparous,1,1,0.16,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus platyceps,Xenosaurus,Xenosauridae,"Tamaulipas, Mexico",-98.84,24.27,NA,NA,NA,110.7,NA,NA,101,NA,2.7,31,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+Xenosaurus platyceps,Xenosaurus,Xenosauridae,"Jaumave, Cidade Vitoria",-99.38,23.41,23.05,NA,NA,113,NA,NA,106,50.5,2.6,4,Oviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Lemos-Espinal and Gonzçlez 2000)
+Xenosaurus platyceps,Xenosaurus,Xenosauridae,"Queretaro, Mexico",-100.39,20.59,19.4,NA,NA,98.6,NA,NA,92,52,2.7,15,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Lemos-Espinal et al. 2004)
+Xenosaurus platyceps,Xenosaurus,Xenosauridae,"Tamaulipas, Mexico",-98.84,24.27,NA,NA,NA,NA,NA,NA,NA,50.86,2.46,NA,Viviparous,1,1,0.26,Sit and wait,Temperate,Saxicolous,"(Rojas-Gonzalez et al. 2008, Rojas-Gonzçlez et al. 2008)"
+Xenosaurus platyceps,Xenosaurus,Xenosauridae,"Tamaulipas, Mexico",-98.84,24.27,NA,NA,NA,NA,NA,NA,NA,49.55,2.06,NA,Viviparous,1,1,0.21,Sit and wait,Temperate,Saxicolous,"(Rojas-Gonzalez et al. 2008, Rojas-Gonzçlez et al. 2008)"
+Xenosaurus platyceps,Xenosaurus,Xenosauridae,"El Madrono, Tamaulipas",-98.84,24.27,NA,NA,NA,111.7,NA,NA,100,42,2.5,51,Viviparous,1,1,0.23,Sit and wait,Temperate,Saxicolous,(Ballinger et al. 2000)
+Xenosaurus rectocollaris,Xenosaurus,Xenosauridae,"Puebla, Mexico",-98.21,19.04,NA,NA,NA,92.1,NA,NA,NA,NA,9.6,30,Viviparous,1,1,NA,Sit and wait,Temperate,Saxicolous,(Woolrich-Pina et al. 2012)
+Xenosaurus rectocollaris,Xenosaurus,Xenosauridae,"Zapotitlan de las Salinas, Puebla",-98.21,19.04,NA,NA,NA,102.9,NA,NA,93,43,2.6,30,Viviparous,1,1,0.27,Sit and wait,Temperate,Saxicolous,(Zamora-Abrego et al. 2007)
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,  ,,,,,,,,,,,,,,,,,,,
