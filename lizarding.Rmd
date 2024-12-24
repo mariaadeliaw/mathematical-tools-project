@@ -26,6 +26,38 @@ library(dplyr)
 data <- read.csv("C:/Users/Mathew/Documents/GitHub/lizzy_lizards/lizard.csv")
 head(data)
 str(data)
+
+#Cleaning and inspecting data
+sum(is.na(data))   
+colSums(is.na(data))  
+
+#Replacing commas for periods
+data$SD.Female.adult.weight..g.<- gsub(",", ".", data$SD.Female.adult.weight..g.)
+#Converting from character to numeric
+data$SD.Female.adult.weight..g. <- as.numeric(data$SD.Female.adult.weight..g.)
+
+#Summary statistics
+#summary(data$Average.Female.adult.weight..g.)
+#summary(data$Sample.Size.Female.adult.weight)
+#summary(data$Average.Female.adult.weight..g.)
+
+#Histograms
+hist(data$Average.Female.adult.weight..g.)
+hist(data$SD.Female.adult.weight..g.)
+hist(data$Sample.Size.Female.adult.weight)
+hist(data$Mean.F.SVL.adults..mm.) #important
+hist(data$SD.F.SVL.adults..mm.)
+hist(data$Sample.size.Mean.F.SVL.adults)
+hist(data$F.SVL.at.maturity..mm.) #important
+hist(data$Offspring.SVL..mm.) #important
+hist(data$Mean.Clutch.Size) #important?
+hist(data$Sample.size.Clutch.Size.)
+hist(data$Clutches.per.year)
+hist(data$Clutch.Frequency)
+hist(data$RCM) #important
+
+#Barplots
+
 ```
 
 ## Including Plots
