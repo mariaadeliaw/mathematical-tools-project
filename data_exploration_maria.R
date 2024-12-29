@@ -14,11 +14,8 @@ lizards <- janitor::clean_names(lizards)
 # summary of the data
 summary(lizards)
 
-# delete the entries that has all NAs
-lizards_clean <- lizards[!apply(lizards, 1, function(row) all(is.na(row))), ]
-
 # count missing values in each column
-colSums(is.na(lizards_clean))
+colSums(is.na(lizards))
 
 # visualizing missing data
 # library(VIM)
@@ -37,7 +34,7 @@ colSums(is.na(lizards_clean))
 
 
 # Select relevant columns for clustering analysis
-lizards_clean <- lizards_clean %>%
+lizards_clean <- lizards %>%
   select(
     family,
     genus,
@@ -48,7 +45,6 @@ lizards_clean <- lizards_clean %>%
     f_svl_at_maturity_mm,
     offspring_svl_mm,
     mean_clutch_size,
-    clutches_per_year,
     clutch_frequency,
     # reproduction
     rcm,
@@ -58,17 +54,17 @@ lizards_clean <- lizards_clean %>%
     prefered_habitat_type
   )
 
+
 # not sure if this is a good idea, but drop all data that has NA 
 lizards_clean <- lizards_clean %>%
   drop_na()
 
-lizards_clean$clutches_per_year <- as.factor(lizards_clean$clutches_per_year)
 lizards_clean$clutch_frequency <- as.factor(lizards_clean$clutch_frequency)
 
-# lizards_clean %>% 
-#   select_if(is.numeric) %>% # Select only numeric columns
-#   cor() %>% # Calculate the empirical correlation matrix
-#   corrplot() # Then graph this matrix
+lizards_clean %>%
+  select_if(is.numeric) %>% # Select only numeric columns
+  cor() %>% # Calculate the empirical correlation matrix
+  corrplot() 
 
 lizards_scaled <- lizards_clean %>%
   # select(-rcm) %>% 
@@ -116,8 +112,6 @@ km_result <- eclust(pca_coords, "kmeans", k = 3, hc_metric = "euclidean", graph 
 # fviz_silhouette(km_result) +
 #   labs(title = "Silhouette Plot for K-Means Clustering")
 
-# Extract cluster assignments
-cluster_assignments <- km_result$cluster
 # Visualize the clusters on the PCA map
 fviz_cluster(km_result, geom = "point", ellipse.type = "norm", data = pca_coords) +
   labs(title = "Clusters on PCA Map - PC Coord")
@@ -127,9 +121,12 @@ lizards_clustered <- cbind(lizards_scaled, cluster = as.factor(km_result$cluster
 
 # clustering on raw -------------------------------------------------------
 
-km_result_raw <- eclust(lizards_scaled, "kmeans", k = 3, hc_metric = "euclidean", graph = FALSE)
-# Extract cluster assignments
-cluster_assignments_raw <- km_result$cluster
+lizards_scaled_raw <- lizards_clean %>%
+  # select(-rcm) %>% 
+  select_if(is.numeric) %>% #Only numeric columns are selected
+  mutate_all(.funs = scale) 
+
+km_result_raw <- eclust(lizards_scaled_raw, "kmeans", k = 3, hc_metric = "euclidean", graph = FALSE)
 # Visualize the clusters on the PCA map
 fviz_cluster(km_result_raw, geom = "point", ellipse.type = "norm", data = pca_coords) +
   labs(title = "Clusters on PCA Map - Raw Data")
@@ -149,7 +146,19 @@ rf_model_raw <- randomForest(cluster ~ ., data = lizards_clustered_raw, importan
 importance(rf_model_raw)
 varImpPlot(rf_model_raw)
 
-
+# biplot on raw data clustering result
 fviz_pca_biplot(result_pca,
                 axes = c(1,2),
-                col.ind = lizards_clustered_raw$cluster)
+                col.ind = lizards_clean$foraging_mode)
+
+
+# chi-square test ---------------------------------------------------------
+
+# Chi-squared test for cluster and habitat type
+chisq.test(table(lizards_clustered$cluster, lizards_clean$prefered_habitat_type))
+
+# Chi-squared test for cluster and foraging mode
+chisq.test(table(lizards_clustered$cluster, lizards_clean$foraging_mode))
+
+# Chi-squared test for cluster and reproduction mode
+chisq.test(table(lizards_clustered$cluster, lizards_clean$mode_of_reproduction))
