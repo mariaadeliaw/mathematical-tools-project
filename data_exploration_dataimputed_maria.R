@@ -39,6 +39,7 @@ lizards_clean <- lizards %>%
     family,
     genus,
     species,
+    latitude,
     # general morphology
     mean_f_svl_adults_mm,
     average_female_adult_weight_g,
@@ -51,6 +52,7 @@ lizards_clean <- lizards %>%
     mode_of_reproduction,
     # habitat
     foraging_mode,
+    distribution,
     prefered_habitat_type
   )
 
@@ -87,7 +89,7 @@ fviz_pca_var(result_pca,
 
 fviz_pca_ind(result_pca,
              axes = c(1, 2),
-             col.ind = lizards_clean$clutch_frequency)
+             col.ind = lizards_clean$distribution)
 
 fviz_pca_var(result_pca, col.var = "contrib")
 
@@ -150,7 +152,7 @@ varImpPlot(rf_model_raw)
 # biplot on raw data clustering result
 fviz_pca_biplot(result_pca,
                 axes = c(1,2),
-                col.ind = lizards_clean$prefered_habitat_type)
+                col.ind = lizards_clean$distribution)
 
 
 # chi-square test ---------------------------------------------------------
@@ -164,3 +166,13 @@ chisq.test(table(lizards_clustered$cluster, lizards_clean$foraging_mode))
 # Chi-squared test for cluster and reproduction mode
 chisq.test(table(lizards_clustered$cluster, lizards_clean$mode_of_reproduction))
 
+# Chi-squared test for cluster and reproduction mode
+chisq.test(table(lizards_clustered$cluster, lizards_clean$distribution))
+
+p <- ggplot(data=lizards_clean, aes(rcm, mean_clutch_size, colour = lizards_clean$distribution))+ 
+  geom_point()
+p             
+
+q <-ggplot(data=lizards_scaled_raw, aes(latitude,rcm, colour = lizards_clean$distribution))+
+  geom_point()
+q
