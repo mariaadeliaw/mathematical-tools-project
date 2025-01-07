@@ -1,8 +1,9 @@
 ---
-title: "lizarding"
+title: "Environmental and Behaviour Effects on Lizards Morphological Traits"
 author: "Maria & Mathew"
 date: "2024-12-18"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -11,13 +12,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Background
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars, include=FALSE}
+```{r include=FALSE}
 #Loading packages
 library(ggplot2)
 library(dplyr)
@@ -35,37 +32,164 @@ colSums(is.na(data))
 data$SD.Female.adult.weight..g.<- gsub(",", ".", data$SD.Female.adult.weight..g.)
 #Converting from character to numeric
 data$SD.Female.adult.weight..g. <- as.numeric(data$SD.Female.adult.weight..g.)
-
-#Summary statistics
-#summary(data$Average.Female.adult.weight..g.)
-#summary(data$Sample.Size.Female.adult.weight)
-#summary(data$Average.Female.adult.weight..g.)
-
-#Histograms
-hist(data$Average.Female.adult.weight..g.)
-hist(data$SD.Female.adult.weight..g.)
-hist(data$Sample.Size.Female.adult.weight)
-hist(data$Mean.F.SVL.adults..mm.) #important
-hist(data$SD.F.SVL.adults..mm.)
-hist(data$Sample.size.Mean.F.SVL.adults)
-hist(data$F.SVL.at.maturity..mm.) #important
-hist(data$Offspring.SVL..mm.) #important
-hist(data$Mean.Clutch.Size) #important?
-hist(data$Sample.size.Clutch.Size.)
-hist(data$Clutches.per.year)
-hist(data$Clutch.Frequency)
-hist(data$RCM) #important
-
-#Barplots
-
 ```
 
-## Including Plots
+## Methods
 
-You can also embed plots, for example:
+From the dataset given by citation, it went through an initial data cleaning process to retain only the columns relevant for subsequent analyses. Missing data were addressed through two potential approaches: deletion or imputation. Given that dropping missing data would result in an 80% reduction in dataset size and a loss of variability across certain variables, we chose data imputation using the MICE algorithm. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r include=FALSE}
+library(tidyverse)  
+library(janitor)    # cleaning column names
+library(mice)       # handling missing data
+library(corrplot)
+library(FactoMineR) # For PCA
+library(factoextra) # For PCA plots
+library(vegan) # For CCA
+library(randomForest) # variable importance only
+
+lizards <- read_csv("lizard.csv")
+
+# clean column names
+lizards <- janitor::clean_names(lizards)
+
+# summary of the data
+summary(lizards)
+
+# count missing values in each column
+colSums(is.na(lizards))
+
+# Select relevant columns for clustering analysis
+lizards_clean <- lizards %>%
+  select(
+    family,
+    genus,
+    species,
+    latitude,
+    # general morphology
+    mean_f_svl_adults_mm,
+    average_female_adult_weight_g,
+    f_svl_at_maturity_mm,
+    offspring_svl_mm,
+    mean_clutch_size,
+    clutch_frequency,
+    # reproduction
+    rcm,
+    mode_of_reproduction,
+    # habitat
+    foraging_mode,
+    distribution,
+    prefered_habitat_type
+  )
+
+
+# data imputation
+lizards_imputed <- mice(lizards_clean, method = "pmm", m = 5, maxit = 50, seed = 123)
+lizards_clean <- complete(lizards_imputed) %>% 
+  drop_na(family)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+To examine relationships among key variables, a correlation matrix was computed using Pearson's correlation coefficients. Variables were standardized prior to analysis to ensure comparability. The resulting correlation matrix was visualized using the `corrplot` package in R
+
+Principal Component Analysis (PCA) was applied to the continuous variables to explore potential clustering patterns. However, as PCA did not show any distinct clusters, we implemented k-means clustering with three groups. This approach resulted in apparent patterns within the dataset. To further investigate these clusters, we performed a Chi-square test to evaluate their associations with categorical variables, including foraging mode, preferred habitat type, and mode of reproduction.
+
+```{r include=FALSE}
+lizards_scaled <- lizards_clean %>%
+  # select(-rcm) %>% 
+  select_if(is.numeric) %>% 
+  mutate_all(.funs = scale) 
+
+
+# pca ---------------------------------------------------------------------
+
+result_pca <- PCA(lizards_scaled, 
+                  scale.unit = TRUE, # Option to center and scale data (useless here)
+                  ncp = 18, # Number of components to keep (here, all)
+                  graph = FALSE)
+
+fviz_eig(result_pca, choice = "variance")
+
+fviz_pca_var(result_pca,
+             axes = c(1, 2)) # Number of axes to represent 
+
+fviz_pca_biplot(result_pca,
+                axes = c(1,2))
+
+pca_coords <- result_pca$ind$coord
+# clustering on pca ---------------------------------------------------------
+
+# kmeans cluster with 2 groups
+km_result <- eclust(pca_coords, "kmeans", k = 3, hc_metric = "euclidean", graph = FALSE)
+
+# # Visualize silhouette plot
+# fviz_silhouette(km_result) +
+#   labs(title = "Silhouette Plot for K-Means Clustering")
+
+# Visualize the clusters on the PCA map
+fviz_cluster(km_result, geom = "point", ellipse.type = "norm", data = pca_coords) +
+  labs(title = "Clusters on PCA Map - PC Coord")
+#add the clustering result to the scaled dataframe
+lizards_clustered <- cbind(lizards_scaled, cluster = as.factor(km_result$cluster))
+```
+
+## Results
+
+The correlation matrix highlights strong relationships among key variables. Latitude shows a weak correlation with morphological variables, such as mean snout-vent length (SVL) and weight, while relative clutch mass (RCM) and mean clutch size are positively correlated with each other. These patterns suggest ecological or life-history trade-offs that may influence clustering in subsequent analyses.
+
+```{r echo=FALSE}
+lizards_clean$clutch_frequency <- as.factor(lizards_clean$clutch_frequency)
+
+lizards_clean %>%
+  select_if(is.numeric) %>% # Select only numeric columns
+  cor() %>% # Calculate the empirical correlation matrix
+  corrplot() 
+```
+
+The first two principal components explained 43.2 (PC1) and 19.7 (PC2) percent of the variance, respectively. Variables such as latitude, RCM, and mean clutch size strongly contributed to PC1. The k-means clustering identified three distinct groups, visualized in the PCA biplot.
+
+```{r echo=FALSE}
+
+fviz_pca_biplot(result_pca,
+                axes = c(1,2),
+                col.ind = lizards_clustered$cluster)
+```
+
+Figure 2 PCA bi-plot showing the clustering of individuals into three groups based on k-means clustering.
+
+- ***Cluster 1 (Red):** Larger body sizes, lower relative clutch mass (RCM) and mean clutch size, and occurrence at lower latitudes.*
+- ***Cluster 2 (Green):** Higher RCM and mean clutch size, with distribution at higher latitudes.*
+- ***Cluster 3 (Blue):** Smaller body sizes and weights, lower RCM and clutch sizes, and presence at lower latitudes.*
+
+```{r echo=FALSE}
+# Chi-squared test for cluster and habitat type
+chi_habitat <- chisq.test(table(lizards_clustered$cluster, lizards_clean$prefered_habitat_type))
+
+# Chi-squared test for cluster and foraging mode
+chi_foraging <- chisq.test(table(lizards_clustered$cluster, lizards_clean$foraging_mode))
+
+# Chi-squared test for cluster and reproduction mode
+chi_reproduction <- chisq.test(table(lizards_clustered$cluster, lizards_clean$mode_of_reproduction))
+
+# Chi-squared test for cluster and distribution
+chi_distribution <- chisq.test(table(lizards_clustered$cluster, lizards_clean$distribution))
+
+chi_square_results <- tibble(
+  Variable = c("Preferred Habitat Type", "Foraging Mode", "Mode of Reproduction", "Distribution"),
+  X_squared = c(chi_habitat$statistic, chi_foraging$statistic, chi_reproduction$statistic, chi_distribution$statistic),
+  df = c(chi_habitat$parameter, chi_foraging$parameter, chi_reproduction$parameter, chi_distribution$parameter),
+  p_value = c(chi_habitat$p.value, chi_foraging$p.value, chi_reproduction$p.value, chi_distribution$p.value)
+)
+chi_square_results
+```
+
+The Chi-squared tests revealed significant associations between cluster groups and various ecological and reproductive traits. These results indicate that the clusters are strongly influenced by ecological traits, with distribution showing the strongest association, suggesting distinct patterns of geographic or habitat specialization among clusters
+
+## Discussion
+
+Lizards species seem to be differentiated by their clutch size and their SVL. The clustering in Figure # shows that there are two groups influenced mainly by variables related to clutch size (green) and SVL and weight (blue). This can be explained by the adaptive vs plasticity hypothesis. Here, differences observed can be matched with geographical adaptation but, this can prove blurry to see when this phenotype changes come from plasticity ([citation](https://link.springer.com/article/10.1007/s11692-013-9247-2)). The effect of plasticity on the measurement of individuals can be causing noise in the data, that may explain why there is a sole cluster (green), that is unexplained by the metrics used in this database. However, this analysis is limited due to the absent of more variables that could help explain the grouping of the individuals in the green cluster.
+
+Latitude is driving the the clutch size (including RCM) of lizards species. Here, latitude is used as a proxy for climate, variable that is lacking in the database. This can be observed in Figure #, where the variance for the green cluster is mostly explained by latitude. Nonetheless, despite the fact that coloring the graphs with different factos from the data, by conducting a chi square test, we found out that this clustering is significantly (*p* < 0.05) backed up by habitat type, distribution, foraging mode, and mode of reproduction.This is consistent with literature that states that relative clutch mass (RCM) in lizards is influenced by foraging mode, predator escape tactics, and resource availability, with higher RCM in sit-and-wait foraging species and lower RCM in widely foraging species ([citation](https://www.notion.so/ECOLOGICAL-AND-EVOLUTIONARY-DETERMINANTS-OF-RELATIVE-CLUTCH-MASS-IN-LIZARDS-Semantic-Scholar-16bfcf8b78b080e4a4c1d8f684686178?pvs=21)). However, is also important to consider that RCM in lizards need not be correlated to reproductive effort, and, if it is, then reproductive effort co-evolved with predator escape and foraging strategies and ecologically analogous species should not only exhibit similar RCM values, but also similar reproductive efforts ([citation](https://www.notion.so/Body-Shape-Reproductive-Effort-and-Relative-Clutch-Mass-in-Lizards-Resolution-of-a-Paradox-Sema-16bfcf8b78b0804094ccf40336e02277?pvs=21)). In the case of species with both oviparous and viviparous populations, viviparous females often have higher RCM due to the need to accommodate developing embryos ([citation](https://www.notion.so/Maternal-body-volume-as-a-constraint-on-reproductive-output-in-lizards-evidence-from-the-evolution--16bfcf8b78b080c5bdf3f61c4fd06758?pvs=21)).  Still, as previously mentioned, some other variables are needed in the PCA to provide a better picture of what are the ecological implications of this clustering.
+
+## Conclusion
+
+Latitudinal gradient and mode of reproduction are key drivers of the morphology of lizards. In this relationship, latitude seems to have a major influence on the reproduction, rather than in how large the lizard is. The size of the lizard may be explained by some other ecological factor that has not been included in this study. Understanding this ecological patterns can unravel new information that may allow us to better understand the conservation challenges for this species in front of a climate change scenario. It is important to include in the methods a way of measuring the effect of plasticity, so that we can better distinguish it from adaptive difference when trying to relate this to environmental factors.

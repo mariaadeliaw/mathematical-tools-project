@@ -37,46 +37,6 @@
 \makeatother
 \usepackage{xcolor}
 \usepackage[margin=1in]{geometry}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -101,51 +61,158 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={lizarded},
+  pdftitle={Environmental and Behaviour Effects on Lizards Morphological Traits},
   pdfauthor={Maria \& Mathew},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{lizarded}
+\title{Environmental and Behaviour Effects on Lizards Morphological
+Traits}
 \author{Maria \& Mathew}
 \date{2024-12-18}
 
 \begin{document}
 \maketitle
 
-\subsection{R Markdown}\label{r-markdown}
+\subsection{Background}\label{background}
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see \url{http://rmarkdown.rstudio.com}.
+\subsection{Methods}\label{methods}
 
-When you click the \textbf{Knit} button a document will be generated
-that includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+From the dataset given by citation, it went through an initial data
+cleaning process to retain only the columns relevant for subsequent
+analyses. Missing data were addressed through two potential approaches:
+deletion or imputation. Given that dropping missing data would result in
+an 80\% reduction in dataset size and a loss of variability across
+certain variables, we chose data imputation using the MICE algorithm.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{summary}\NormalTok{(cars)}
-\end{Highlighting}
-\end{Shaded}
+To examine relationships among key variables, a correlation matrix was
+computed using Pearson's correlation coefficients. Variables were
+standardized prior to analysis to ensure comparability. The resulting
+correlation matrix was visualized using the \texttt{corrplot} package in
+R
+
+Principal Component Analysis (PCA) was applied to the continuous
+variables to explore potential clustering patterns. However, as PCA did
+not show any distinct clusters, we implemented k-means clustering with
+three groups. This approach resulted in apparent patterns within the
+dataset. To further investigate these clusters, we performed a
+Chi-square test to evaluate their associations with categorical
+variables, including foraging mode, preferred habitat type, and mode of
+reproduction.
+
+\subsection{Results}\label{results}
+
+The correlation matrix highlights strong relationships among key
+variables. Latitude shows a weak correlation with morphological
+variables, such as mean snout-vent length (SVL) and weight, while
+relative clutch mass (RCM) and mean clutch size are positively
+correlated with each other. These patterns suggest ecological or
+life-history trade-offs that may influence clustering in subsequent
+analyses.
+
+\includegraphics{lizarding_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+The first two principal components explained 43.2 (PC1) and 19.7 (PC2)
+percent of the variance, respectively. Variables such as latitude, RCM,
+and mean clutch size strongly contributed to PC1. The k-means clustering
+identified three distinct groups, visualized in the PCA biplot.
+
+\includegraphics{lizarding_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+Figure 2 PCA bi-plot showing the clustering of individuals into three
+groups based on k-means clustering.
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{\textbf{Cluster 1 (Red):} Larger body sizes, lower relative
+  clutch mass (RCM) and mean clutch size, and occurrence at lower
+  latitudes.}
+\item
+  \emph{\textbf{Cluster 2 (Green):} Higher RCM and mean clutch size,
+  with distribution at higher latitudes.}
+\item
+  \emph{\textbf{Cluster 3 (Blue):} Smaller body sizes and weights, lower
+  RCM and clutch sizes, and presence at lower latitudes.}
+\end{itemize}
 
 \begin{verbatim}
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
+## Warning in stats::chisq.test(x, y, ...): Chi-squared approximation may be
+## incorrect
 \end{verbatim}
 
-\subsection{Including Plots}\label{including-plots}
+\begin{verbatim}
+## # A tibble: 4 x 4
+##   Variable               X_squared    df      p_value
+##   <chr>                      <dbl> <int>        <dbl>
+## 1 Preferred Habitat Type    54.0      14 0.00000126  
+## 2 Foraging Mode              8.78      2 0.0124      
+## 3 Mode of Reproduction      33.3       2 0.0000000593
+## 4 Distribution               0.488     2 0.783
+\end{verbatim}
 
-You can also embed plots, for example:
+The Chi-squared tests revealed significant associations between cluster
+groups and various ecological and reproductive traits. These results
+indicate that the clusters are strongly influenced by ecological traits,
+with distribution showing the strongest association, suggesting distinct
+patterns of geographic or habitat specialization among clusters
 
-\includegraphics{lizarding_files/figure-latex/pressure-1.pdf}
+\subsection{Discussion}\label{discussion}
 
-Note that the \texttt{echo\ =\ FALSE} parameter was added to the code
-chunk to prevent printing of the R code that generated the plot.
+Lizards species seem to be differentiated by their clutch size and their
+SVL. The clustering in Figure \# shows that there are two groups
+influenced mainly by variables related to clutch size (green) and SVL
+and weight (blue). This can be explained by the adaptive vs plasticity
+hypothesis. Here, differences observed can be matched with geographical
+adaptation but, this can prove blurry to see when this phenotype changes
+come from plasticity
+(\href{https://link.springer.com/article/10.1007/s11692-013-9247-2}{citation}).
+The effect of plasticity on the measurement of individuals can be
+causing noise in the data, that may explain why there is a sole cluster
+(green), that is unexplained by the metrics used in this database.
+However, this analysis is limited due to the absent of more variables
+that could help explain the grouping of the individuals in the green
+cluster.
+
+Latitude is driving the the clutch size (including RCM) of lizards
+species. Here, latitude is used as a proxy for climate, variable that is
+lacking in the database. This can be observed in Figure \#, where the
+variance for the green cluster is mostly explained by latitude.
+Nonetheless, despite the fact that coloring the graphs with different
+factos from the data, by conducting a chi square test, we found out that
+this clustering is significantly (\emph{p} \textless{} 0.05) backed up
+by habitat type, distribution, foraging mode, and mode of
+reproduction.This is consistent with literature that states that
+relative clutch mass (RCM) in lizards is influenced by foraging mode,
+predator escape tactics, and resource availability, with higher RCM in
+sit-and-wait foraging species and lower RCM in widely foraging species
+(\href{https://www.notion.so/ECOLOGICAL-AND-EVOLUTIONARY-DETERMINANTS-OF-RELATIVE-CLUTCH-MASS-IN-LIZARDS-Semantic-Scholar-16bfcf8b78b080e4a4c1d8f684686178?pvs=21}{citation}).
+However, is also important to consider that RCM in lizards need not be
+correlated to reproductive effort, and, if it is, then reproductive
+effort co-evolved with predator escape and foraging strategies and
+ecologically analogous species should not only exhibit similar RCM
+values, but also similar reproductive efforts
+(\href{https://www.notion.so/Body-Shape-Reproductive-Effort-and-Relative-Clutch-Mass-in-Lizards-Resolution-of-a-Paradox-Sema-16bfcf8b78b0804094ccf40336e02277?pvs=21}{citation}).
+In the case of species with both oviparous and viviparous populations,
+viviparous females often have higher RCM due to the need to accommodate
+developing embryos
+(\href{https://www.notion.so/Maternal-body-volume-as-a-constraint-on-reproductive-output-in-lizards-evidence-from-the-evolution--16bfcf8b78b080c5bdf3f61c4fd06758?pvs=21}{citation}).
+Still, as previously mentioned, some other variables are needed in the
+PCA to provide a better picture of what are the ecological implications
+of this clustering.
+
+\subsection{Conclusion}\label{conclusion}
+
+Latitudinal gradient and mode of reproduction are key drivers of the
+morphology of lizards. In this relationship, latitude seems to have a
+major influence on the reproduction, rather than in how large the lizard
+is. The size of the lizard may be explained by some other ecological
+factor that has not been included in this study. Understanding this
+ecological patterns can unravel new information that may allow us to
+better understand the conservation challenges for this species in front
+of a climate change scenario. It is important to include in the methods
+a way of measuring the effect of plasticity, so that we can better
+distinguish it from adaptive difference when trying to relate this to
+environmental factors.
 
 \end{document}
