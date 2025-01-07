@@ -1,42 +1,24 @@
 ---
 title: "Environmental and Behaviour Effects on Lizards Morphological Traits"
-author: "Maria & Mathew"
+author: "Maria Adelia Widijanto & Mathew Tello"
 date: "2024-12-18"
 output:
   pdf_document: default
   html_document:
     df_print: paged
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Background
-
-```{r include=FALSE}
-#Loading packages
-library(ggplot2)
-library(dplyr)
-
-#Loading data
-data <- read.csv("C:/Users/Mathew/Documents/GitHub/lizzy_lizards/lizard.csv")
-head(data)
-str(data)
-
-#Cleaning and inspecting data
-sum(is.na(data))   
-colSums(is.na(data))  
-
-#Replacing commas for periods
-data$SD.Female.adult.weight..g.<- gsub(",", ".", data$SD.Female.adult.weight..g.)
-#Converting from character to numeric
-data$SD.Female.adult.weight..g. <- as.numeric(data$SD.Female.adult.weight..g.)
-```
+## Research Questions
+The study investigates ecological and reproductive patterns in lizards by analyzing trait clustering. We aim to answer: 1. What patterns can be observed in the lizard database when analyzed based on morphological and reproductive traits? 2. How do morphological and reproductive traits relate to the latitudinal gradient?
 
 ## Methods
 
-From the dataset given by citation, it went through an initial data cleaning process to retain only the columns relevant for subsequent analyses. Missing data were addressed through two potential approaches: deletion or imputation. Given that dropping missing data would result in an 80% reduction in dataset size and a loss of variability across certain variables, we chose data imputation using the MICE algorithm. 
+From the dataset given by [@mesquita_life_2015], an initial data cleaning process was carried on to retain only the columns relevant for subsequent analyses. Missing data were addressed through two potential approaches: deletion or imputation. Given that dropping missing data would result in an 80% reduction in dataset size and a loss of variability across certain variables, we chose data imputation using the [MICE](https://cran.r-project.org/web/packages/miceRanger/vignettes/miceAlgorithm.html) algorithm. 
 
 ```{r include=FALSE}
 library(tidyverse)  
@@ -47,6 +29,7 @@ library(FactoMineR) # For PCA
 library(factoextra) # For PCA plots
 library(vegan) # For CCA
 library(randomForest) # variable importance only
+library(kableExtra)
 
 lizards <- read_csv("lizard.csv")
 
@@ -72,7 +55,7 @@ lizards_clean <- lizards %>%
     f_svl_at_maturity_mm,
     offspring_svl_mm,
     mean_clutch_size,
-    clutch_frequency,
+    #clutch_frequency,
     # reproduction
     rcm,
     mode_of_reproduction,
@@ -137,7 +120,7 @@ lizards_clustered <- cbind(lizards_scaled, cluster = as.factor(km_result$cluster
 The correlation matrix highlights strong relationships among key variables. Latitude shows a weak correlation with morphological variables, such as mean snout-vent length (SVL) and weight, while relative clutch mass (RCM) and mean clutch size are positively correlated with each other. These patterns suggest ecological or life-history trade-offs that may influence clustering in subsequent analyses.
 
 ```{r echo=FALSE}
-lizards_clean$clutch_frequency <- as.factor(lizards_clean$clutch_frequency)
+# lizards_clean$clutch_frequency <- as.factor(lizards_clean$clutch_frequency)
 
 lizards_clean %>%
   select_if(is.numeric) %>% # Select only numeric columns
@@ -145,7 +128,10 @@ lizards_clean %>%
   corrplot() 
 ```
 
-The first two principal components explained 43.2 (PC1) and 19.7 (PC2) percent of the variance, respectively. Variables such as latitude, RCM, and mean clutch size strongly contributed to PC1. The k-means clustering identified three distinct groups, visualized in the PCA biplot.
+The first two principal components explained 43.2 (PC1) and 19.7 (PC2) percent of the variance, respectively. Variables such as latitude, RCM, and mean clutch size strongly contributed to PC1. The k-means clustering identified three distinct groups, visualized in the PCA biplot. The clusters include:
+- ***Cluster 1 (Red):** Larger body sizes, lower relative clutch mass (RCM) and mean clutch size, and occurrence at lower latitudes.*
+- ***Cluster 2 (Green):** Higher RCM and mean clutch size, with distribution at higher latitudes.*
+- ***Cluster 3 (Blue):** Smaller body sizes and weights, lower RCM and clutch sizes, and presence at lower latitudes.*
 
 ```{r echo=FALSE}
 
@@ -153,14 +139,8 @@ fviz_pca_biplot(result_pca,
                 axes = c(1,2),
                 col.ind = lizards_clustered$cluster)
 ```
-
-Figure 2 PCA bi-plot showing the clustering of individuals into three groups based on k-means clustering.
-
-- ***Cluster 1 (Red):** Larger body sizes, lower relative clutch mass (RCM) and mean clutch size, and occurrence at lower latitudes.*
-- ***Cluster 2 (Green):** Higher RCM and mean clutch size, with distribution at higher latitudes.*
-- ***Cluster 3 (Blue):** Smaller body sizes and weights, lower RCM and clutch sizes, and presence at lower latitudes.*
-
-```{r echo=FALSE}
+The Chi-squared tests revealed significant associations between cluster groups and various ecological and reproductive traits. These results indicate that the clusters are strongly influenced by ecological traits, with distribution showing the strongest association, suggesting distinct patterns of geographic or habitat specialization among clusters
+```{r echo=FALSE, warning=FALSE}
 # Chi-squared test for cluster and habitat type
 chi_habitat <- chisq.test(table(lizards_clustered$cluster, lizards_clean$prefered_habitat_type))
 
@@ -179,17 +159,20 @@ chi_square_results <- tibble(
   df = c(chi_habitat$parameter, chi_foraging$parameter, chi_reproduction$parameter, chi_distribution$parameter),
   p_value = c(chi_habitat$p.value, chi_foraging$p.value, chi_reproduction$p.value, chi_distribution$p.value)
 )
-chi_square_results
+
+chi_square_results %>% kbl() %>%
+  kable_styling()
 ```
 
-The Chi-squared tests revealed significant associations between cluster groups and various ecological and reproductive traits. These results indicate that the clusters are strongly influenced by ecological traits, with distribution showing the strongest association, suggesting distinct patterns of geographic or habitat specialization among clusters
 
 ## Discussion
 
-Lizards species seem to be differentiated by their clutch size and their SVL. The clustering in Figure # shows that there are two groups influenced mainly by variables related to clutch size (green) and SVL and weight (blue). This can be explained by the adaptive vs plasticity hypothesis. Here, differences observed can be matched with geographical adaptation but, this can prove blurry to see when this phenotype changes come from plasticity ([citation](https://link.springer.com/article/10.1007/s11692-013-9247-2)). The effect of plasticity on the measurement of individuals can be causing noise in the data, that may explain why there is a sole cluster (green), that is unexplained by the metrics used in this database. However, this analysis is limited due to the absent of more variables that could help explain the grouping of the individuals in the green cluster.
+Lizards species seem to be differentiated by their clutch size and their snout-to-vent (SVL) length. The clustering in the PCA biplot shows that there are two groups influenced mainly by variables related to clutch size (green) and SVL and weight (red). This can be explained by the adaptive vs. plasticity hypothesis. Here, differences observed can be matched with geographical adaptation but, this can prove blurry to see when this phenotype changes come from plasticity [@roitberg_variation_2013]. The effect of plasticity on the measurement of individuals can be causing noise in the data, that may explain why there is a sole cluster (blue), that is unexplained by the metrics used in this database. However, this analysis is limited due to the absent of more variables that could help explain the grouping of the individuals in the blue cluster.
 
-Latitude is driving the the clutch size (including RCM) of lizards species. Here, latitude is used as a proxy for climate, variable that is lacking in the database. This can be observed in Figure #, where the variance for the green cluster is mostly explained by latitude. Nonetheless, despite the fact that coloring the graphs with different factos from the data, by conducting a chi square test, we found out that this clustering is significantly (*p* < 0.05) backed up by habitat type, distribution, foraging mode, and mode of reproduction.This is consistent with literature that states that relative clutch mass (RCM) in lizards is influenced by foraging mode, predator escape tactics, and resource availability, with higher RCM in sit-and-wait foraging species and lower RCM in widely foraging species ([citation](https://www.notion.so/ECOLOGICAL-AND-EVOLUTIONARY-DETERMINANTS-OF-RELATIVE-CLUTCH-MASS-IN-LIZARDS-Semantic-Scholar-16bfcf8b78b080e4a4c1d8f684686178?pvs=21)). However, is also important to consider that RCM in lizards need not be correlated to reproductive effort, and, if it is, then reproductive effort co-evolved with predator escape and foraging strategies and ecologically analogous species should not only exhibit similar RCM values, but also similar reproductive efforts ([citation](https://www.notion.so/Body-Shape-Reproductive-Effort-and-Relative-Clutch-Mass-in-Lizards-Resolution-of-a-Paradox-Sema-16bfcf8b78b0804094ccf40336e02277?pvs=21)). In the case of species with both oviparous and viviparous populations, viviparous females often have higher RCM due to the need to accommodate developing embryos ([citation](https://www.notion.so/Maternal-body-volume-as-a-constraint-on-reproductive-output-in-lizards-evidence-from-the-evolution--16bfcf8b78b080c5bdf3f61c4fd06758?pvs=21)).  Still, as previously mentioned, some other variables are needed in the PCA to provide a better picture of what are the ecological implications of this clustering.
+Latitude is driving the clutch size (including RCM) of lizards species. Here, latitude is used as a proxy for climate, variable that is lacking in the database. This can be observed in PCA biplot, where the variance for the green cluster is mostly explained by latitude. Nonetheless, despite the fact that coloring the graphs with different factors from the data, by conducting a Chi-squared test, we found out that this clustering is significantly (*p* < 0.05) backed up by habitat type, distribution, foraging mode, and mode of reproduction.This is consistent with literature that states that relative clutch mass (RCM) in lizards is influenced by foraging mode, predator escape tactics, and resource availability, with higher RCM in sit-and-wait foraging species and lower RCM in widely foraging species [@vitt_ecological_1982]. However, it is also important to consider that RCM in lizards need not be correlated to reproductive effort, and, if it is, then reproductive effort co-evolved with predator escape and foraging strategies and ecologically analogous species should not only exhibit similar RCM values, but also similar reproductive efforts [@vitt_body_1978]. In the case of species with both oviparous and viviparous populations, viviparous females often have higher RCM due to the need to accommodate developing embryos [@qualls_maternal_1995].  Still, as previously mentioned, some other variables are needed in the PCA to provide a better picture of what are the ecological implications of this clustering.
 
 ## Conclusion
 
-Latitudinal gradient and mode of reproduction are key drivers of the morphology of lizards. In this relationship, latitude seems to have a major influence on the reproduction, rather than in how large the lizard is. The size of the lizard may be explained by some other ecological factor that has not been included in this study. Understanding this ecological patterns can unravel new information that may allow us to better understand the conservation challenges for this species in front of a climate change scenario. It is important to include in the methods a way of measuring the effect of plasticity, so that we can better distinguish it from adaptive difference when trying to relate this to environmental factors.
+Latitudinal gradient and mode of reproduction are key drivers of the morphology of lizards. In this relationship, latitude seems to have a major influence on the reproduction, rather than in how large the lizard is. The size of the lizard may be explained by some other ecological factors that has not been included in this study. Understanding this ecological patterns can unravel new information that may allow us to better understand the conservation challenges for this species in front of a climate change scenario. It is important to include in the methods a way of measuring the effect of plasticity, so that we can better distinguish it from adaptive difference when trying to relate this to environmental factors.
+
+## References

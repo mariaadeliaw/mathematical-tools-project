@@ -5,6 +5,7 @@ library(corrplot)
 library(FactoMineR) # For PCA
 library(factoextra) # For PCA plots
 library(vegan) # For CCA
+library(randomForest) # variable importance only
 
 lizards <- read_csv("lizard.csv")
 
@@ -124,55 +125,87 @@ lizards_clustered <- cbind(lizards_scaled, cluster = as.factor(km_result$cluster
 
 # clustering on raw -------------------------------------------------------
 
-lizards_scaled_raw <- lizards_clean %>%
-  # select(-rcm) %>% 
-  select_if(is.numeric) %>% #Only numeric columns are selected
-  mutate_all(.funs = scale) 
-
-km_result_raw <- eclust(lizards_scaled_raw, "kmeans", k = 3, hc_metric = "euclidean", graph = FALSE)
-# Visualize the clusters on the PCA map
-fviz_cluster(km_result_raw, geom = "point", ellipse.type = "norm", data = pca_coords) +
-  labs(title = "Clusters on PCA Map - Raw Data")
-#add the clustering result to the scaled dataframe
-lizards_clustered_raw <- cbind(lizards_scaled, cluster = as.factor(km_result_raw$cluster))
+# lizards_scaled_raw <- lizards_clean %>%
+#   # select(-rcm) %>% 
+#   select_if(is.numeric) %>% #Only numeric columns are selected
+#   mutate_all(.funs = scale) 
+# 
+# km_result_raw <- eclust(lizards_scaled_raw, "kmeans", k = 3, hc_metric = "euclidean", graph = FALSE)
+# # Visualize the clusters on the PCA map
+# fviz_cluster(km_result_raw, geom = "point", ellipse.type = "norm", data = pca_coords) +
+#   labs(title = "Clusters on PCA Map - Raw Data")
+# #add the clustering result to the scaled dataframe
+# lizards_clustered_raw <- cbind(lizards_scaled, cluster = as.factor(km_result_raw$cluster))
 
 # rf ----------------------------------------------------------------------
-
-# Example: Variable importance using Random Forest
-library(randomForest)
 
 rf_model <- randomForest(cluster ~ ., data = lizards_clustered, importance = TRUE)
 importance(rf_model)
 varImpPlot(rf_model)
 
-rf_model_raw <- randomForest(cluster ~ ., data = lizards_clustered_raw, importance = TRUE)
-importance(rf_model_raw)
-varImpPlot(rf_model_raw)
+# rf_model_raw <- randomForest(cluster ~ ., data = lizards_clustered_raw, importance = TRUE)
+# importance(rf_model_raw)
+# varImpPlot(rf_model_raw)
 
-# biplot on raw data clustering result
+# biplot clustering result
 fviz_pca_biplot(result_pca,
                 axes = c(1,2),
-                col.ind = lizards_clean$distribution)
+                col.ind = lizards_clustered$cluster)
 
 
 # chi-square test ---------------------------------------------------------
 
 # Chi-squared test for cluster and habitat type
-chisq.test(table(lizards_clustered$cluster, lizards_clean$prefered_habitat_type))
+chi_habitat <- chisq.test(table(lizards_clustered$cluster, lizards_clean$prefered_habitat_type))
 
 # Chi-squared test for cluster and foraging mode
-chisq.test(table(lizards_clustered$cluster, lizards_clean$foraging_mode))
+chi_cluster <- chisq.test(table(lizards_clustered$cluster, lizards_clean$foraging_mode))
 
 # Chi-squared test for cluster and reproduction mode
-chisq.test(table(lizards_clustered$cluster, lizards_clean$mode_of_reproduction))
+chi_reproduction <- chisq.test(table(lizards_clustered$cluster, lizards_clean$mode_of_reproduction))
 
-# Chi-squared test for cluster and reproduction mode
-chisq.test(table(lizards_clustered$cluster, lizards_clean$distribution))
+# Chi-squared test for cluster and distribution
+chi_foraging <- chisq.test(table(lizards_clustered$cluster, lizards_clean$distribution))
 
-p <- ggplot(data=lizards_clean, aes(rcm, mean_clutch_size, colour = lizards_clean$distribution))+ 
-  geom_point()
-p             
+chi_square_results <- tibble(
+  Variable = c("Preferred Habitat Type", "Foraging Mode", "Mode of Reproduction", "Distribution"),
+  X_squared = c(chi_habitat$statistic, chi_foraging$statistic, chi_reproduction$statistic, chi_distribution$statistic),
+  df = c(chi_habitat$parameter, chi_foraging$parameter, chi_reproduction$parameter, chi_distribution$parameter),
+  p_value = c(chi_habitat$p.value, chi_foraging$p.value, chi_reproduction$p.value, chi_distribution$p.value)
+)
 
-q <-ggplot(data=lizards_scaled_raw, aes(latitude,rcm, colour = lizards_clean$distribution))+
-  geom_point()
-q
+# ca cca ------------------------------------------------------------------
+# 
+# lizards_ca <- lizards_clean %>% 
+#   group_by(prefered_habitat_type, distribution) %>%
+#   summarise(count = n(), .groups = "drop") %>%
+#   pivot_wider(names_from = distribution, values_from = count, values_fill = 0) %>% 
+#   column_to_rownames(var = "prefered_habitat_type")
+# 
+# lizards_ca_long <- lizards_ca %>% 
+#   rownames_to_column(var = "Zone") %>% 
+#   pivot_longer(cols = -c("Zone"),
+#                names_to = "distribution",
+#                values_to = "NbIndividuals")
+# library(vegan)
+# result_ca_lizards <- CA(lizards_ca, graph = FALSE)
+# result_ca_lizards$eig
+# 
+# # Generate the biplot with valid axes
+# fviz_ca_biplot(result_ca_lizards, axes = c(1, 2), repel = TRUE)
+# 
+# lizards_cca <- lizards_clean %>%
+#   group_by(family, distribution) %>%
+#   summarise(mean_rcm = mean(mean_clutch_size), .groups = "drop") %>%
+#   pivot_wider(names_from = distribution, values_from = mean_rcm, values_fill = 0) %>%
+#   column_to_rownames(var = "family")
+# 
+# results_cca_lizards <- cca(lizards_ca ~ Tropical + Temperate,
+#                    data = lizards_cca)
+# 
+# table_reduced_cca_l <- results_cca_lizards$CCA$u
+# 
+# corr_pc_lizards = cor(table_reduced_cca_l, lizards_cca[, c("Temperate", "Tropical")])
+# corrplot(corr_pc_lizards)
+# 
+# plot(results_cca_lizards)
